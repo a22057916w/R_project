@@ -1,10 +1,10 @@
 # first assignment
 
 # ******************** global variables ***********************
-.row <- 0
-.col <- 0
+.row <- 3
+.col <- 3
 .min <- 0
-.max <- 0
+.max <- 100
 
 
 # ******************** functions ******************************
@@ -14,20 +14,20 @@ set.matrix <- function() {
 }
 
 init <- function() {
-  
+
 }
 # ********************* main script ***************************
 
 # initialize variables
-var <- c(row = 3, col = 3, min = 0, max = 100)
-for(i in 1:4) {
-  cat("Enter ", names(var)[i], ": ", sep = "")
-  var[[i]] <- as.numeric(readLines(file("stdin"), n = 1))
-}
-.row <- var[[1]]
-.col <- var[[2]]
-.min <- var[[3]]
-.max <- var[[4]]
+#var <- c(row = 3, col = 3, min = 0, max = 100)
+#for(i in 1:4) {
+#  cat("Enter ", names(var)[i], ": ", sep = "")
+#  var[[i]] <- as.numeric(readLines(file("stdin"), n = 1))
+#}
+#.row <- var[[1]]
+#.col <- var[[2]]
+#.min <- var[[3]]
+#.max <- var[[4]]
 my.matrix <- set.matrix()
 print(my.matrix)
 cat(.row, .col)
@@ -35,8 +35,9 @@ cat(.row, .col)
 tmp <- my.matrix
 print(tmp)
 num <- 0
-print(tmp[3, 2])
+print(tmp[0, 2])
 for(i in 1:.row-1) {
+  print(i)
   for(j in i+1:.row) {
     num <- 1/tmp[i,i] * tmp[j, i]
     #cat(i, j, "   ")
@@ -49,5 +50,3 @@ for(i in 1:.row-1) {
   }
 }
 print(tmp)
-
-
