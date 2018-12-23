@@ -2,7 +2,7 @@
 
 # ******************** self-defined functions ***********************
 swap <- function(m, r1, c1) {
-  r2 <- 0
+  r2 <- r1
   for(i in r1:nrow(m)) {
     if(abs(m[i, c1]) > abs(m[r1, c1])) {
       r2 <- i
@@ -10,11 +10,11 @@ swap <- function(m, r1, c1) {
     }
   }
   for(i in c1:ncol(m)) {
-    tmp = m[r1, i]
-    m[r1, i] = m[r2, i]
-    m[r2, i] = tmp
+    tmp <- m[r1, i]
+    m[r1, i] <- m[r2, i]
+    m[r2, i] <- tmp
   }
-    return(m)
+  return(m)
 }
 
 # ********************* main script ***************************
@@ -24,7 +24,7 @@ main <- function() {
   for(i in 1:4) {
     cat("Enter ", names(var)[i], ": ", sep = "")
     con <- file("stdin")      # Establish connections to cmd
-    var[[i]] <- as.numeric(readLines(con, n = 1))
+    var[[i]] <- as.numeric(readLines(con, n = 1))     # read data from cmd
     close(con)      # Close the connections
   }
   mrow <- var[[1]]
@@ -45,12 +45,14 @@ main <- function() {
   for(i in 1:(mrow-1)) {      # Low Triangle matrix approach
     for(j in (i+1):mrow) {      # Subtracting all rows, downward
       if(tmp[i, i] == 0) {      # Check if the first coefficient is zero
-        tmp = swap(tmp, i, j)     # If so, swap the rows
+        tmp = swap(tmp, i, i)     # If so, swap the rows, there may be a chance the whole column is zero
       }
-      num <- 1/tmp[i,i] * tmp[j, i] # Manipulating the first coefficient to eliminate all coefficients for other rows
-      for(k in i:mcol) {
-        tmp[i, k] <- tmp[i, k] * num      # Manipulating the major_row(i) for all columns
-        tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 5)      # Subtracting to major_row(i) for all columns
+      if(tmp[j, i] != 0) {      # To prevent from the NaN in case the first coefficient of the other row is zero
+        num <- 1/tmp[i,i] * tmp[j, i] # Manipulating the first coefficient to eliminate all coefficients for other rows
+        for(k in i:mcol) {
+          tmp[i, k] <- tmp[i, k] * num      # Manipulating the major_row(i) for all columns
+          tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 5)      # Subtracting to major_row(i) for all columns
+        }
       }
     }
   }
@@ -81,11 +83,19 @@ main <- function() {
   cat("\n")
 
   # Check the solutions
-  if(tmp[mrow, mcol - 1] == 0 && tmp[mrow, mcol] == 0) {
-    print("There are infinitely many solutions")
-  } else if(tmp[mrow, mcol -1] == 0 && tmp[mrow, mcol] != 0) {
-    print("There is no solutions")
-  } else {
+  sol <- 1
+  for(i in 1:mrow) {
+    if(tmp[i, i] == 0 && tmp[i, mcol] == 0) {
+      print("There are infinitely many solutions.")
+      sol <- Inf
+      break
+    } else if(tmp[i, i] == 0 && tmp[i, mcol] != 0) {
+      print("There is no solutions.")
+      sol <- 0
+      break
+    }
+  }
+  if(sol == 1) {
     x <- matrix(tmp[, mcol], nrow = mrow, ncol = 1)
     cat("The solution is:", "\n")
     print(x)
