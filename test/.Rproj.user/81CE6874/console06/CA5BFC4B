@@ -1,57 +1,0 @@
-[0mMicrosoft Windows [Version 10.0.17134.472][0K[?25l
-(c) 2018 Microsoft Corporation. All rights reserved.[0K
-[0K
-C:\Users\Willy\Documents\GitHub\R_project\test>[0K[?25hR[0K[50G[?25lC:\Users\Willy\Documents\GitHub\R_project\test>R f[0K[?25hi[0Kr[0Ks[0Kt[0K.[0KT[0K[?25lC:\Users\Willy\Documents\GitHub\R_project\test>R first.[0K[?25hR[0K[?25l
-[0K[?25h]0;  - R  first.R]0;Rterm (64-bit)ARGUMENT 'first.R' __ignored__[0K[?25l
-[0K
-[0K[?25h[?25l
-R version 3.5.1 (2018-07-02) -- "Feather Spray"[0K
-Copyright (C) 2018 The R Foundation for Statistical Computing[0K
-Platform: x86_64-w64-mingw32/x64 (64-bit)[0K
-[0K[?25h[?25l
-R is free software and comes with ABSOLUTELY NO WARRANTY.[0K
-You are welcome to redistribute it under certain conditions.[0K
-Type 'license()' or 'licence()' for distribution details.[0K
-[0K
-  Natural language support but running in an English locale[0K
-[0K
-R is a collaborative project with many contributors.[0K
-Type 'contributors()' for more information and[0K
-'citation()' on how to cite R or R packages in publications.[0K
-[0K
-Type 'demo()' for some d[0K[22G[?25h[?25lType 'demo()' for some demos, 'help()' for on-line help, or[0K
-'help.start()' for an HTML browser interface to help.[0K
-Type 'q()' to quit R.[0K
-[0K
-[Previously saved workspace restored][0K
-[0K
-[0K[?25h>[0K[3G[?25l> q[0K[?25h9[0K0[0K[?25l> q9[0K[?25h[?25l> q[0K[?25h([0K)[0K[?25l
-Save workspace image? [y/n/c]:[0K[32G[?25h[?25lSave workspace image? [y/n/c]: y[0K[?25h]0; [?25l
-[0K
-C:\Users\Willy\Documents\GitHub\R_project\test>[0K[?25hR[0K]0;  - R[?25l
-[0K[?25h]0;Rterm (64-bit)[?25l
-R version 3.5.1 (2018-07-02) -- "Feather Spray"[0K
-Copyright (C) 2018 The R Foundation for Statisti[0K[46G[?25h[?25lCopyright (C) 2018 The R Foundation for Statistical Computing[0K
-Platform: x86_64-w64-mingw32/x64 (64-bit)[0K
-[0K
-R is free software and comes with ABSOLUTELY NO WARRANTY.[0K
-You are welcome to redistribute it under certain conditions.[0K
-Type 'license()' or 'licence()' for distribution details.[0K
-[0K
-  Natural language support but running in an English locale[0K
-[0K
-R is a collaborative project with many contributors.[0K
-Type 'contributors()' for more information and[0K
-'citation()' on how to cite R or R packages in publications.[0K
-[0K
-Type 'demo()' for some demos, 'help()' for on-line help, or[0K
-'help.start()' for an HTML browser interface to help.[0K
-Type[0K[4G[?25h[?25lType 'q()' to quit R.[0K
-[0K
-[Previously saved workspace restored][0K
-[0K
-[0K[?25h>[0K[3G[?25l
-[0K
-Save workspace image? [y/n/c]:[0K[32G[?25h[?25lSave workspace image? [y/n/c]: n[0K[?25h]0; [?25l
-[0K
-C:\Users\Willy\Documents\GitHub\R_project\test>[0K[?25h
