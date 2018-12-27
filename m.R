@@ -99,7 +99,14 @@ main <- function() {
     x <- matrix(tmp[, mcol], nrow = mrow, ncol = 1)
     cat("The solution is:", "\n")
     print(x)
+	
+    sum = 0
+    for(i in 1:nrow(my.matrix)) {
+	sum <- sum + x[i,1] * my.matrix[1, i]
+    }
+    print(sum)
   }
+   
 }
 
 if(!interactive()) {
