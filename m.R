@@ -19,23 +19,26 @@ swap <- function(m, r1, c1) {
 
 # ********************* main script ***************************
 main <- function() {
+  options(max.print=999999)
   # initialize variables
   var <- c(row = 3, col = 3, min = 0, max = 100)
   for(i in 1:4) {
+    if(i == 2)
+      next
     cat("Enter ", names(var)[i], ": ", sep = "")
     con <- file("stdin")      # Establish connections to cmd
     var[[i]] <- as.numeric(readLines(con, n = 1))     # read data from cmd
     close(con)      # Close the connections
   }
   mrow <- var[[1]]
-  mcol <- var[[2]]
+  mcol <- var[[1]] + 1
   mmin <- var[[3]]
   mmax <- var[[4]]
   my.matrix <- matrix(runif(mrow * mcol, min = mmin, max = mmax), nrow = mrow, ncol = mcol)
   # End the initialization
 
   cat("The original matrix:","\n")
-  print(my.matrix)      # Show original matrix
+  #print(my.matrix)      # Show original matrix
   cat("\n")
 
   # Find solutions
@@ -57,7 +60,7 @@ main <- function() {
     }
   }
   cat("After Triangle matrix:", "\n")
-  print(tmp)
+  #print(tmp)
   cat("\n")
 
   # Step 2: Gaussian elimination, reverse Step 1
