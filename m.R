@@ -17,9 +17,26 @@ swap <- function(m, r1, c1) {
   return(m)
 }
 
+check <- function(sol, mat) {
+  max <- 0
+  for(i in 1:nrow(mat)) {
+    col <- 0
+    for(j in 1:(nrow(sol)))
+      col <- col + mat[i, j] * sol[j, 1]
+    col <- abs(col - mat[i, ncol(mat)])
+    if(max < col)
+      max <- col
+  }
+  if(max < 1e-6)
+    return(TRUE)
+  else
+    return(FALSE)
+}
+
 # ********************* main script ***************************
 main <- function() {
-  options(max.print=999999)
+  # set maxima print out lines
+  options(max.print = 999999)
   # initialize variables
   var <- c(row = 3, col = 3, min = 0, max = 100)
   for(i in 1:4) {
@@ -37,9 +54,9 @@ main <- function() {
   my.matrix <- matrix(runif(mrow * mcol, min = mmin, max = mmax), nrow = mrow, ncol = mcol)
   # End the initialization
 
-  cat("The original matrix:","\n")
+  #cat("The original matrix:","\n")
   #print(my.matrix)      # Show original matrix
-  cat("\n")
+  #cat("\n")
 
   # Find solutions
   tmp <- my.matrix
@@ -54,14 +71,14 @@ main <- function() {
         num <- 1/tmp[i,i] * tmp[j, i] # Manipulating the first coefficient to eliminate all coefficients for other rows
         for(k in i:mcol) {
           tmp[i, k] <- tmp[i, k] * num      # Manipulating the major_row(i) for all columns
-          tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 5)      # Subtracting to major_row(i) for all columns
+          tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 32)      # Subtracting to major_row(i) for all columns
         }
       }
     }
   }
-  cat("After Triangle matrix:", "\n")
+  #cat("After Triangle matrix:", "\n")
   #print(tmp)
-  cat("\n")
+  #cat("\n")
 
   # Step 2: Gaussian elimination, reverse Step 1
   num <- 1
@@ -70,7 +87,7 @@ main <- function() {
       num <- 1/tmp[i,i] * tmp[j, i]
       for(k in i:mcol) {
         tmp[i, k] <- tmp[i, k] * num
-        tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 5)
+        tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 32)
       }
     }
   }
@@ -81,9 +98,9 @@ main <- function() {
       tmp[i, i] <- tmp[i, i] / tmp[i, i]
     }
   }
-  cat("After Gaussian elimination:", "\n")
-  print(tmp)
-  cat("\n")
+  #cat("After Gaussian elimination:", "\n")
+  #print(tmp)
+  #cat("\n")
 
   # Check the solutions
   sol <- 1
@@ -100,8 +117,12 @@ main <- function() {
   }
   if(sol == 1) {
     x <- matrix(tmp[, mcol], nrow = mrow, ncol = 1)
-    cat("The solution is:", "\n")
-    print(x)
+    if(check(x, my.matrix)) {
+      cat("The solution is:", "\n")
+      print(x)
+    }
+    else
+      cat("Insufficient accuracy(above 10^-6)")
   }
 }
 
