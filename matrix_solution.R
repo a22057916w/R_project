@@ -55,7 +55,7 @@ matrix.solution <- function(m) {
         num <- 1/tmp[i,i] * tmp[j, i] # Manipulating the first coefficient to eliminate all coefficients for other rows
         for(k in i:mcol) {
           tmp[i, k] <- tmp[i, k] * num      # Manipulating the major_row(i) for all columns
-          tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 18)      # Subtracting to major_row(i) for all columns
+          tmp[j, k] <- tmp[j, k] - tmp[i, k]      # Subtracting to major_row(i) for all columns
         }
       }
     }
@@ -68,7 +68,7 @@ matrix.solution <- function(m) {
       num <- 1/tmp[i,i] * tmp[j, i]
       for(k in i:mcol) {
         tmp[i, k] <- tmp[i, k] * num
-        tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 18)
+        tmp[j, k] <- tmp[j, k] - tmp[i, k]
       }
     }
   }
@@ -95,10 +95,10 @@ matrix.solution <- function(m) {
   }
   if(sol == 1) {
     x <- matrix(tmp[, mcol], nrow = mrow, ncol = 1)
-    #if(check(x, m))
+    if(check(x, m))
       return(x)
-    #else
-      #cat("Insufficient accuracy(above 10^-6)")
+    else
+      cat("Insufficient accuracy(above 10^-6)")
   }
   return(NULL)
 }

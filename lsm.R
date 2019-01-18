@@ -1,18 +1,19 @@
 
 lsm <- function(x, y) {
   power <- 12
-  m <- matrix(0, nrow = power, ncol = power + 1)
+  m <- mpfr(matrix(0, nrow = power, ncol = power + 1), 80)
   mrow <- nrow(m)
   mcol <- ncol(m)
   # initialize A for Ax = B
   for(i in 1:mrow) {
     for(j in 1:(mcol-1)) {
-      coefficient <- 0      #  to calculate the value of m[i, j]
+      coefficient <- mpfr(0, 80)      #  to calculate the value of m[i, j]
       for(k in 1:length(x))     # iterates all x
         coefficient <- coefficient + x[k] ^ ((j - 1) + (i - 1))       # sum all Xs for different power ((j - 1) + (i - 1))
       m[i, j] <- coefficient      # assign coefficient result to m[i, j]
     }
   }
+  print(m)
 
   # initialize B for Ax = B
   for(i in 1:mrow) {
@@ -31,7 +32,8 @@ lsm <- function(x, y) {
 }
 
 main <- function() {
-  x <- runif(100, 0, 2*pi)
+  require("Rmpfr")
+  x <- mpfr(runif(100, 0, 2*pi), 80)
   y <- sin(x)
   fnc <- lsm(x, y)
   plot(fnc)

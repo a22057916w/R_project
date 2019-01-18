@@ -36,6 +36,7 @@ check <- function(sol, mat) {
 
 # ********************* main script ***************************
 main <- function(m) {
+  require("Rmpfr")
   # set maxima print out lines
   options(max.print = 999999)
 
@@ -53,7 +54,7 @@ main <- function(m) {
   mcol <- var[[1]] + 1
   mmin <- var[[3]]
   mmax <- var[[4]]
-  my.matrix <- matrix(runif(mrow * mcol, min = mmin, max = mmax), nrow = mrow, ncol = mcol)
+  my.matrix <- matrix(as.double(runif(mrow * mcol, min = mmin, max = mmax)), nrow = mrow, ncol = mcol)
   # End the initialization
 
   #cat("The original matrix:","\n")
@@ -73,7 +74,7 @@ main <- function(m) {
         num <- 1/tmp[i,i] * tmp[j, i] # Manipulating the first coefficient to eliminate all coefficients for other rows
         for(k in i:mcol) {
           tmp[i, k] <- tmp[i, k] * num      # Manipulating the major_row(i) for all columns
-          tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 18)      # Subtracting to major_row(i) for all columns
+          tmp[j, k] <- tmp[j, k] - tmp[i, k]      # Subtracting to major_row(i) for all columns
         }
       }
     }
@@ -89,7 +90,7 @@ main <- function(m) {
       num <- 1/tmp[i,i] * tmp[j, i]
       for(k in i:mcol) {
         tmp[i, k] <- tmp[i, k] * num
-        tmp[j, k] <- round(tmp[j, k] - tmp[i, k], digit = 18)
+        tmp[j, k] <- tmp[j, k] - tmp[i, k]
       }
     }
   }
