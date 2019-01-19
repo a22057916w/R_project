@@ -1,6 +1,6 @@
 
-lsm <- function(x, y) {
-  power <- 12
+lsm <- function(x, y, power) {
+  #power <- 16
   m <- mpfr(matrix(0, nrow = power, ncol = power + 1), 80)
   mrow <- nrow(m)
   mcol <- ncol(m)
@@ -31,11 +31,29 @@ lsm <- function(x, y) {
   return(p)
 }
 
+read <- function() {
+  con <- file("stdin")
+
+  cat("Please enter the power:", sep = " ")
+  power <- as.numeric(readLines(con, n = 1))
+
+  cat("Please enter the number of dots:", sep = " ")
+  dots <- as.numeric(readLines(con, n = 1))
+
+  close(con)
+  return(c(power, dots))
+}
+
 main <- function() {
   require("Rmpfr")
-  x <- mpfr(runif(100, 0, 2*pi), 80)
+  ref <- read()
+  power <- ref[1]
+  dots <- ref[2]
+  print(power)
+  print(dots)
+  x <- mpfr(runif(dots, 0, 2*pi), 80)
   y <- sin(x)
-  fnc <- lsm(x, y)
+  fnc <- lsm(x, y, power)
   plot(fnc)
 }
 
