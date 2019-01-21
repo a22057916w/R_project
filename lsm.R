@@ -45,15 +45,16 @@ read <- function() {
 }
 
 main <- function() {
-  require("Rmpfr")
-  ref <- read()
+
+  ref <- read()     # read power and dots
   power <- ref[1]
   dots <- ref[2]
-  print(power)
-  print(dots)
+  
+  require("Rmpfr")      # require a package to handle large number
   x <- mpfr(runif(dots, 0, 2*pi), 80)
   y <- sin(x)
-  fnc <- lsm(x, y, power)
+
+  fnc <- lsm(x, y, power)     # get a polynomial function of sin(x) by lsm
   plot(fnc)
 }
 
