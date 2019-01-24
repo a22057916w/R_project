@@ -13,7 +13,7 @@ lsm <- function(x, y, power) {
       m[i, j] <- coefficient      # assign coefficient result to m[i, j]
     }
   }
-  print(m)
+  #print(m)
 
   # initialize B for Ax = B
   for(i in 1:mrow) {
@@ -44,18 +44,32 @@ read <- function() {
   return(c(power, dots))
 }
 
+draw <- function(p) {
+
+  dx <- 0.01
+  x <- seq(0, 2*pi, dx)
+  pf <- as.function(p)
+  y <- pf(x)
+
+  plot(x, y, xlim = c(0, 2 * pi), ylim = c(-1,1), xlab = "x", ylab = "y")
+  par(new=TRUE)
+  plot(x, sin(x), xlim = c(0, 2 * pi), ylim = c(-1,1), , xlab = "x", ylab = "y",col = "red")
+}
+
+# ******************************* main function *********************************
 main <- function() {
 
   ref <- read()     # read power and dots
   power <- ref[1]
   dots <- ref[2]
-  
+
   require("Rmpfr")      # require a package to handle large number
   x <- mpfr(runif(dots, 0, 2*pi), 80)
   y <- sin(x)
 
-  fnc <- lsm(x, y, power)     # get a polynomial function of sin(x) by lsm
-  plot(fnc)
+  p <- lsm(x, y, power)     # get a polynomial function of sin(x) by lsm
+  #plot(fnc, xlim=c(0, 4*pi))
+  draw(p)
 }
 
 if(!interactive()) {
