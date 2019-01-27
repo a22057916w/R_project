@@ -51,9 +51,9 @@ draw <- function(p) {
   pf <- as.function(p)
   y <- pf(x)
 
-  plot(x, y, xlim = c(0, 2 * pi), ylim = c(-1,1), xlab = "x", ylab = "y")
+  plot(x, y, xlim = c(0, 2*pi), ylim = c(-1,1), xlab = "x", ylab = "y")
   par(new=TRUE)
-  plot(x, sin(x), xlim = c(0, 2 * pi), ylim = c(-1,1), , xlab = "x", ylab = "y",col = "red")
+  plot(x, sin(x), xlim = c(0, 2*pi), ylim = c(-1,1), , xlab = "x", ylab = "y",col = "red")
 }
 
 # ******************************* main function *********************************

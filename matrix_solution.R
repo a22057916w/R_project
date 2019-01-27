@@ -95,10 +95,10 @@ matrix.solution <- function(m) {
   }
   if(sol == 1) {
     x <- matrix(tmp[, mcol], nrow = mrow, ncol = 1)
-    if(check(x, m))
-      return(x)
-    else
-      cat("Insufficient accuracy(above 10^-6)")
+    #if(check(x, m))
+    return(x)
+    #else
+      #cat("Insufficient accuracy(above 10^-6)")
   }
   return(NULL)
 }
