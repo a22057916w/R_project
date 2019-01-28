@@ -27,42 +27,23 @@ check <- function(sol, mat) {
     if(max < col)
       max <- col
   }
-  print(max)
-  if(max < 1e-6)
+  if(max < 1e-5)
     return(TRUE)
   else
     return(FALSE)
 }
 
-# ********************* main script ***************************
-main <- function(m) {
-  require("Rmpfr")
-  # set maxima print out lines
-  options(max.print = 999999)
+matrix.solution <- function(m) {
 
-  # initialize variables
-  var <- c(row = 3, col = 3, min = 0, max = 100)
-  for(i in 1:4) {
-    if(i == 2)
-      next
-    cat("Enter ", names(var)[i], ": ", sep = "")
-    con <- file("stdin")      # Establish connections to cmd
-    var[[i]] <- as.numeric(readLines(con, n = 1))     # read data from cmd
-    close(con)      # Close the connections
+  # check if m exists
+  if(!exists("m")) {
+    cat("Error: Can't find a parameter.")
   }
-  mrow <- var[[1]]
-  mcol <- var[[1]] + 1
-  mmin <- var[[3]]
-  mmax <- var[[4]]
-  my.matrix <- matrix(as.double(runif(mrow * mcol, min = mmin, max = mmax)), nrow = mrow, ncol = mcol)
-  # End the initialization
-
-  #cat("The original matrix:","\n")
-  #print(my.matrix)      # Show original matrix
-  #cat("\n")
 
   # Find solutions
-  tmp <- my.matrix
+  mrow <- nrow(m)
+  mcol <- ncol(m)
+  tmp <- m
   num <- 1
   # First step: Triangle matrix
   for(i in 1:(mrow-1)) {      # Low Triangle matrix approach
@@ -79,9 +60,6 @@ main <- function(m) {
       }
     }
   }
-  #cat("After Triangle matrix:", "\n")
-  #print(tmp)
-  #cat("\n")
 
   # Step 2: Gaussian elimination, reverse Step 1
   num <- 1
@@ -101,9 +79,6 @@ main <- function(m) {
       tmp[i, i] <- tmp[i, i] / tmp[i, i]
     }
   }
-  #cat("After Gaussian elimination:", "\n")
-  #print(tmp)
-  #cat("\n")
 
   # Check the solutions
   sol <- 1
@@ -120,16 +95,10 @@ main <- function(m) {
   }
   if(sol == 1) {
     x <- matrix(tmp[, mcol], nrow = mrow, ncol = 1)
-    if(check(x, my.matrix)) {
-      cat("The solution is:", "\n")
-      print(x)
-    }
-    else
-      cat("Insufficient accuracy(above 10^-6)")
+    #if(check(x, m))
+    return(x)
+    #else
+      #cat("Insufficient accuracy(above 10^-6)")
   }
-
-}
-
-if(!interactive()) {
-    main()
+  return(NULL)
 }
