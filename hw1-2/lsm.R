@@ -72,6 +72,6 @@ main <- function() {
   draw(p)
 }
 
-if(interactive()) {
+if(!interactive()) {
     main()
 }

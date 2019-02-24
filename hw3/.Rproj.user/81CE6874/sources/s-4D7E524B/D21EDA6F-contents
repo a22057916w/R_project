@@ -22,15 +22,12 @@ main <- function() {
 
   library(tmcn)
   options(max.print = 999999)
-  #data <- scan("Test2019.txt", what = "character", skip = 1, encoding = "big5")
-  #data <- iconv(data, to = 'UTF-8')
-  #print(data[1])
-  #print(nchar(data[1]))
+
   ref <- read()
   st.no <- ref[1]
   st.name <- ref[2]
   st.ans <- ref[3]
-  print(st.name)
+  
 }
 
 if(interactive()) {
