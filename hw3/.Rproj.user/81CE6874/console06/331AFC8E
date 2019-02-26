@@ -1,22 +1,1911 @@
 [0mMicrosoft Windows [Version 10.0.17134.590][0K[?25l
 (c) 2018 Microsoft Corporation. All rights reserved.[0K
 [0K
-C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript et[0K[?25hs[0Kt[0K[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript ets[0K[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript et[0K[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript e[0K[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript[0K[55G[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K]0;  - Rscript  test.R[?25l
-[0K[?25h]0; # tmcn Version: 0.2-12[0K[?25l
-Read 2 items[0K
-~: bR 1 CLhr[0K
-[0K
-[0K
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K]0;  - Rscript  test.R[?25l
+[0K[?25h]0; [?25l
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kri[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K[?25l
+[0K[?25h]0;  - Rscript  test.R]0; [?25l
 C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K[?25l
-[0K[?25h]0;  - Rscript  test.R# tmcn Version: 0.2-12[0K[?25l
-Read 2 items[0K
-~: bR 1 CLhr[0K
+[0K[?25h]0;  - Rscript  test.R]0; [?25l
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K]0;  - Rscript  test.R[?25l
+[0K[?25h# tmcn Version: 0.2-12[0K[?25l
+[0K[?25hRead 1 item[0K[?25l
+Read 1858 items[0K
+[0K[?25h     student_id student_name student_score student_range       student_answer[0K[?25l
+1      20190001       _Q         95.00           top BCCDEEDEABCD*EDAACDB[0K
+2      20190002       L         81.25         front DCCDEEDAABCDEDDAACDB[0K
+3      20190003       x         25.00        bottom BCDCDBDEBBBBBECABDDC[0K
+4      20190004       aa        100.00           top BCCDEEDEABCDEEDAACDB[0K
+5      20190005       a         31.25        bottom ECCDBEADBBBCDBEAABDB[0K
+6      20190006       L         63.75          mean BCCDE*D*ADC*E*D*ACD*[0K
+7      20190007       x         87.50         front CCCDEEDEABCDAEDAACDB[0K
+8      20190008                62.50[0K[?25h          mean CCDCEEDEEBCDDEDAACDA[0K[?25l
+9      20190009                37.50          rear ACCEECDEAABDAEBAEADA[0K
+10     20190010                31.25        bottom BECEECDECBCBBEACAEAA[0K
+11     20190011       R         56.25          rear CACDEDDEABCDEAEABCDC[0K
+12     20190012       p         37.50          rear DDCCEADDEBCCBECEACDB[0K
+13     20190013       \         37.50          rear BEBCEDEEBDCDEEEAADDE[0K
+14     20190014       q         75.00          mean BCADEEDEDBCDABDAACDB[0K
+15     20190015       L         81.25         front BCCDEEDEABCAEEDDACCB[0K
+16     20190016       LL         93.75           top BCCDEEDEAECDEEDAACDB[0K
+17     20190017       }        100.00           top BCCDEEDEABCDEEDAACDB[0K
+18     20190018[0K[24G[?25h[?25l18     20190018                25.00        bottom DBCDEEDCBACADBBBAEBB[0K
+19     20190019       ]tu         62.50          mean BCCDDEDEAECDEDADACAB[0K
+20     20190020       x        100.00           top BCCDEEDEABCDEEDAACDB[0K
+21     20190021       g         56.25          rear BB*DAEDEDB*D*E**ACDB[0K
+22     20190022                43.75          rear BBBBEEDBDBAAEDDCACDB[0K
+23     20190023       aH         68.75          mean BCCDCEDCABADEEDAACBC[0K
+24     20190024[0K[?25h       y         25.00        bottom BEAEEEAEAAEDBEAACBBC[0K[?25l
+25     20190025       ^}         31.25        bottom CBCDBDCBABDCAEAAACDE[0K
+26     20190026       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+27     20190027       TB         56.25          rear BCDAEBDEABADEEDAAAAE[0K
+28     20190028       xQ         50.00          rear BDCBEEDEABDAEABEAADB[0K
+29     20190029       f        100.00           top BCCDEEDEABCDEEDAACDB[0K
+30     20190030       a         18.75        bottom CBDEBDDCAECAEBDCCCEB[0K
+31     20190031       _         25.00        bottom[0K[50G[?25h[?25l31     20190031       _         25.00        bottom CACEEEDBEAADEDDBDCEC[0K
+32     20190032       Hd         75.00          mean BCCDCAEEEBCDEEDAACDB[0K
+33     20190033       F         55.00          rear CCCCD*D*ABCDE*DA*CEB[0K
+34     20190034                37.50          rear DCBBBEBEDCADCEDAAEDB[0K
+35     20190035       \         63.75          mean B*C**EDCA**DEEDA*CDB[0K
+36     20190036       ]x         50.00          rear BCCDEBDDDBED[0K[64G[?25h[?25l36     20190036       ]x         50.00          rear BCCDEBDDDBEDDBDAABBB[0K
+37     20190037       ]|         87.50         front BCCDEEDEABEDEEDACCDB[0K
+38     20190038                87.50         front BBADEEDEABCDEEDAACDB[0K
+39     20190039                62.50          mean ACCDEEDEDBDDEEEAAECB[0K
+40     20190040       x         37.50          rear DCCBDADCABCCEDDDACEA[0K
+41     20190041       LH         31.25        bottom ECBBEEDEBBDDACDCBDBB[0K
+42     20190042                28.75        bottom ECEEEADDC*AEEEDBAC**[0K
+43[0K[1G[?25h43     20190043       _         62.50          mean CCCBEEDEABCDECEEDCDB[0K[?25l
+44     20190044                43.75          rear ACCDEBBBACCDEEBCAACB[0K
+45     20190045       P         37.50          rear BBCDDCDECCCECEDABCCE[0K
+46     20190046                87.50         front BCCDEEDEABCDEDDAACBB[0K
+47     20190047       |         12.50        bottom BCEAAEBDADDBAABBBCBB[0K
+48     20190048[0K[19G[?25h[?25l48     20190048       B         75.00          mean BECEEEDEABCDEACAACDB[0K
+49     20190049       U}         50.00          rear BBBDEEDEABADBEBDADBB[0K
+50     20190050       s         37.50          rear BCCDAEDCEAEEECDDACEA[0K
+51     20190051                31.25        bottom BABCABABCBCDECDAADDE[0K
+52     20190052       A         18.75        bottom ACEE**DCCBDD*E*C*DDD[0K
+53     20190053       Ia         87.50         front BCCDEEDEABCDEADAACAB[0K
+54     20190054       l         62.50          mean BCADEECDABCDEEEAADCB[0K
+55     20190055       q[0K[23G[?25h[?25l55     20190055       q        100.00           top BCCDEEDEABCDEEDAACDB[0K
+56     20190056       I         68.75          mean ACCDEEDEDBCBECAAACDB[0K
+57     20190057       L         58.75          rear E*ADEEEEABCDEECAAB*B[0K
+58     20190058       Of          0.00        bottom ********************[0K
+59     20190059       a        100.00           top BCCDEEDEABCDEEDAACDB[0K
+60[0K[2G[?25h[?25l60     20190060       y         56.25          rear ECCAEECEAEBDEEDEADDB[0K
+61     20190061                25.00        bottom ECBCEBECDACBAEDACCDE[0K
+62     20190062       uE         81.25         front BCCDBEDEABCDEEDCACDD[0K
+63     20190063       TL         81.25         front BCCDEBDEEACDEEDAACDB[0K
+64     20190064       P         25.00        bottom CECDEEDACCCBEACDBEDD[0K
+65     20190065       xp         71.25          mean ACBDEEDAAB*D*EDAACDB[0K
+66     20190066       |         62.50          mean BCCEEEAAABCAEEDAAAAB[0K
+67     20190067                62.50[0K[38G[?25h[?25l67     20190067                62.50          mean ADCAEEDEDBCDCEDAACAB[0K
+68     20190068       aa          0.00        bottom ********************[0K
+69     20190069       B         81.25         front BACDEEDEADCDEEDBACDB[0K
+70     20190070       [         68.75          mean BCCDDEBEABBDEEDCACDD[0K
+71     20190071       H         56.25          rear CCCDEABEABCEAECADCDB[0K
+72     20190072                43[0K[32G[?25h[?25l72     20190072                43.75          rear ECCDAEDABBAACEDAADDE[0K
+73     20190073       F         75.00          mean DCCDEEDEAEADEEEAACDB[0K
+74     20190074       iT         81.25         front BCBDEEDEABCBEADAACDB[0K
+75     20190075       fy         50.00          rear ***A*EDEBBCDEADAA*DE[0K
+76     20190076       |         43.75          rear BCCAEEDEEECCBADCADDA[0K
+77     20190077                87.50         front BCCDBEDEABCDEEDADCDB[0K
+78     20190078                87.50         front BCCDEEDAABCBEEDAACDB[0K[?25h[?25l
+79     20190079       g         17.50        bottom BCE*DD*DDBADD*DDEC*C[0K
+80     20190080       La         62.50          mean BEEDCCDEABDDEEDAACEB[0K
+81     20190081                62.50          mean BBDDEEEEABBDEBDABCDB[0K
+82     20190082       lax         75.00          mean ACCDEEDEABBDEADCACDB[0K
+83     20190083       |         43.75          rear DADCEEDBACCDEEBACEDB[0K
+84     2[0K[7G[?25h[?25l84     20190084       t         75.00          mean BACDEEDEABBDEBCAACDB[0K
+85     20190085       f         62.50          mean BBCDEADEBBCDECEDACDB[0K
+86     20190086       L\         12.50        bottom EEEDEABDDBACEEDBBACD[0K
+87     20190087       R         56.25          rear BCEDBDDEABCDBBDAACEE[0K
+88     20190088       dh         87.50         front DCCDEEDEADCDEEDAACDB[0K
+89     20190089       tE         62.50          mean BCCAAEDEABCCECBAACDD[0K
+90     20190090       H        100.00           top BCCDEEDEABCDEEDAACDB[0K
+91     20190091       w         18.75        bottom DAE[0K[54G[?25h[?25l91     20190091       w         18.75        bottom DAEBEBBAACCDBCBBACBB[0K
+92     20190092                57.50          rear *C*DC**EBBCD*EDAACD*[0K
+93     20190093       lA         50.00          rear BCDCDEDEADCEEBDABCCB[0K
+94     20190094       T         81.25         front BCCDEADEABCDEADBACDB[0K
+95     20190095       aB         25.00        bottom CAABEEBBADADECDAAEBD[0K
+96     20190096[0K[13G[?25h[?25l96     20190096                87.50         front BACDEEDEABEDEEDAACDB[0K
+97     20190097       L         81.25         front BCCDEEDEABCDABDAACEB[0K
+98     20190098       dM         68.75          mean ACEAEEDEABADEEDAACDE[0K
+99     20190099       }v         81.25         front BCCDEADEABCDEEDBAEDB[0K
+100    20190100       B         68.75          mean BCCDDEDEABCDEEABAAAB[0K
+101    20190101       l         56.25          rear BAADBEDEABCBEDDEACDD[0K
+102    20190102       t         43.75          rear BAE[0K[54G[?25h[?25l102    20190102       t         43.75          rear BAEDEEDCEBCCCCCBACDB[0K
+103    20190103       a         50.00          rear BCCDEEDBADCDADCECADB[0K
+104    20190104       R         37.50          rear DCCECEBDDECDACAAACDB[0K
+105    20190105       a\L         87.50         front ACCDEEDEDBCDEEDAACDB[0K
+106    20190106                81.25         front BECDEEDEABCDEADAACDA[0K
+107    20190107       g         93.75           top[0K[50G[?25h[?25l107    20190107       g         93.75           top BCADEEDEABCDEEDAACDB[0K
+108    20190108       y         12.50        bottom DDEBBEEDABCDEBEECDEA[0K
+109    20190109                50.00          rear BCDBEEDDDBCCEBDABCAB[0K
+110    20190110       aM         81.25         front BCCDDEDDABCDEEDDACDB[0K
+111    20190111       |t          0.00        bottom ********************[0K
+112    20190112       wf         93.75           top BCCDEEDEABCDEEDAACDC[0K
+113    20190113       al         81.25         front BCCDEEDECBDDEEDAABDB[0K[?25h[?25l
+114    20190114       g         75.00          mean BCCDDEDEABCDEEDADBDA[0K
+115    20190115       L}         87.50         front BCEDEEDEABCDEEDAACDD[0K
+116    20190116       ~P         31.25        bottom BCADDEDADAEEAEDADABB[0K
+117    20190117       L         87.50         front BCCDEEDEABCDEEEABCDB[0K
+118    20190118                75.00[0K[41G[?25h[?25l118    20190118                75.00          mean BACDBEDEABCDEEEAACAB[0K
+119    20190119       M         37.50          rear EACDCBAEAEEDEDBAAEDB[0K
+120    20190120       Yf         81.25         front CBCDEEDEADCDEEDAACDB[0K
+121    20190121               100.00           top BCCDEEDEABCDEEDAACDB[0K
+122    20190122       L         81.25         front BACDEEDEABCDEEDAACBD[0K
+123    20190123       |         81.25[0K[45G[?25h[?25l123    20190123       |         81.25         front BBEDEEDEABCDEADAACDB[0K
+124    20190124       H          0.00        bottom ********************[0K
+125    20190125       M         81.25         front ACBDEEDEABCDEECAACDB[0K
+126    20190126       s^          0.00        bottom ********************[0K
+127    20190127       T        100.00           top BCCDEEDEABCDEEDAACDB[0K
+128    20190128       L         38.75          rear DB*DEEDE**CD*CBA*BD*[0K
+129    20190129       \         68.75          mean BDCDEEDEABDDEAAAACDA[0K
+130    20190130       BH         56.25          rear BCDCEBDEEBCDEEDBEEDB[0K
+131    20190131                 0.00        bo[0K[45G[?25h[?25l131    20190131                 0.00        bottom ********************[0K
+132    20190132                62.50          mean BDCDBEDECBCAEEDAADDD[0K
+133    20190133       @          6.25        bottom BC*DBCCB*CD*CCBA*EE*[0K
+134    20190134       q         31.25        bottom BDCEEBBEABEDDBACADEB[0K
+135    20190135       f         15.00        bottom **C**BDB*DCEA*D*BAEB[0K
+136    20190136       a         43.75          rear BDCEEEDEADBDAEBDCCEB[0K[?25h[?25l
+137    20190137               100.00           top BCCDEEDEABCDEEDAACDB[0K
+138    20190138       xy         81.25         front BCCDECCEABCDEEDAABDB[0K
+139    20190139                43.75          rear DCCCEEDECDEDEEDACECD[0K
+140    20190140                62.50          mean BECCEDDEEBCDECCAACDB[0K
+141    20190141                81.25         front BCCDEEEEABCAEEEAACDB[0K
+142    20190142       E         25.00        bottom BDCBECDEDBCEABDBEDAE[0K
+143    20190143       F]         87.50         front BCDDECDEABCDEEDAACDB[0K
+144[0K[3G[?25h[?25l144    20190144       {L         43.75          rear BCDDDEDEAECECEEBCADB[0K
+145    20190145       L         43.75          rear BAADBDDADBEAEEDAAEDB[0K
+146    20190146       Lx         56.25          rear BACBEEDEDBAAEECCACDB[0K
+147    20190147       R         42.50          rear ADCD**D**ECDECBAABDB[0K
+148    20190148       o        100.00           top BCCDEEDEABCDEEDAACDB[0K
+149    20190149       s         93.75[0K[42G[?25h[?25l149    20190149       s         93.75           top BCADEEDEABCDEEDAACDB[0K
+150    20190150       t        100.00           top BCCDEEDEABCDEEDAACDB[0K
+151    20190151       LxL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+152    20190152       \         62.50          mean BECDEEDEDBCEAEDACCCB[0K
+153    20190153       x         68.75          mean BCCDEEAEACCDAEDAECDE[0K
+154    20190154       f         37.50          rear BDEDEABCEBCDEEEECCDA[0K
+155    20190155       T         81.25         front BCBDEEDEABCDEEAAACEB[0K
+156[0K[5G[?25h[?25l156    20190156       f^         87.50         front BCCDEEDEABCDBEDAACDA[0K
+157    20190157                75.00          mean BCADEEDBABCDAEDAACDE[0K
+158    20190158                62.50          mean BCCDEEDEADADDBBBACDB[0K
+159    20190159       Xd         87.50         front BCCDAEDEABCDEEDAACBB[0K
+160    20190160       XB         18.75        bottom EECDBACEABDDBECDCACE[0K
+161    20190161       q[0K[23G[?25h[?25l161    20190161       q         93.75           top BCCDEEDEABCDBEDAACDB[0K
+162    20190162       mL         75.00          mean BCCDEEDAAAADEEDAAEDB[0K
+163    20190163       A         56.25          rear ABCBEAAEABCDEEDAADDA[0K
+164    20190164       a         75.00          mean BBCDEEDEACCDEEDCCCDB[0K
+165    20190165       ELL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+166    20190166       x\         25.00        bottom CEADAEDECBCBECDECABD[0K
+167    20190167               100.00           top BCCDEEDEABCDEEDAACDB[0K
+168    20190168       _U         25.00        bottom ADAAAEDAABCAEEEABDCC[0K
+169    20190169       M[0K[?25h         68.75          mean BADDEEDEABCDCEDAABEB[0K[?25l
+170    20190170       t         31.25        bottom DCDACCDEABCEEEECDEAB[0K
+171    20190171       dw         93.75           top BCBDEEDEABCDEEDAACDB[0K
+172    20190172       aFA         12.50        bottom C*CDA*B*ABE*BCEEDC*E[0K
+173    20190173                18.75        bottom BBDCEEEBDDCDBEBDADCC[0K
+174    20190174       _         93.75           top BCCDEEDEABCDEEDAACAB[0K
+175    20190175       __[0K[30G[?25h[?25l175    20190175       __         57.50          rear BACDCEBEABBAEEDAA*DA[0K
+176    20190176                 0.00        bottom ********************[0K
+177    20190177               100.00           top BCCDEEDEABCDEEDAACDB[0K
+178    20190178       mw         68.75          mean CCCDDEDABDCDEEDAACDB[0K
+179    20190179       f\         75.00          mean BCEDEEDEABCDEEDADADD[0K
+180    20190180       d         25.00        bottom AAEDBEACABBECEDBABBB[0K
+181    20190181       Pu[0K[23G[?25h[?25l181    20190181       Pu         31.25        bottom DCADCEDEDBDBDEBACDBB[0K
+182    20190182       L         87.50         front BCDDEEDEABCBEEDAACDB[0K
+183    20190183       a         81.25         front BCDDEEEEABCDEEDAAADB[0K
+184    20190184       sL         93.75           top BCCDEEDEADCDEEDAACDB[0K
+185    20190185                62.50          mean BCCDEEEEEBEDACDAECDB[0K
+186    20190186       E         37.50          rear DBCAEDDCABCDCEAACBDD[0K
+187    20190187                25.00        bottom CCEDBDDAEACEEADECCDC[0K
+188    20190188                 0.00        bottom ********************[0K
+189    20190189       LT[0K[?25h        100.00           top BCCDEEDEABCDEEDAACDB[0K[?25l
+190    20190190       ^         81.25         front DECDCEDEABCDEEDAACDB[0K
+191    20190191                87.50         front BCCDEEDEABCAEEDAAEDB[0K
+192    20190192                87.50         front BCCDCEDEABCDEEDAAADB[0K
+193    20190193       \         81.25         front BCCDBEDEABCDEEDAADDE[0K
+194[0K[?25h    20190194       H         87.50         front BACDEEDEABCDEEDAACAB[0K[?25l
+195    20190195       _         32.50        bottom DDECE*D*AB***EAA*CAB[0K
+196    20190196       x         31.25        bottom CDBDEECEDBCEBCDAEADA[0K
+197    20190197       LP         62.50          mean BBCDEEDEADBCEEDBACCB[0K
+198    20190198       T         31.25        bottom BDACEEAAADCEDECEDCDB[0K
+199    20190199       dL         43.75          rear EABAEEDEAECDEABCBCDB[0K
+200    20190200                51.25          rear CACDCE*EABADEEEDACDA[0K
+201    2019020[0K[13G[?25h[?25l201    20190201       u         37.50          rear BACDBECCDBCCAEBAACAC[0K
+202    20190202       \a         81.25         front BCCDDEDEADCDEEDAECDB[0K
+203    20190203       l         43.75          rear ECBCEECDAECDEEDAABAD[0K
+204    20190204       d         68.75          mean DEEDEEDEABCDEEDAADAB[0K
+205    20190205       do         43.75          rear CCABBEDDABADCBDAACDC[0K
+206    20190206       sA         31.25[0K[38G[?25h[?25l206    20190206       sA         31.25        bottom BCB**CAAABCBEBDCA***[0K
+207    20190207       IL          5.00        bottom ADAEEEBEC*E*C*DBDD*A[0K
+208    20190208       {         81.25         front BCCECEDEABCDEADAACDB[0K
+209    20190209       a         43.75          rear BBCBEBDAACCCEEDACDCB[0K
+210    20190210       t^{         31.25        bottom DCCDCAABABBACBDAACED[0K
+211    20190211       sfy         42.50          rear B****CDEABCD**D***DD[0K
+212    20190212       aq         62.50          mean BCCDEDDEBBCDDEAAACCD[0K
+213    20190213                15.00        bottom *C***E**BEDA[0K[62G[?25h[?25l213    20190213                15.00        bottom *C***E**BEDAABDAB*AB[0K
+214    20190214       L         62.50          mean BCCAEBDEABCBEEDDCBDB[0K
+215    20190215                56.25          rear BDCDDEDECBBDEBBAACBB[0K
+216    20190216       TqL         75.00          mean BCCDEEDDABBDEBDAACCB[0K
+217    20190217                87.50         front BCCDEEDEABCDEEEBACDB[0K
+218    20190218       t{         82.50         front BCCDECDEABCDEDD*ACDB[0K
+219    20190219       L[         70[0K[33G[?25h[?25l219    20190219       L[         70.00          mean BCC***DEAB*D*EDAA*DB[0K
+220    20190220                62.50          mean DCCEEEDEACCDEDDBECDB[0K
+221    20190221                56.25          rear DECDECDEBECDCBDAACDB[0K
+222    20190222       x         45.00          rear *CCDE*DEABEC*EE*E**B[0K
+223    20190223       tIL          0.00        bottom ********************[0K
+224    20190224       l         83.75         front BC**EEDEABCDEEDAACDD[0K
+225    20190225       v[0K[23G[?25h[?25l225    20190225       v         87.50         front BCBDEEDEABCDAEDAACDB[0K
+226    20190226                81.25         front BCEDEABEABCDEEDAACDB[0K
+227    20190227       L          0.00        bottom ********************[0K
+228    20190228       {         31.25        bottom BCCADEDBABAACEDBEEAC[0K
+229    20190229                31.25        bottom ADCEAEBEEBCCCDDACCDC[0K
+230    20190230                87.50         front BCCDEEDEDBCDEEDAACBB[0K
+231    20190231       sLL         62.50          mean BDCDEEDEBBBDCDDAACEB[0K
+232    20190232       i         31.25[0K[?25h        bottom DCEDCCBDAECDEABAABAB[0K[?25l
+233    20190233       l         25.00        bottom ACBDDBDEECBDEACBDCCB[0K
+234    20190234                81.25         front BCCDEEDEAECBCEDAACDB[0K
+235    20190235                46.25          rear BCCE****DB*DECD**CDB[0K
+236    20190236       [}         56.25          rear BCCBACDCADCDEEEDACDB[0K
+237    20190237       LL         57.50          rear BDCDAEDEACCBCB*AACDB[0K
+238    2019023[0K[13G[?25h[?25l238    20190238       }         81.25         front BCCDEEDEABDDECDCACDB[0K
+239    20190239       l         40.00          rear BACD***EA*EDEC***CDD[0K
+240    20190240       Lg        100.00           top BCCDEEDEABCDEEDAACDB[0K
+241    20190241       m         48.75          rear E*C*EADEAAEBEED**CDB[0K
+242    20190242       a         68.75          mean CDCDEEDEABADEADEACDB[0K
+243    20190243       qwL         37.50          rear BEEDDDEECBCEEEACDCDB[0K
+244    20190244       ^         56.25          rear BCCAEEDEABBCEEDCAABE[0K
+245    20190245       |         25.00        bottom EBDDAEBCDBCEEEBABADC[0K
+246    20190246       A         31.25        bottom BDCBEEDEECBDBEADAEED[0K
+247    20190247       d         7[0K[32G[?25h[?25l247    20190247       d         75.00          mean ECCDEEDEADCDEEBAACAB[0K
+248    20190248                25.00        bottom BECDEBDADECCBCDABDCA[0K
+249    20190249       ^         62.50          mean BCADEDDEBDDAEEDAACDB[0K
+250    20190250       M_          0.00        bottom ********************[0K
+251    20190251       Mva         43.75          rear BCAEEDEEABBAEADAACBA[0K
+252    20190252                25.00        bottom CEECEDDEEECBECAEA[0K[66G[?25h[?25l252    20190252                25.00        bottom CEECEDDEEECBECAEACDA[0K
+253    20190253       qLh         87.50         front BCCDEEDEABCDCEDACCDB[0K
+254    20190254       s          0.00        bottom ********************[0K
+255    20190255       q          0.00        bottom ********************[0K
+256    20190256                 0.00        bottom ********************[0K
+257    20190257       p         68.75          mean BDCDDCDEABCDECDAACCB[0K
+258    20190258                81.25         front ACCDEEDEABEDEEDEACDB[0K
+259    20190259       d         75.0[0K[35G[?25h[?25l259    20190259       d         75.00          mean BCADDEDEABCDEADAACEB[0K
+260    20190260       t         31.25        bottom AACBCEDEBEABEBCAACDC[0K
+261    20190261       G        100.00           top BCCDEEDEABCDEEDAACDB[0K
+262    20190262       Pl         31.25        bottom BDCEECCEEABDBEDAADAD[0K
+263    20190263       l|L         81.25         front BCCDEADEABCDEEDECCDB[0K
+264    20190264       s         68.75          mean DACAEBDEABCDEEDADCDB[0K
+265    20190265[0K[20G[?25h[?25l265    20190265       mB         68.75          mean BEDDEEDEAACDBEDBACDB[0K
+266    20190266       A         62.50          mean BABBEEDEBBBDEEBAACDB[0K
+267    20190267       mM         77.50          mean BCC*EECEABCD*EEAACDB[0K
+268    20190268       q         31.25        bottom BDCEAEDCADCDBDDCECBE[0K
+269    20190269       wa         25.00        bottom EBBDECCBEACDAEDABCEC[0K
+270    20190270[0K[23G[?25h[?25l270    20190270                62.50          mean ECADDEDEAECDEEDAACED[0K
+271    20190271       vy         31.25        bottom AAEECEBDDBBDEECAAEDB[0K
+272    20190272                43.75          rear BBCAEEDEACCDECBDABBC[0K
+273    20190273       a         43.75          rear CCCDEBDEEBCCADAACCBB[0K
+274    20190274       G         75.00          mean BCAAEBDEABCDECDAACDB[0K
+275    20190275                56.25          rear BECECE[0K[56G[?25h[?25l275    20190275                56.25          rear BECECEDCABCEEEEACCDB[0K
+276    20190276                68.75          mean BCCEECDEEBCCEEDAADDB[0K
+277    20190277       P         50.00          rear EBCDECDECBDDEECEECDB[0K
+278    20190278       [a         68.75          mean BCCDEEDCABCDCEBACCDA[0K
+279    20190279               100.00           top BCCDEEDEABCDEEDAACDB[0K
+280    20190280                62.50          mean ACCDEDDEBBCDDEDADDDB[0K
+281    20190281       d         68.75          mean BCEDEEAEBBCDEDDAADDB[0K
+282    20190282                43.75          rear[0K[49G[?25h[?25l282    20190282                43.75          rear CCBBAEDEEECCCEDADCDB[0K
+283    20190283                42.50          rear BB*BEADBA*C*EEDAEE*B[0K
+284    20190284       \         68.75          mean BCDDEEDBABBDEEDAACED[0K
+285    20190285       {         27.50        bottom BCEA**DEA*E*D*A*A*DD[0K
+286    20190286       x         68.75          mean *CCD*ED*ABCDEADAA*D*[0K
+287    20190287       \\T         50.00          rear BCCDEEDEEACEEDBBAADC[0K
+288    20190288       L         68.75          mean BCCDDDEEADCDEEDDACDB[0K[72G[?25h[?25l
+289    20190289       X[         68.75          mean ACCDEDDEABADDEDAAEDB[0K
+290    20190290                87.50         front BCCDAEDEABBDEEDAACDB[0K
+291    20190291       Lw[         75.00          mean BACDEEDEABABEEDAACDA[0K
+292    20190292       |        100.00           top BCCDEEDEABCDEEDAACDB[0K
+293    20190293       }         81.25         front BCEDEEDEABDDEEDBACDB[0K
+294    20190294                 0.00        bottom *E****ABBBBDBABB**AC[0K
+295    20190295       \         75.00          mean BBCDEDDEDBCDCEDAACDB[0K[71G[?25h[?25l
+296    20190296                68.75          mean BCCDEEDCBBCDBBDADCDB[0K
+297    20190297                81.25         front BCCDEEDEABDDEBBAACDB[0K
+298    20190298                68.75          mean BBCDEEEEABADEBEAACDB[0K
+299    20190299       H         56.25          rear BDCDBEDACBCDEEDDEEDB[0K
+300    20190300       }         31.25        bottom BBEDEDDEADCDDBBDCBDE[0K
+301    20190301[0K[21G[?25h[?25l301    20190301       }La         56.25          rear BCC**EBE*BCDEC*AAA*B[0K
+302    20190302       fI         87.50         front BCCDEEDEACCDEEDAAEDB[0K
+303    20190303                37.50          rear BCEDADABEBEAEEDCCCDB[0K
+304    20190304       F         43.75          rear DAEDEEDAAADDEBDABCBB[0K
+305    20190305       pt         43.75          rear BCBDCBDDABADEEDEEDDD[0K
+306    20190306                25.00        bottom EDEAEEBDEBDDEADBADDD[0K
+307    20190307       L         62.50          mean BCCDCEDBABAEBEDAACDD[0K
+308    20190308       L         93.75           top BCDDEEDEABCDEEDAACDB[0K
+309    20190309[0K[21G[?25h[?25l309    20190309       M         85.00         front BC*DEED*ABCD*EDAACDB[0K
+310    20190310       L         25.00        bottom BDEDEEACEBACABEAEDDB[0K
+311    20190311       Et         68.75          mean BACCEEDEABCDAEDACBDB[0K
+312    20190312       ws         45.00          rear *CCAEBDEAACAEECEDCDA[0K
+313    20190313                31.25        bottom DBBDEECEAACECDAAADDC[0K
+314    20190314       aAx         60.00          rear BCE*EEDDBBC[0K[64G[?25h[?25l314    20190314       aAx         60.00          rear BCE*EEDDBBC*BEDAAC*B[0K
+315    20190315       m         75.00          mean BECDEEDEABCEEEDECCDB[0K
+316    20190316       f         56.25          rear ACCDEDDEABCCECDCEEDB[0K
+317    20190317       L         75.00          mean BCCDBEDCAEADEEDAACDB[0K
+318    20190318       t         43.75          rear CADDBEDEABBDBECADCDE[0K
+319    20190319                95.00           top B[0K[52G[?25h[?25l319    20190319                95.00           top BCCDEE*EABCDEEDAACDB[0K
+320    20190320       La         31.25        bottom ACCDEECBABBAECCACAED[0K
+321    20190321       E        100.00           top BCCDEEDEABCDEEDAACDB[0K
+322    20190322                81.25         front BCCDDEDEABCAEEDAAADB[0K
+323    20190323       lP         62.50          mean ACCBDEDEDCCDEEDACCDB[0K
+324    20190324       @l         25.00        bottom BCEDBACECECCEABEAEDC[0K
+325    20190325                37.50          rear CCDDEEDBBBACEEEEABDC[0K
+326    20190326                81.25[0K[35G[?25h[?25l326    20190326                81.25         front BCCDAEDEAACDEBDAACDB[0K
+327    20190327       g         25.00        bottom BCADBEBDCDCBBECACCCD[0K
+328    20190328       }y         31.25        bottom ABBBAEBEADCCEACAACDC[0K
+329    20190329       T        100.00           top BCCDEEDEABCDEEDAACDB[0K
+330    20190330                37.50          rear ACCBEADDABCCECBEAEAB[0K
+331    20190331       m         62.50          mean BCEDDEDEAECCEEDAAAAB[0K
+332    20[0K[7G[?25h[?25l332    20190332       l         93.75           top BCCDEEDEABCDEEDAACAB[0K
+333    20190333                75.00          mean BCBEEEDAABDDEEDAACDB[0K
+334    20190334               100.00           top BCCDEEDEABCDEEDAACDB[0K
+335    20190335       @         37.50          rear BCCDECABAACBDADAABBA[0K
+336    20190336       [         93.75           top ECCDEEDEABCDEEDAACDB[0K
+337    20190337       m         81.25         front BCADEEDAABCDBEDAACDB[0K
+338    20190338                18.75        bottom BBDCEBACEBDDAEBCABDC[0K
+339    20190339                 0.00        bottom ********************[0K
+340[0K[5G[?25h[?25l340    20190340       T         75.00          mean BACDEEDEABCDECDBECDB[0K
+341    20190341       LA         31.25        bottom BDCAEEADEBCDDCCDACEA[0K
+342    20190342       ay         18.75        bottom ECDDCDACABEDCCDCDADA[0K
+343    20190343       x         68.75          mean BCCDEEDEAACAEEDCDCDC[0K
+344    20190344       }         56.25          rear ECCDECDBEBEDEEDADCDA[0K
+345    20190345       }         87.50[0K[36G[?25h[?25l345    20190345       }         87.50         front ECCDEEDEABCDEEAAACDB[0K
+346    20190346       HT         31.25        bottom EACBAEAEACCDECBCECBB[0K
+347    20190347       Ea         31.25        bottom BBDAAEBEDACEEAEAADDB[0K
+348    20190348                48.75          rear CCAD*EDAE**DEEDABC*B[0K
+349    20190349       lF         50.00          rear BABDEEEECBCDECDCADDC[0K
+350    20190350       }         50.00          rear CCCDBBCEAEDEEEDAACEB[0K
+351    2019[0K[10G[?25h[?25l351    20190351       ^H         62.50          mean BDCDEEDBABCDAEEAAADC[0K
+352    20190352       Fq         62.50          mean BCAAEADEABCDBEDCACDC[0K
+353    20190353                37.50          rear BACDEBADDCCDECEBECDB[0K
+354    20190354                62.50          mean BCDDEAAEABEDEEDAECCB[0K
+355    20190355       wa          8.75        bottom *AAEE*EE*AAAE*C***CB[0K
+356    20190356       l        100.00           top BCCDEEDEABCDEEDAACDB[0K
+357    20190357                25.00        bottom BDBABDDEDBADCAEAABEB[0K
+358    20190358                43.75          rear BACEBEDAABCCEDEABADB[0K
+359    20190359[0K[22G[?25h[?25l359    20190359       {        100.00           top BCCDEEDEABCDEEDAACDB[0K
+360    20190360       aq         43.75          rear DCCDEDADABADDBDDAEDB[0K
+361    20190361       Q         81.25         front BCCDEEDECBCAEEDAECDB[0K
+362    20190362       G         31.25        bottom BEEDCEBCAEADEECABDDC[0K
+363    20190363       aq         75.00          mean BCCDDEDEABCDAEDABCAB[0K
+364    20190364                17.50        bottom BCC*AA*B*DACD*DDDEDB[0K
+365    2[0K[7G[?25h[?25l365    20190365                31.25        bottom BCCCEEDD**CED*D*B*EC[0K
+366    20190366       \         93.75           top BDCDEEDEABCDEEDAACDB[0K
+367    20190367                93.75           top BCADEEDEABCDEEDAACDB[0K
+368    20190368       p          0.00        bottom ********************[0K
+369    20190369       mq^         37.50          rear DEEDDEDEBACDDECAAADD[0K
+370    20190370                62.50          mean CEBDAEDEDBCDEEDAACDC[0K
+371    20190371       }         93.75           top BCCDEEDEABCDEEDAACDA[0K
+372    20190372                81.25         front BCCDEEDE[0K[58G[?25h[?25l372    20190372                81.25         front BCCDEEDEAACDECDAACDA[0K
+373    20190373                18.75        bottom CCDCEAEAACEBCCEEACDB[0K
+374    20190374                31.25        bottom ABEDACDBEBCDEECDECCB[0K
+375    20190375                87.50         front BCCDCEDEABCDEEDDACDB[0K
+376    20190376       x|         68.75          mean BECDEEDEAAEBEEDAAADB[0K
+377    20190377       a         81.25         front BCCDEEDCABCDEEDAAAAB[0K
+378    20190378               100.00           t[0K[47G[?25h[?25l378    20190378               100.00           top BCCDEEDEABCDEEDAACDB[0K
+379    20190379       y         75.00          mean DCCDEEAEABCDEEDAAEDD[0K
+380    20190380       Hs         43.75          rear BCEDDCCCDACDEECAAADB[0K
+381    20190381       Fxp         93.75           top CCCDEEDEABCDEEDAACDB[0K
+382    20190382                22.50        bottom BCADBEEBEAABE*AA*CA*[0K
+383    20190383       }         37.50          rear AECDEAECAECDEEAEBCDE[0K
+384    20190384       fE         93.75           top BCCDEEDEABCDEDDAACDB[0K
+385    20190385       m         68.75          mean ACBDEEDEAACAEEDAAADB[0K
+386    20190386       M         30.00[0K[?25h        bottom DD*AEA*EAACDC*DAAB*C[0K[?25l
+387    20190387       A         35.00        bottom BCBDB*D*AA**E*DA***E[0K
+388    20190388       H        100.00           top BCCDEEDEABCDEEDAACDB[0K
+389    20190389       Haw         37.50          rear BEEDEEDEBEBCEAAAACCA[0K
+390    20190390       }         75.00          mean BCCDEEDEABBBEBDAACDE[0K
+391    20190391       L         62.50          mean BCCDEDAEDBCAEECAACDE[0K
+392    20190392[0K[17G[?25h[?25l392    20190392       LL         75.00          mean BCCDEEDEABDDDEDDABDB[0K
+393    20190393                75.00          mean BCCDBEDEACCDBEDADCDB[0K
+394    20190394       w         87.50         front BCCDDEDEABCBEEDAACDB[0K
+395    20190395       }         33.75        bottom EECDECDEABBEBBAA**DD[0K
+396    20190396       PL         25.00        bottom BDCEDEAECBCDBAEBEEBB[0K
+397    20190397       Lf         37.50          rear ACEAECDDADCADEDACCDE[0K
+398    20190398                43.75          rear EBCBEADBABCCEEAEDCDB[0K
+399    20190399       Lt          0.00        bottom ********************[0K
+400    20190400[0K[14G[?25h[?25l400    20190400       _         75.00          mean BDCDEEAEBBCDEEDAACDA[0K
+401    20190401               100.00           top BCCDEEDEABCDEEDAACDB[0K
+402    20190402       L         93.75           top BCCBEEDEABCDEEDAACDB[0K
+403    20190403       Qp         87.50         front BCCDEBCEABCDEEDAACDB[0K
+404    20190404       L         12.50        bottom DCDEDEDBDADDADCACCAC[0K
+405    20190405               100.00           top BCC[0K[52G[?25h[?25l405    20190405               100.00           top BCCDEEDEABCDEEDAACDB[0K
+406    20190406       f         62.50          mean BECEEEDAABEDEEAAABDB[0K
+407    20190407                81.25         front BCDDEEDEBBCDEEDAADDB[0K
+408    20190408                68.75          mean ACCDCEDDDBCDDEDAACDB[0K
+409    20190409       a         87.50         front BCCDDEDEABCDAEDAACDB[0K
+410    20190410       F         68.75          mean BCCAEEDEABADEEBEADDB[0K
+411    20190411       a[0K[30G[?25h[?25l411    20190411       a         25.00        bottom CBBEBACAEBCDBEDBABDB[0K
+412    20190412                 0.00        bottom ********************[0K
+413    20190413       s         75.00          mean CCCDEEDCABCDCEEAACDB[0K
+414    20190414       La         62.50          mean BECDEEDDCACCEEDEACDB[0K
+415    20190415       TF         31.25        bottom ECDDBEDEABBEBDCBACAC[0K
+416    20190416       L         75.00          mean BCCDEEDEABCBAEBAACDD[0K
+417    20190417       stL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+418    20190418       m         68.75          mean BADDEBDEABCDEEDAACED[0K
+419    20190419                43.75          rear ECCAEEEBEBCCEBDEACDD[0K[69G[?25h[?25l
+420    20190420                56.25          rear BDBECEDECDCDEEDAAADB[0K
+421    20190421                 8.75        bottom ECE*E*E*EE*A*C*ABC*D[0K
+422    20190422               100.00           top BCCDEEDEABCDEEDAACDB[0K
+423    20190423       Qd         75.00          mean BCCEEEAEAACDEEDAAEDB[0K
+424    20190424       aL]         93.75           top BCCDEEDEABADEEDAACDB[0K
+425    20190425       tit        100.00[0K[45G[?25h[?25l425    20190425       tit        100.00           top BCCDEEDEABCDEEDAACDB[0K
+426    20190426       \         50.00          rear BCCCEEEEDECDEEBEEEDB[0K
+427    20190427       Y         63.75          mean EACDBEDA*BCDEEDAAEDB[0K
+428    20190428       F         62.50          mean BBCCAECEABCDEEAABCDB[0K
+429    20190429       f         81.25         front BCCDBEDEABCAEEDAACAB[0K
+430    20190430       l         62.50          mean ACCDEEAEBBAAEEDAABDB[0K
+431    20190431               100.00           top BCCDEEDEABCDEEDAACDB[0K
+432    20190432                31.25        bottom BDAADEDDADBBECDAACCC[0K
+433    20190433       F[0K[?25ha         68.75          mean BCBDEEDDADCDEEDAADBB[0K[?25l
+434    20190434       Ha         81.25         front BCCDEEDECBEDEDDAACDB[0K
+435    20190435       I        100.00           top BCCDEEDEABCDEEDAACDB[0K
+436    20190436                43.75          rear DCEDEECEBBABECBAADDB[0K
+437    20190437                70.00          mean BCBDEEDEE*CDEEDAECCB[0K
+438    20190438                87.50         front BCCDEEDEAACDEEDAACDE[0K
+439[0K[3G[?25h[?25l439    20190439       Ll         37.50          rear BDCAEAEDDCCDEEBAAAEB[0K
+440    20190440       w^         87.50         front BEEDEEDEABCDEEDAACDB[0K
+441    20190441       al         81.25         front BEDDEEDEABCDEEDAACBB[0K
+442    20190442                75.00          mean BCCAEEDEBBCBEEDAACCB[0K
+443    20190443                81.25         front BCCBEEDEABCDECCAACDB[0K
+444    20190444       a         87.50         front BCCDEEDEAABDEEDAACDB[0K
+445    20190445       ]fa         62.50          mean BCCCEEDDABCBDDDAECDB[0K
+446    20190446                65.00          mean BC**E*DEA***EE*AACDB[0K
+447    20190447[0K[27G[?25h[?25l447    20190447                48.75          rear BC*D**D*A**D*EDAAE**[0K
+448    20190448                43.75          rear BCBDBDDECBDBEADAAABB[0K
+449    20190449       T         62.50          mean CCCDEEDEBBCDAEBBDCDB[0K
+450    20190450       a         62.50          mean ACCDEEDEBBCAEBDDACBB[0K
+451    20190451                62.50          mean BCCDDEDEABDBCBCAACDB[0K
+452    20190452       M         93.75           top BCCDEEDEABCDEEDAACAB[0K
+453    20190453[0K[14G[?25h[?25l453    20190453       s         50.00          rear *DCDEEEEAB*B*BDAA**B[0K
+454    20190454       T         43.75          rear CCDDEBCEEACEEEAAACEB[0K
+455    20190455       pX         31.25        bottom ECCBEEBAEBCEEADEADAC[0K
+456    20190456                37.50          rear BCCAAEEABBCEBECCADDB[0K
+457    20190457       LTF         87.50         front BCCDEEDEAACDEEDAACDC[0K
+458    20190458       LLL         56.25[0K[45G[?25h[?25l458    20190458       LLL         56.25          rear BCADBEBEAECDEEDABCBA[0K
+459    20190459       l         68.75          mean BCDCEBDEDBCDAEDAACDB[0K
+460    20190460       aq         56.25          rear BDCDEEDBABBADECAACDC[0K
+461    20190461                93.75           top BCBDEEDEABCDEEDAACDB[0K
+462    20190462       F         68.75          mean ACEDEEDEABECBEDAACDB[0K
+463    20190463       t         47.50          rear BCBDEEDDAAE**ED*ADCB[0K
+464    20190464                81.25         front BCCDEEAEABCBEEDAACCB[0K
+465    20190465       lf         75.00          mean DCBDEEDEDECDEEDAACDB[0K
+466    20190466       a{[0K[27G[?25h[?25l466    20190466       a{         90.00         front BCCDEEDEABC*EE*AACDB[0K
+467    20190467       u         31.25        bottom ECCADBDEACCAEEBBEBAB[0K
+468    20190468       |l         87.50         front BCCDEEAEABCDAEDAACDB[0K
+469    20190469       _Q         56.25          rear BCCDBDEEABDBEEBADCDB[0K
+470    20190470                68.75          mean BCCDEEAEABDDCEDAABDE[0K
+471    20190471                37.50          rear BCDABEDDDCCDEEAADADC[0K
+472[0K[?25h    20190472       Qt         37.50          rear BDCDECAEBBEDECDADBEC[0K[?25l
+473    20190473       Ly         87.50         front BACDEEDEABCDEECAACDB[0K
+474    20190474       tF         25.00        bottom BCCCDACCAAEEEACAABDD[0K
+475    20190475       f         63.75          mean *CEDEEDEABBDDEBAACAB[0K
+476    20190476       t         50.00          rear ACCDEDCEACEABADAACDB[0K
+477    20190477       Ht         43.75          rear BCCEEABEABBDADBAECDC[0K
+478    20190478       \         75.00          mean ECCDEABEABCDEDDAACDB[0K
+479    20190479                43.75          rear B[0K[51G[?25h[?25l479    20190479                43.75          rear BCCCEECAABADCEDABECE[0K
+480    20190480       F         21.25        bottom *CBDAA*E**C*C*CA*ECB[0K
+481    20190481       x|        100.00           top BCCDEEDEABCDEEDAACDB[0K
+482    20190482       x         60.00          rear BCCD*EAA*BCDA*DAACDE[0K
+483    20190483       paL         81.25         front BCCDEEEEEBCDEEDAACCB[0K
+484    20190484       fLt         31.25        bottom DCCDEAADAEEBEEAAEEDC[0K
+485    20190485[0K[?25h       }L         37.50          rear BCADEADEACDDDBDCCAAB[0K[?25l
+486    20190486       Lf        100.00           top BCCDEEDEABCDEEDAACDB[0K
+487    20190487       HH         31.25        bottom BDDDBEBECCBDAECDACDE[0K
+488    20190488                75.00          mean CCCDEEAEABCDEEDACCEB[0K
+489    20190489       Gd         3[0K[33G[?25h[?25l489    20190489       Gd         37.50          rear EACDEEABADCDCADABAEB[0K
+490    20190490       ^l         31.25        bottom BCCEEBABCABABCDAACDC[0K
+491    20190491                75.00          mean BCCDEECEEBADEADAACDB[0K
+492    20190492       I          6.25        bottom DABCAEBBACBAEAEDACBC[0K
+493    20190493       EL         31.25        bottom CABDEEBEABCDABBDAEAA[0K
+494    20190494                68.75          mean CDCDEEDCABCDEBDABCDB[0K
+495    20190495       l         61.25          rear BC*DE**DABEAEEDAACD*[0K
+496    20190496       ax        100.00           top BCCDEEDEABCDEEDA[0K[67G[?25h[?25l496    20190496       ax        100.00           top BCCDEEDEABCDEEDAACDB[0K
+497    20190497       t         50.00          rear BAACEEDEABDACEEDACDB[0K
+498    20190498       B        100.00           top BCCDEEDEABCDEEDAACDB[0K
+499    20190499       xI         37.50          rear BAEDEEBBDBEDEEBEBCDD[0K
+500    20190500       E         31.25        bottom BDCBECADECCDEEBDBEDB[0K
+501    20190501                31.25        bottom CCDCEEDAEBEABEDAADAD[0K
+502    20190502       La         37[0K[33G[?25h[?25l502    20190502       La         37.50          rear BCCBDEAEEACCCEDEABBB[0K
+503    20190503       mpf         87.50         front BCCDEEDEABCDECDDACDB[0K
+504    20190504       \F         68.75          mean ECADDEDEABCDEEDBABDB[0K
+505    20190505       sM         28.75        bottom CC*EAEDA*AD*EEDBAEDE[0K
+506    20190506       tLB          0.00        bottom ********************[0K
+507    20190507       u}        100.00           top BCCDEEDEABCDEEDAACDB[0K
+508    20190508       y_         40.00          rear BC*EEEDCBCEAEE*ABCDA[0K
+509    20190509                75.00          mean[0K[48G[?25h[?25l509    20190509                75.00          mean BCADEEDEAECDEEDDACDE[0K
+510    20190510       \L         31.25        bottom BBADBDDEABAAEDCADBDC[0K
+511    20190511       LFl         77.50          mean *CCDEEDEABCDAEDBACD*[0K
+512    20190512       @         87.50         front BCADEEDEABCBEEDAACDB[0K
+513    20190513       d         37.50          rear EECCCEDEBCCCBECAACDD[0K
+514    20190514       \         87.50         front BCCDEEDDABCDEEDAAADB[0K
+515    20190515       ]s         31[0K[34G[?25h[?25l515    20190515       ]s         31.25        bottom ECABEDACCDCDCEDAACAC[0K
+516    20190516       qF         56.25          rear BCCDDADBEBCDEDDAACEC[0K
+517    20190517       a         68.75          mean BBADCEDEAECDEEDABCDB[0K
+518    20190518       lx         56.25          rear BDCDEDDAAECBEADAADDB[0K
+519    20190519               100.00           top BCCDEEDEABCDEEDAACDB[0K
+520    20190520       \         37.50          rear AECDABDEEDDDEEDABCCC[0K
+521[0K[5G[?25h[?25l521    20190521       L         75.00          mean BCCDEEDACBCBEEDABCDB[0K
+522    20190522                87.50         front BECDEEDEABCDEEDACCDB[0K
+523    20190523       L         43.75          rear BABEEEDEEBDDBBDCACBB[0K
+524    20190524       F\         85.00         front B*CDEEDEAB*DEEDAACD*[0K
+525    20190525       IG         87.50         front BDCDEEDEABCDEEDADCDB[0K
+526    20190526                81.25         front BCCCEEDEABCAEEDAACDE[0K
+527    20190527                25.00        bottom CCCBDACDBEDDEECDDCDB[0K
+528    20190528[0K[?25h       B         68.75          mean BCCDADDEEBEDEEAAACDB[0K[?25l
+529    20190529       EB         87.50         front ECCDEEDEABCDEEDAACDA[0K
+530    20190530       {I         81.25         front BCCDEEDEABDAEEDBACDB[0K
+531    20190531       si         37.50          rear DCBDEEAEBCDBEECBACDC[0K
+532    20190532       g         75.00          mean DCBAEEDEABCDEEDBACDB[0K
+533    20190533                56.25[0K[41G[?25h[?25l533    20190533                56.25          rear BCCBAEDCCBEDECDAACCB[0K
+534    20190534       R        100.00           top BCCDEEDEABCDEEDAACDB[0K
+535    20190535       QM         37.50          rear CCCBEEDEADEDDDDCBCAD[0K
+536    20190536       d         68.75          mean BCBBEEDEAACDEEDADCCB[0K
+537    20190537       a]         47.50          rear BBCDAEDECECDEE*ED**B[0K
+538    20190538       [|a        100.00           top BCCDEEDEABCDEEDAACDB[0K
+539    20190539       ~        100.00           top BCCDEEDEABCDEEDAACDB[0K
+540    20190540                23.75        bottom CCCC*BDE**ADDBBAD*DA[0K
+541    20190541       lx         31.25        bottom[0K[50G[?25h[?25l541    20190541       lx         31.25        bottom DCCAEBEEADEBCEBADCDD[0K
+542    20190542                31.25        bottom BAEDBAAAEBCEEADEADDB[0K
+543    20190543       q         37.50          rear ACCCAEDDAECDCADAAAEE[0K
+544    20190544       lx        100.00           top BCCDEEDEABCDEEDAACDB[0K
+545    20190545       ys         31.25        bottom CCBDCDAEABDDCEDABEBC[0K
+546    20190546       Ba         37.5[0K[35G[?25h[?25l546    20190546       Ba         37.50          rear BCCDEABEEECBAEAAABBD[0K
+547    20190547       [         18.75        bottom BBCEBDDCCBEAEABCACBC[0K
+548    20190548       Imf         77.50          mean BCCDEE*EABDEEEDAAC*B[0K
+549    20190549       _         37.50          rear ECCDACEEBEBDBEDAECDD[0K
+550    20190550                56.25          rear BCCBECBEABCDECCAACAD[0K
+551    20190551       aL         83.75[0K[42G[?25h[?25l551    20190551       aL         83.75         front CCCDEEDEABCDEEDA**DB[0K
+552    20190552       {         43.75          rear AECCBDDEABCDEBDBECBB[0K
+553    20190553       L         75.00          mean BCCDEEDCABCDEABDACDB[0K
+554    20190554                62.50          mean BCBDEEDEABCAEEDEEBEB[0K
+555    20190555       a         37.50          rear DBCBEDECABADAECAACDE[0K
+556    20190556       A         56.25          rear BCBBEEDEAACDEECDACEE[0K
+557    20190557                31.25        bottom AACDEACBCBCDBEAEABBB[0K
+558    20190558       dq         77.50          mean BCADEEDEABC*EEDAAD*B[0K
+559    20[0K[8G[?25h[?25l559    20190559                 0.00        bottom ********************[0K
+560    20190560       L{          0.00        bottom ********************[0K
+561    20190561                37.50          rear BCCDDDECCBCDEACCAADD[0K
+562    20190562       L]         62.50          mean DCCEEADDDBCCEEDAACDB[0K
+563    20190563                37.50          rear DADEEDDB[0K[57G[?25h[?25l563    20190563                37.50          rear DADEEDDBABCDDEDABBDC[0K
+564    20190564       dL         87.50         front BCCDEEDCADCDEEDAACDB[0K
+565    20190565       M         87.50         front BCCDEEDCABEDEEDAACDB[0K
+566    20190566               100.00           top BCCDEEDEABCDEEDAACDB[0K
+567    20190567                50.00          rear BECBDDDEEBCDEBDBBCDB[0K
+568    20190568       x         62.50          mean ACDEEEDEABDDAEDAAEDB[0K
+569    20190569       ~M         41.25          rear BCB**EDE*B*D*EA*BC**[0K
+570    20190570       Q         68.75[0K[42G[?25h[?25l570    20190570       Q         68.75          mean BACDEBBEEBCDEEDAACBB[0K
+571    20190571                75.00          mean BCCDEEDEABCBEECCACEB[0K
+572    20190572       x         43.75          rear BCEDDDDEDBCCEEEDACEE[0K
+573    20190573                93.75           top BCCDEEDEAACDEEDAACDB[0K
+574    20190574       y         62.50          mean BCCDEEDECCBDAEDAACCC[0K
+575    20190575                68.75          mean BCCCEEDDABCDDEDAAEAB[0K
+576    20190576[0K[29G[?25h[?25l576    20190576                37.50          rear BECDEEBABECDEEEEDBDE[0K
+577    20190577       \B         87.50         front ECCDEEDEABCDEEBAACDB[0K
+578    20190578       M         60.00          rear ADCD*EAEABCDEEDAAE**[0K
+579    20190579       v         87.50         front BCCCCEDEABCDEEDAACDB[0K
+580    20190580       lm         68.75          mean BCCDEEDECEDDEEDCADDB[0K
+581    20190581       T\[0K[28G[?25h[?25l581    20190581       T\         37.50          rear AACDEECBDBCDCEDBDDDA[0K
+582    20190582       @}x        100.00           top BCCDEEDEABCDEEDAACDB[0K
+583    20190583       m|         75.00          mean BCCDCEDEABCDDEDCACBB[0K
+584    20190584                87.50         front BCCDEECEABCDEEBAACDB[0K
+585    20190585       ttp         62.50          mean DCCDAEEEEECDEEDCACDB[0K
+586    20190586                63.75          mean BDCDE*DAABBDEEDBACDA[0K
+587    20190587                62.50          mean BACDBEDEABCDBEDCDCDA[0K
+588    2019058[0K[13G[?25h[?25l588    20190588       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+589    20190589       a        100.00           top BCCDEEDEABCDEEDAACDB[0K
+590    20190590       M         41.25          rear BCCDE*DCA****A**ACE*[0K
+591    20190591       La         75.00          mean BCECEEDEABCEEEDACCDB[0K
+592    20190592       L         87.50         front BCCDEEDEABBDEEDABCDB[0K
+593    20190593                43.75          rear ACCDEAAEABB[0K[61G[?25h[?25l593    20190593                43.75          rear ACCDEAAEABBBEEBCABCB[0K
+594    20190594       x         37.50          rear BACDEBBEACCEEAEDADDE[0K
+595    20190595       }         81.25         front BCCCEEDEABCEEEDACCDB[0K
+596    20190596       FQ         75.00          mean BCCEAEDEABCDEEAAACAB[0K
+597    20190597       sM         41.25          rear ***D**DCAB*DCB**ACDB[0K
+598    20190598                70.00          mean **CDEEDEABCDE**AA*D*[0K
+599    20190599       H         81.25         front BCADEED[0K[57G[?25h[?25l599    20190599       H         81.25         front BCADEEDEABCDDEDDACDB[0K
+600    20190600       F         87.50         front BCCDEEDAABCCEEDAACDB[0K
+601    20190601       pG         68.75          mean BBCDECDDABDDEEDAACBB[0K
+602    20190602       s         31.25        bottom CDEDDACEBBCDEEECABDC[0K
+603    20190603       ^L         81.25         front BCEDEEDEABCDBEDAACCB[0K
+604    20190604       s         56.25          rear DCCDECDAEBCDEDDEACDE[0K
+605    20190605                31.25        bottom BAACEEDBCBACAECAAECB[0K
+606    20190606       HA         50.00          rear ECEDEEDEBBCEACDAEEDB[0K[73G[?25h[?25l
+607    20190607       a         56.25          rear ADCDAEDEABEDAEDDACEB[0K
+608    20190608       E         75.00          mean BCCDABAEABCEEEDAACDB[0K
+609    20190609               100.00           top BCCDEEDEABCDEEDAACDB[0K
+610    20190610       [         50.00          rear BCCACEBCBBCDEBBAACDD[0K
+611    20190611               100.00           top BCCDEEDEABCDEEDAACDB[0K
+612    20190[0K[10G[?25h[?25l612    20190612       f         18.75        bottom BABDBDEEDBCDBCEDECAA[0K
+613    20190613       Y         68.75          mean BEBBEEDBAECDEEDAACDB[0K
+614    20190614       [         62.50          mean BBCDBEEECBDDEEDBACDB[0K
+615    20190615       t         56.25          rear ABBBEDDEABCDEEDAECEB[0K
+616    20190616       ltm         62.50          mean ACBDEEDBABCDAEDAACAC[0K
+617    20190617       tF         37.50          rear CCCDBDCDCBCDECDADDDA[0K
+618[0K[3G[?25h[?25l618    20190618       l        100.00           top BCCDEEDEABCDEEDAACDB[0K
+619    20190619               100.00           top BCCDEEDEABCDEEDAACDB[0K
+620    20190620                50.00          rear BCCDCBADCACDBEDAACDA[0K
+621    20190621       tL         60.00          rear BCBDE*DEA*CD*ECCADDB[0K
+622    20190622       _         62.50          mean BDCDCEEBEBCDEBDAACDB[0K
+623    20190623       Lyt         75.00          mean BCCCBEDEABDDECDAACDB[0K
+624    20190624       A_         87.50         front BCCEEEDEABCDDEDAACDB[0K
+625    20190625       ~I        100.00           top BCCDEEDEABCDEEDAACDB[0K
+626    2019[0K[9G[?25h[?25l626    20190626                81.25         front BCCDEBDBACCDEEDAACDB[0K
+627    20190627       F         62.50          mean BCDDEEDCABEAEBDAACDC[0K
+628    20190628       [         87.50         front BCCDEEDECBCDEEBAACDB[0K
+629    20190629       fiI         50.00          rear BCCEDDEDAECDEEDCECDB[0K
+630    20190630       st         62.50          mean BCEBEEDEAECDEDDBACEB[0K
+631    20190631       s         62.50[0K[42G[?25h[?25l631    20190631       s         62.50          mean BCCDBDDEAADDEEEADCDB[0K
+632    20190632       f         38.75          rear BC*E*EDEA**D*CDEAEA*[0K
+633    20190633       m         43.75          rear BCCCEBEEABDAEEACDDDB[0K
+634    20190634       |y        100.00           top BCCDEEDEABCDEEDAACDB[0K
+635    20190635       T         25.00        bottom BCBEAEDABDCCEECEBAEB[0K
+636    20190636       H         35.00        bottom B**D*C*E**CDEA*AC*DE[0K
+637[0K[?25h    20190637       R         37.50          rear BCCCDCBCABCEEADDECAB[0K[?25l
+638    20190638       Lp         75.00          mean ECCDCBDEABCDEEBAACDB[0K
+639    20190639                68.75          mean BCCDECBEDBCDEDDAACDA[0K
+640    20190640       f         75.00          mean BCCBEEDAACCDEEDDACDB[0K
+641    20190641                12.50        bottom DCD*CE*C*ACDCDDD**AD[0K
+642    20190642       L         87.50         front BCCDEEDEABCDEEDABCEB[0K
+643    20190643       F         51.25          rear DCC**CDE*BCDEA***CDB[0K
+644    20190644       t         62.50          mean BCCDEEBEEECEEEBAACDD[0K
+645    20190645       L[0K[22G[?25h[?25l645    20190645       L         82.50         front BCCDEEDEAECEEEDAA*DB[0K
+646    20190646       _         43.75          rear CBEBAEDEDBCDEEDBCCAB[0K
+647    20190647       p         50.00          rear ECEDECCEADCDEEDEBBDB[0K
+648    20190648               100.00           top BCCDEEDEABCDEEDAACDB[0K
+649    20190649       xy         37.50          rear AEDDEAAECBCDEDDEAAAB[0K
+650    20190650                87.50         front BCCDEEAEABCDEEDAADDB[0K
+651    20190651[0K[14G[?25h[?25l651    20190651                56.25          rear BCCCAEDEABCDCBADAADB[0K
+652    20190652       _P         25.00        bottom BCCBCBAAEAECCADAAEDB[0K
+653    20190653       d         81.25         front BCCDEEDBAECDEEDCACDB[0K
+654    20190654       Lv         43.75          rear ACECEBDEABCAEEDBCBCB[0K
+655    20190655       \Q         25.00        bottom BBCDEEECCAEEBDDCBEDB[0K
+656    20190656       \         68.75          mean BCCDE[0K[57G[?25h[?25l656    20190656       \         68.75          mean BCCDEEAEABCBEEADAEDB[0K
+657    20190657       Fd         31.25        bottom ECCBDEEEAAEDDDABCCDB[0K
+658    20190658       FQ         68.75          mean BCCDCECEABBDEEEDACDB[0K
+659    20190659                62.50          mean ACCDEEDAACBDBEDAAADB[0K
+660    20190660       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+661    20190661       h         50.00          rear BDADEEDEACDDBEDADADE[0K
+662    20190662       s         68.75          mean BCCEEEDEADCDEDDABBDB[0K
+663    20190663       qA         68.75          mean BCDDEEBDCBCDEEDAACDD[0K
+664    20190664       L~         68.75[0K[38G[?25h[?25l664    20190664       L~         68.75          mean ECCDEBDEAACDEEDCACDD[0K
+665    20190665       t         43.75          rear BBCDEADBADDEEEDDBDDB[0K
+666    20190666       pF         93.75           top BCEDEEDEABCDEEDAACDB[0K
+667    20190667                68.75          mean BCCDEEDEABBEEADDAEDB[0K
+668    20190668       v          0.00        bottom ********************[0K
+669    20190669       at        100.00           top BCCDEEDEABCDEEDAACDB[0K
+670    20190670       v[0K[23G[?25h[?25l670    20190670       v        100.00           top BCCDEEDEABCDEEDAACDB[0K
+671    20190671       \f         37.50          rear DCDDABDEEACDEADEBCDD[0K
+672    20190672                25.00        bottom CADDEACDEBADEEAAEBDC[0K
+673    20190673       TB         25.00        bottom DCDDEACBBBCEDEBBDBDB[0K
+674    20190674       a         37.50          rear BCBDBADBABCEAADDEBDB[0K
+675    20190675       [        100.00[0K[40G[?25h[?25l675    20190675       [        100.00           top BCCDEEDEABCDEEDAACDB[0K
+676    20190676       dL         43.75          rear BCDDBEDECBCBAEAAEDEB[0K
+677    20190677       f         25.00        bottom EBECDEDDDDCAEBDEBCDB[0K
+678    20190678                25.00        bottom BCACEEAACACBECDCEEEB[0K
+679    20190679       H}         93.75           top BCCDECDEABCDEEDAACDB[0K
+680    20190680       v         56.25          rear BCCCECDECBCDCCDDDCDB[0K
+681    20190681       L         37.50          rear BCADAAAECDDDDEDACCCB[0K
+682    20190682       L         75.00          mean CCCDEEDBABBDEEDAACAB[0K
+683    20190683[0K[18G[?25h[?25l683    20190683       R        100.00           top BCCDEEDEABCDEEDAACDB[0K
+684    20190684       h         81.25         front ACCDEEDEABCCEEDAACEB[0K
+685    20190685       h          0.00        bottom AEEEEEABBCCCCDBEEADD[0K
+686    20190686       |         18.75        bottom BEBABBAECCADDCAAACDC[0K
+687    20190687       xLx         50.00          rear BBCCBEBEEBEDBEDAADDB[0K
+688    20190688[0K[19G[?25h[?25l688    20190688       }         62.50          mean EECBEEDECBCDEEEAABDB[0K
+689    20190689       a         81.25         front BCCBEEDEADCDEEAAACDB[0K
+690    20190690       ^         87.50         front BCCDEEBEACCDEEDAACDB[0K
+691    20190691       y         56.25          rear ECADCDDEADBDEEDABCDB[0K
+692    20190692                43.75          rear BCCBEEBEABACCCCAACCA[0K
+693    20190693       m         27.50        bottom EBDDBEC*ABEDC*DABCAA[0K
+694    201[0K[9G[?25h[?25l694    20190694       L         50.00          rear BDEDEEAAADCAEEDBABDB[0K
+695    20190695       p         43.75          rear BECCEEDEADACDCDDAEDB[0K
+696    20190696                25.00        bottom BBABEADEDBCBDADEAECD[0K
+697    20190697                 0.00        bottom ********************[0K
+698    20190698       |         25.00        bottom AECBBADDBCCDAADABCBB[0K
+699    20190699       L         68.75          mean BCCD*E*EABC*EA*AA*DB[0K
+700    20190700       E         75.00          mean BCCDCEDEBBADEEDAACDE[0K
+701    20190701                75.00          mean BCCDBEDDBBEDE[0K[64G[?25h[?25l701    20190701                75.00          mean BCCDBEDDBBEDEEDAACDB[0K
+702    20190702       Ua         37.50          rear BDEDEBDEABBAEBDCECBA[0K
+703    20190703       tA         81.25         front BCBDEEDEDBCDEEDAACEB[0K
+704    20190704       h         80.00          mean *CCDEE*EABCD*EDAACD*[0K
+705    20190705       Xp         80.00          mean BCCDEEDE**CDE*DA*CDB[0K
+706    20190706       I         87.50         front BECDEEDEABCDDEDAACDB[0K
+707    20190707       O         31.25[0K[?25h        bottom CABCCEDEECCDEEDACABA[0K[?25l
+708    20190708                81.25         front BCCDEEEEADCDEEDAACDD[0K
+709    20190709       X         56.25          rear BCCDCEDEABADEAAABDEB[0K
+710    20190710       L         62.50          mean BCAADEDEABCDBECAACAB[0K
+711    20190711       L         43.75          rear BCCEEBCEADCDDCDACBDE[0K
+712    20190712       xd         31.25        bottom ACCDEEDDEDAAEDDACDCA[0K
+713    201[0K[8G[?25h[?25l713    20190713       Lx         37.50          rear BCDDCEEBDBBDEEBBEEDB[0K
+714    20190714       EM         75.00          mean BCCDEBDEAACDEEDCACBB[0K
+715    20190715       LX         43.75          rear BDCBEEDEBBBECEAEACDA[0K
+716    20190716       s         43.75          rear CCBAEEDEBBECEEDBAADA[0K
+717    20190717                81.25         front BBCDEADEABCDEECAACDB[0K
+718    20190718       d         87.50         front BCBDEEDEABCDEDDAACDB[0K
+719    20190719                42.50          rear B*CCBADABB*DE*DACC*B[0K
+720    20190720       l         45.00          rear BC*A*EDE*BD*E[0K[64G[?25h[?25l720    20190720       l         45.00          rear BC*A*EDE*BD*E*BA*CDA[0K
+721    20190721       d         93.75           top BCCDECDEABCDEEDAACDB[0K
+722    20190722       E         21.25        bottom CCCBEEDDBBC*BDB*EAEA[0K
+723    20190723       @         87.50         front BCCDEEDEABDDEEDAACAB[0K
+724    20190724       [         50.00          rear BCCBEEBEAECDAADEBCDA[0K
+725    20190725                75.00          mean BCCDEEDEDECBEE[0K[64G[?25h[?25l725    20190725                75.00          mean BCCDEEDEDECBEEDBACDB[0K
+726    20190726       f         87.50         front BCCDEEDEABCDEAEAACDB[0K
+727    20190727       ^f         68.75          mean BCCDEDEEABCBEEDACCAB[0K
+728    20190728       H         68.75          mean BCBDEEEAABCDECDDACDB[0K
+729    20190729       L         70.00          mean BBCDE*DEABCDEECBACAB[0K
+730    20190730                43.75          rear ACCCEEDEDADD[0K[61G[?25h[?25l730    20190730                43.75          rear ACCCEEDEDADDEACEABDB[0K
+731    20190731       L|         81.25         front BBCDBEDEABCDEEDAACDD[0K
+732    20190732       [}|         43.75          rear BBDBEEDEDBDDEECDBCDA[0K
+733    20190733       G         31.25        bottom BCDDAADEADCDDBADAEAC[0K
+734    20190734       \M         37.50          rear BCDDEBBEEBCDAEABADCD[0K
+735    20190735       L         27.50        bottom *CCAC*DEE**DBE*CA*C*[0K
+736    20190736       df         75.00          mean BCCDEEEEABCDEEDEACBD[0K
+737    20190737       }        100.00           top BCCDEEDEABCDEEDAACDB[0K
+738    20190738       l[0K[27G[?25h[?25l738    20190738       l         18.75        bottom AACEBEEEBCBDBEDBBDDC[0K
+739    20190739       _         50.00          rear DCCEEEADEBCDEBDADCDA[0K
+740    20190740       v        100.00           top BCCDEEDEABCDEEDAACDB[0K
+741    20190741       Lq[         68.75          mean ACCDEEBEBBCDEEDADCDC[0K
+742    20190742       l         50.00          rear BCCDABDEAAEDEECBCCCB[0K
+743    20190743                62.50          mean[0K[48G[?25h[?25l743    20190743                62.50          mean BCBDEEDBCCCDBEDAACDC[0K
+744    20190744       xM         81.25         front BCCDAEDEABCEEEDAADDB[0K
+745    20190745       t         75.00          mean BDCDEEDEEBABEEDAACDB[0K
+746    20190746       LE         25.00        bottom BACBDECCADEDDADDAAAB[0K
+747    20190747       i         53.75          rear BBB*EEDAEACDEED*A*DB[0K
+748    20190748       }         81.25         front BCCDCEDEADCDEEDEACDB[0K
+749    20190749[0K[?25h       |         93.75           top BCCDEBDEABCDEEDAACDB[0K[?25l
+750    20190750                68.75          mean ECCDEEDEABCDBEBAAAAB[0K
+751    20190751       MF         31.25        bottom CECCEEDADBCEECBEDDDB[0K
+752    20190752       mq         75.00          mean ECCDEEDEADCDEEDAACAC[0K
+753    20190753       s         46.25          rear BCD**B*EABCD**DA*CE*[0K
+754    20190754                37.50          rear ADCDEEABCBEDCCDAABCB[0K
+755    20190755       Ma         68.75          mean BCCDEADEABAEEDDAACEB[0K
+756    20190756       G        100.00           top BCCDEEDEABCDEEDAACDB[0K
+757    20190757       f         27.50[0K[42G[?25h[?25l757    20190757       f         27.50        bottom BBCDCAAEDB*DEBADA*EE[0K
+758    20190758       ^         50.00          rear BCBBEDDEDEEDEAEAACDB[0K
+759    20190759       RE         75.00          mean BCCDEEDBABCEEEBBACDB[0K
+760    20190760       [[          0.00        bottom ********************[0K
+761    20190761       s         45.00          rear *BC**BDDAB*DECDAA*D*[0K
+762    20190762       v         87.50         front BCCDEEDAABCDEEDDACDB[0K
+763    20190763       _l         50.[0K[36G[?25h[?25l763    20190763       _l         50.00          rear DCCBBEAECBADABDAACDB[0K
+764    20190764       ma        100.00           top BCCDEEDEABCDEEDAACDB[0K
+765    20190765       F         47.50          rear DCCDEEAE*B***E*AA***[0K
+766    20190766       L         63.75          mean CC**E*DEABCD**DAAC*B[0K
+767    20190767       Yf         87.50         front BCCDEEDEAACDEEDACCDB[0K
+768    20190768       w         56.25          rear BBCDEEDABBBDDED[0K[65G[?25h[?25l768    20190768       w         56.25          rear BBCDEEDABBBDDEDEACBB[0K
+769    20190769       ly         62.50          mean CCCDEEDEEBAAAEDEACDB[0K
+770    20190770       f         68.75          mean BCCDEEDDABDCEEDABCBB[0K
+771    20190771       A         75.00          mean BCCBDEDEABADEDDAACDB[0K
+772    20190772       H         81.25         front BCCDEEDCABCDEEDADEDB[0K
+773    20190773               100.00           top BCCDEEDEABCDEEDAACDB[0K
+774    20190774       s         81.25         front BCCDECDEBBCDEEDAAADB[0K
+775    20190775                56.25          rear B*C*EEDEA*C*EE*DBCAB[0K
+776    20190776       vH         87.50         fron[0K[50G[?25h[?25l776    20190776       vH         87.50         front BCCBEEDEABCDEEDDACDB[0K
+777    20190777       lx        100.00           top BCCDEEDEABCDEEDAACDB[0K
+778    20190778                93.75           top BCDDEEDEABCDEEDAACDB[0K
+779    20190779       X         25.00        bottom ECEDBDAEABCCDDDAEDBE[0K
+780    20190780       ^          0.00        bottom ********************[0K
+781    20190781       }         81.25         front ECCDEEDEABCDEEBADCDB[0K
+782    20190782       |         31.25        bottom BCABE[0K[56G[?25h[?25l782    20190782       |         31.25        bottom BCABEBDAACCCAADABCBC[0K
+783    20190783                62.50          mean AECDECDDABEDEEDAACEB[0K
+784    20190784       _         87.50         front BCCDEECAABCDEEDAACDB[0K
+785    20190785       LM         25.00        bottom CCBCAEDEDACDAAAEBCAB[0K
+786    20190786       [         81.25         front BCCDCEBEABCDEEDAADDB[0K
+787    20190787       tq          0.00        bottom ********************[0K
+788    20190788       Qp          0.00[0K[43G[?25h[?25l788    20190788       Qp          0.00        bottom ********************[0K
+789    20190789       ux\         62.50          mean BCCDEECEEBCCEEDDABAB[0K
+790    20190790       H         31.25        bottom ECCDBAEDABBDEECECCAE[0K
+791    20190791       FfT         81.25         front BCCDEDDEABDDEEDCACDB[0K
+792    20190792       M         87.50         front BCCDEEDEABCDDADAACDB[0K
+793    20190793       O        100.00           top BCCDEEDEABCDEEDAACDB[0K
+794    20190794       {m         87.50         front BCCBEEDEACCDEEDAACDB[0K
+795    20190795                75.00          mean BCEDEEDEABCDEEDAABEE[0K
+796    20190796       A\         81[0K[33G[?25h[?25l796    20190796       A\         81.25         front BCCEEEDEABCABEDAACDB[0K
+797    20190797       A         75.00          mean BCCDCEDEABCDEEDAEDBB[0K
+798    20190798       y         76.25          mean CCCDEEDEABC*AEDABCDB[0K
+799    20190799       @         68.75          mean BCCDECAECBCDEEDBAEDB[0K
+800    20190800       [         87.50         front BCCDEADEABCBEEDAACDB[0K
+801    20190801       Exl          0.00        bottom ********************[0K
+802    20190802[0K[20G[?25h[?25l802    20190802       u         81.25         front BBCBEEDEABCDEEDAACBB[0K
+803    20190803       G         81.25         front BCCAEEDEABBDEECAACDB[0K
+804    20190804       L         81.25         front BCCDEEDEABCDCBDAADDB[0K
+805    20190805                87.50         front BCDDEEDEDBCDEEDAACDB[0K
+806    20190806       u         53.75          rear BCCDEED*A*C*ECCACAEB[0K
+807    20190807                93.75           top BCBDEEDEABCDEEDAACD[0K[69G[?25h[?25l807    20190807                93.75           top BCBDEEDEABCDEEDAACDB[0K
+808    20190808       d        100.00           top BCCDEEDEABCDEEDAACDB[0K
+809    20190809       }}         81.25         front CCCDEDDEABCEEEDAACDB[0K
+810    20190810       ^         46.25          rear BCCEAB*EABADC*DACADB[0K
+811    20190811       FH         75.00          mean BCCDBEDAABCDEEDCACCB[0K
+812    20190812                75.00          mean BBCDEEDEABCDAEDACADB[0K
+813    20190813       dQm         62.50          mean BCADEEDEDBCEEEAACDDB[0K
+814    20190814                43.75          rear ACCCECADABBEECAAACDB[0K
+815    20190815       M         33.75        bottom D[0K[52G[?25h[?25l815    20190815       M         33.75        bottom DCDDEEBECBB**DDABBDC[0K
+816    20190816                62.50          mean BDCDEEDEABCECEEAAEDE[0K
+817    20190817       sp         37.50          rear BBADAECCBBDDEEBAEDDB[0K
+818    20190818                75.00          mean BCC*EED*A**DEEDAACD*[0K
+819    20190819                13.75        bottom B*DB*BDEDBAA***EDED*[0K
+820    20190820       lqt         68.75          mean ADCBEEDEABBAEEDAACDB[0K
+821[0K[?25h    20190821       ]H         43.75          rear BDCDECDBAADEEEABADDB[0K[?25l
+822    20190822       p         50.00          rear BCADCEDEDDADECDACCEB[0K
+823    20190823       p         56.25          rear ECCBEBDEEBBAEEDAABDB[0K
+824    20190824                81.25         front BCCDEEDEBBCDDADAACDB[0K
+825    20190825                62.50          mean ACADECDECBBDEEDAACBB[0K
+826    20190826       d         75.00          mean BCCDEEDECBADECDAE[0K[67G[?25h[?25l826    20190826       d         75.00          mean BCCDEEDECBADECDAECDB[0K
+827    20190827       A          0.00        bottom ********************[0K
+828    20190828               100.00           top BCCDEEDEABCDEEDAACDB[0K
+829    20190829       ~          0.00        bottom ********************[0K
+830    20190830       \t         37.50          rear BCAECADAEECDAEAAACDD[0K
+831    20190831       yu         31.25        bottom EDADEEDAAADCBEEEACDE[0K
+832    20190832       \         25.00        bottom CBBEEBDCACCDDEDDAAAE[0K
+833    20190833       x         43.75          rear ECCDEDECCCBDEBDAAEDB[0K
+834    20190834       |\         31.25        bottom BADDCDCECACBC[0K[65G[?25h[?25l834    20190834       |\         31.25        bottom BADDCDCECACBCEBAAEDB[0K
+835    20190835                25.00        bottom CCADDEECEDBDDEDEAAAB[0K
+836    20190836       vF         87.50         front BCBDEEDEABCDEEDACCDB[0K
+837    20190837       As        100.00           top BCCDEEDEABCDEEDAACDB[0K
+838    20190838                68.75          mean BCBDECEEABCDCEDDACDB[0K
+839    20190839       |a         56.25          rear BCCABEBEADCAECDAADDB[0K
+840    20190840       t         93.75[0K[37G[?25h[?25l840    20190840       t         93.75           top BCCDEBDEABCDEEDAACDB[0K
+841    20190841                18.75        bottom ACCDCADACDAABDDBADDA[0K
+842    20190842       f         62.50          mean BBCDEEDEABADEADAADAC[0K
+843    20190843       Lx         23.75        bottom *BCCE*CACDCDE*ECCCD*[0K
+844    20190844                31.25        bottom BBECEEDBBECEBEDAEEEB[0K
+845    20190845       L         87.50         front BCCDDEDEABCDEEEAACDB[0K
+846    20190846       Lt[0K[28G[?25h[?25l846    20190846       Lt         81.25         front BCCDEEDEAECDEEDAADBB[0K
+847    20190847       [aF         48.75          rear B*****DEABC***D*DCDB[0K
+848    20190848       HB         50.00          rear EDCAEEDBACCEEEDACBDB[0K
+849    20190849       lL         62.50          mean BDCDEDAEBBEDEEDABCDB[0K
+850    20190850                87.50         front BCCDEEDEABCAEEDDACDB[0K
+851    20190851                81.25         front ECADEEDEABCDEBDAACDB[0K
+852    20190852       a         37.50          rear CACDEEDEBAEBBCEAACDC[0K
+853    20190853       y         75.00          mean BCCDEEDEBBCBEEDDAEDB[0K
+854    20190854       P[0K[27G[?25h[?25l854    20190854       P         71.25          mean ACCCEEDAABCDE*D*ACDB[0K
+855    20190855       L         81.25         front BCCDAEDEABCDAEDEACDB[0K
+856    20190856       s         57.50          rear BCED**DE**BD*EDAAC*B[0K
+857    20190857       L         87.50         front BCCDEEDEABCCEEDAAEDB[0K
+858    20190858               100.00           top BCCDEEDEABCDEEDAACDB[0K
+859    20190859       f         33.75        bottom ECDEEE**BBBAEEDCABBB[0K
+860    20190[0K[10G[?25h[?25l860    20190860       mm         87.50         front BCCAEEDEABCDECDAACDB[0K
+861    20190861       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+862    20190862       a         87.50         front ECCDEEDEABCDEEDAAADB[0K
+863    20190863       F         43.75          rear BDCDBEDCABCAEADABDBD[0K
+864    20190864       hLq         43.75          rear ECCDDABCABCDBEEEADDB[0K
+865    20190865       [         56.25          rear BCCEEEDADBCECEDAECDE[0K
+866    2019[0K[9G[?25h[?25l866    20190866       aa         43.75          rear BDABEEDEACCDEEEDDCED[0K
+867    20190867                43.75          rear BECEADADABCCEEDAEADB[0K
+868    20190868       mM         93.75           top BCCDEEDEABCDEEDAACDC[0K
+869    20190869       }          0.00        bottom ********************[0K
+870    20190870       u        100.00           top BCCDEEDEABCDEEDAACDB[0K
+871    20190871       yi        100.00           top BCCDEEDEABCDEEDAACDB[0K
+87[0K[2G[?25h[?25l872    20190872       qa        100.00           top BCCDEEDEABCDEEDAACDB[0K
+873    20190873       L         56.25          rear BBDDCEDDBBCDEEDAACAE[0K
+874    20190874       L         37.50          rear BBCBEEDEABDEAACDCDDB[0K
+875    20190875       I         66.25          mean **CDEEDEABCD*CAAACDA[0K
+876    20190876       L         37.50          rear BDCEDEADAECDEECDAEAB[0K
+877    20190877       Ma         68.75          mean BCCDEDEEAECCEEDDACDB[0K
+878    20190878                77.50          mean *CADEEBE*BCDEEDAACDB[0K
+879    20190879       x         93.75           top BCCDEADEABCDEEDAACDB[0K
+880    20[0K[7G[?25h[?25l880    20190880                25.00        bottom BADDADCEDCCDBABBACDA[0K
+881    20190881                93.75           top BCCDEEDEABCDBEDAACDB[0K
+882    20190882       s          0.00        bottom ********************[0K
+883    20190883       T         31.25        bottom CBBDEDDEABDEBBDEACAA[0K
+884    20190884       aM         93.75           top BCCDEEDEABCDEEDADCDB[0K
+885    20190885       O         62.50          mean BCACEEDCABCDD[0K[63G[?25h[?25l885    20190885       O         62.50          mean BCACEEDCABCDDEDAADCB[0K
+886    20190886       xL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+887    20190887       tB         81.25         front BCCDEEDEEBCDEEDAAABB[0K
+888    20190888       xF          0.00        bottom ********************[0K
+889    20190889                 0.00        bottom ********************[0K
+890    20190890                75.00          mean BCCDBEDEA[0K[58G[?25h[?25l890    20190890                75.00          mean BCCDBEDEABDDEECAECDB[0K
+891    20190891       |d         81.25         front BDCDEEDCABCDEBDAACDB[0K
+892    20190892       l         93.75           top BCCDEEDEABCDEDDAACDB[0K
+893    20190893       FH         87.50         front ECCDEEDCABCDEEDAACDB[0K
+894    20190894       [         75.00          mean BCCDCEDEABBDEDCAACDB[0K
+895    20190895       YF         75.00          mean BCCDAEDDABCDEEAAAADB[0K
+896    20190896       a         68.75          mean CDCDEEDDABCCEEAAACDB[0K
+897    20190897                37.50          rear CACDBEDBAAEDEADBDCDD[0K
+898    20190898       x         31.25        bottom EDCDDBCCABCD[0K[62G[?25h[?25l898    20190898       x         31.25        bottom EDCDDBCCABCDECBAADBC[0K
+899    20190899                75.00          mean BCCDEEDEABCEBEDACCDC[0K
+900    20190900       P         62.50          mean BCCDEEDEACCCEEAADCBE[0K
+901    20190901       s         68.75          mean BCDDDEDECBCDEEEADCDB[0K
+902    20190902                62.50          mean BCCDECACADCCEEDAAEDB[0K
+903    20190903       x         31.25        bottom BCEABBDDADEDEEDECAAB[0K
+904    20190904       d         25.00        bottom ACEDCCDD[0K[58G[?25h[?25l904    20190904       d         25.00        bottom ACEDCCDDABAADECDAAEB[0K
+905    20190905       I\         62.50          mean BBCAEEDEABCDECDBAAEB[0K
+906    20190906       Ma         37.50          rear ECCEAADBABCAEECDBDDB[0K
+907    20190907       Lq         62.50          mean BEEDEECEACCDEEBACCDB[0K
+908    20190908       }         68.75          mean BDCDCDDEABCDEADADCDB[0K
+909    20190909       |        100.00           top BCCDEEDEABCDEEDAACDB[0K
+910    2[0K[7G[?25h[?25l910    20190910       \Y         37.50          rear BBBDEEBCABDAEDEACCBB[0K
+911    20190911       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+912    20190912       L[         87.50         front BCCDEEDEEBCDEDDAACDB[0K
+913    20190913                25.00        bottom DDCDBADDEDDDEEEAEACB[0K
+914    20190914                75.00          mean CCCDDEDEABCDEEDACCDA[0K
+915    20190915       xL         25.00[0K[40G[?25h[?25l915    20190915       xL         25.00        bottom DDBDBECBEEBDEEAEBCDB[0K
+916    20190916       L          0.00        bottom ********************[0K
+917    20190917       h         43.75          rear BCDEBADCABCCEEDADCCA[0K
+918    20190918       lM        100.00           top BCCDEEDEABCDEEDAACDB[0K
+919    20190919       hLl        100.00           top BCCDEEDEABCDEEDAACDB[0K
+920    20190920                 0.00        bottom ********************[0K
+921    20190921                25.00        bottom EDCBBDCBEDBDDEDAACDA[0K
+922    20190922       sL         81.25         front BEADEEBEABCDEEDAACDB[0K
+923    20190923       A         81.25[0K[?25h         front BCCDEEDADBCDBEDAACDB[0K[?25l
+924    20190924       t}T         66.25          mean BCCAE*DEB*CDEADA*CDB[0K
+925    20190925       ~{H        100.00           top BCCDEEDEABCDEEDAACDB[0K
+926    20190926       LM         93.75           top BCCDEEDEBBCDEEDAACDB[0K
+927    20190927       Y         87.50         front BCCDEEDDABCDEEDABCDB[0K
+928    20190928                31.25        bottom BECDEBBAABEDCCEACAAB[0K
+929[0K[2G[?25h[?25l929    20190929       L_         50.00          rear BBDDEEDDACCDECDACBDD[0K
+930    20190930       }y         25.00        bottom CAADBEDDABACCDDCDCBB[0K
+931    20190931       ]lx        100.00           top BCCDEEDEABCDEEDAACDB[0K
+932    20190932       w        100.00           top BCCDEEDEABCDEEDAACDB[0K
+933    20190933                81.25         front BCCAECDEABCDCEDAACDB[0K
+934[0K[6G[?25h[?25l934    20190934       B         43.75          rear DCCCEEDEDCCAAEDAECBE[0K
+935    20190935       LLp         31.25        bottom EDCBEAAECBDDECDECCDE[0K
+936    20190936       L         31.25        bottom ACBDEDEECACCDADDAEDB[0K
+937    20190937       A@          0.00        bottom ********************[0K
+938    20190938       |         18.75        bottom BCBAEEDCCADAAEBEDDBB[0K
+939    20190939               100.00           top BCCDEEDEABCDEEDAACDB[0K
+940[0K[2G[?25h[?25l940    20190940       at         25.00        bottom BECAEADDCCCBCADDADDD[0K
+941    20190941       I         93.75           top BCCDCEDEABCDEEDAACDB[0K
+942    20190942                81.25         front ECCDEEDEAABDEEDAACDB[0K
+943    20190943       Y         56.25          rear CCBDADEECDCDEEDAACDB[0K
+944    20190944       g         40.00          rear **CDE*D*ABBAEE**CED*[0K
+945    20190945       h}O         31.25        bottom EEEAEBBEBDCBEBDACCDB[0K
+946    20190946       |         43.75          rear CDCDDEDECBCCEDCAACEA[0K
+947    20190947       F         37.50          rear DCCDECBCCECAEEBBACDD[0K
+948    20190[0K[11G[?25h[?25l948    20190948       }         37.50          rear BADAEDACBBCDEEDBBCDA[0K
+949    20190949       f         93.75           top BCCDEEDEABCDEEDAACBB[0K
+950    20190950                68.75          mean BCCEECDBABEDEEDAACDA[0K
+951    20190951       L         87.50         front BCCDCEDEABCBEEDAACDB[0K
+952    20190952       l         81.25         front BCEDECDECBCDEEDAACDB[0K
+953    20190953       fBt         56.25          rear BAAEEEDE[0K[60G[?25h[?25l953    20190953       fBt         56.25          rear BAAEEEDEABBDEEDAEBCB[0K
+954    20190954       {B         18.75        bottom EEBDCABCCBCDEBDBDBAB[0K
+955    20190955       Q         75.00          mean BCCCBEDBABCDAEDAACDB[0K
+956    20190956                37.50          rear BDDDAEDEECCACDCAECDB[0K
+957    20190957       l         75.00          mean BCCBEEEEBBCCEEDAACDB[0K
+958    20190958       L         37.50          rear BAEDEDDDABBDBEDEDDDA[0K
+959    20190959       |L[0K[28G[?25h[?25l959    20190959       |L         50.00          rear BCCCEADBBBCAEEDACEDE[0K
+960    20190960                75.00          mean BCCDEEDDABCDCBDAECDB[0K
+961    20190961                62.50          mean B**EE**EABCDEBD*ACDB[0K
+962    20190962       aT         37.50          rear BCCBBEDDEBDDAECEDADB[0K
+963    20190963       fP         43.75          rear CCCDCADEABCADEDABBCE[0K
+964    20190964       |         43.75          re[0K[47G[?25h[?25l964    20190964       |         43.75          rear BCAEBEDDACDDBACAACDB[0K
+965    20190965                81.25         front BDCDEEDEABCDEEDBABDB[0K
+966    20190966       va         50.00          rear BCCBEEDBAEEDEEBADBDE[0K
+967    20190967       F         25.00        bottom CADDEABEACBECDDADCDA[0K
+968    20190968       \         93.75           top BCCDEEDEABBDEEDAACDB[0K
+969    20190969       dAm         25.00        bottom DABDDEDEDDDDECACACEE[0K
+970    20190970       }         81.25         front BCADEEDAEBCDEEDAACDB[0K
+971    20190971                62.50          mean BCCDEDDBABEDDDDACCDB[0K
+972    20190972                8[0K[30G[?25h[?25l972    20190972                81.25         front BCCDEADEABCDEEDDDCDB[0K
+973    20190973       F         56.25          rear BCCDEDDEABDBEDCACDDB[0K
+974    20190974       qu         43.75          rear ACBDCEDEAECADDDCAEDB[0K
+975    20190975       uH         75.00          mean BCCDEECCABCDEBDAACAB[0K
+976    20190976       |        100.00           top BCCDEEDEABCDEEDAACDB[0K
+977    20190977       tL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+978    2019097[0K[12G[?25h[?25l978    20190978       aB         50.00          rear ACADBDDEADCEBEDADCDB[0K
+979    20190979       G         66.25          mean BACDCEAEABCDE*DAA*D*[0K
+980    20190980                18.75        bottom ACDCEDDBABBAACCACEBB[0K
+981    20190981       aA          0.00        bottom ********************[0K
+982    20190982       }         47.50          rear BCC***DEAB*EE*DD***B[0K
+983    20190983       ]         31.25        bottom BCCCEBEECBBEECABBCDC[0K
+984    2[0K[6G[?25h[?25l984    20190984                50.00          rear BCCDCEBAADBCEEDAAAEB[0K
+985    20190985       s         25.00        bottom DDAEDEDAABBEADDAAEEB[0K
+986    20190986               100.00           top BCCDEEDEABCDEEDAACDB[0K
+987    20190987       y         68.75          mean BCCACEDBABCDCEDAAEDB[0K
+988    20190988       H\        100.00           top BCCDEEDEABCDEEDAACDB[0K
+989    20190989       dQ[0K[28G[?25h[?25l989    20190989       dQ         81.25         front ECCDEEDEACCEEEDAACDB[0K
+990    20190990       ^a         87.50         front BCCDECDEABCDEEDAACDE[0K
+991    20190991       B          0.00        bottom ********************[0K
+992    20190992       E         93.75           top BCCDEEDEABCDEEDAACEB[0K
+993    20190993       L\         50.00          rear *CCEEC*EAEC*E*DABC*B[0K
+994    20190994       \         46.25          rear BC*BEEEEADA[0K[61G[?25h[?25l994    20190994       \         46.25          rear BC*BEEEEADAEDE*AADDB[0K
+995    20190995                75.00          mean BCCDEEDEDBEDAEDCACDB[0K
+996    20190996       BL         87.50         front BCCDEEDEADCDEEDAECDB[0K
+997    20190997       s\         93.75           top BCCDEEDEABADEEDAACDB[0K
+998    20190998       H          0.00        bottom ********************[0K
+999    20190999       A         43.75          rear BCBEEEDEAAAEEEEBADDA[0K
+1000   20191000       Ed         75.00          mean BCCAEECEABADEEDAACDE[0K
+1001   20191001       dL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1002   20191002       l          0.00        bottom ********************[0K
+1003   20191003       {         87.50         front BCCAEEDEABCDEEDDACDB[0K
+1004   20191004       T         68.75          mean BCCDEABEECCCEEDAACDB[0K
+1005   20191005       T         87.50         front ECCDEEDEABCDEEDAACDE[0K
+1006   20191006       i         37.50          rear BDEDAEBADBCDBCDCACDC[0K
+1007   20191007[0K[18G[?25h[?25l1007   20191007       d         75.00          mean BCCDEEAECACDEEEAACDB[0K
+1008   20191008       tT         75.00          mean DCCDEEDEACCDAEDCACDB[0K
+1009   20191009       lM         25.00        bottom DCCCCADEDBECEEACADBA[0K
+1010   20191010                43.75          rear BCCDEAEBABCAEDBACBDE[0K
+1011   20191011                62.50          mean EACDEDBDABCDEEDBACDB[0K[69G[?25h[?25l
+1012   20191012       _         87.50         front BCCDEEDEAAADEEDAACDB[0K
+1013   20191013       xlX        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1014   20191014       tv         25.00        bottom CEBBEADABBCEECCAABDD[0K
+1015   20191015       RQ         81.25         front BCCDEBDEEBCDBEDAACDB[0K
+1016   20191016       y         37.50          rear BCDDEDDEDDCDADCBABDA[0K
+1017   20191017                93.75           top BCCCEED[0K[56G[?25h[?25l1017   20191017                93.75           top BCCCEEDEABCDEEDAACDB[0K
+1018   20191018       a         43.75          rear BDBDCEACABCDADDAACEC[0K
+1019   20191019       I         81.25         front BCCDDEBEABCDEEDAACAB[0K
+1020   20191020       UGp         75.00          mean BCCBEEDEABADECDDACDB[0K
+1021   20191021       La         56.25          rear BCCDCEBBABDDAEDCADDB[0K
+1022   20191022       E         68.75[0K[44G[?25h[?25l1022   20191022       E         68.75          mean BBCDBADEABEDEEDBACDB[0K
+1023   20191023       a          0.00        bottom ********************[0K
+1024   20191024       \         56.25          rear BCCAEECDAECDEDDEDCDB[0K
+1025   20191025                56.25          rear EEDDEEDCABCBEEDAADBB[0K
+1026   20191026                93.75           top BCCDEEDEABCEEEDAACDB[0K
+1027   20191027       wF         31.25        bottom DCCDBBCEAAEDACEAADCB[0K
+1028   20191028       f         62.50          mean BCCBCBDBABCDDEEAACDB[0K
+1029   20191029       f        100.00           top BCCDEEDEABCDEEDAACDB[0K
+103[0K[1G[?25h1030   20191030       p         25.00        bottom CECDEACEBBDDEDEDBCCD[0K[?25l
+1031   20191031       g|         68.75          mean BCBBDDDEABCEEEDAACDB[0K
+1032   20191032                37.50          rear BAEDEADEAECAEAEACADD[0K
+1033   20191033                81.25         front BCCDEECEABCCEEDAACDA[0K
+1034   20191034       h         31.25        bottom BBABDAEECECAEEDADCBB[0K
+1035   201910[0K[12G[?25h[?25l1035   20191035       _L         93.75           top BCADEEDEABCDEEDAACDB[0K
+1036   20191036                52.50          rear A*CEEED*AB*DEE**A*D*[0K
+1037   20191037                87.50         front BCCDEEDEABCCEEDEACDB[0K
+1038   20191038       Tx         25.00        bottom BCCDDBDDBEDDEEAEEDBA[0K
+1039   20191039                25.00        bottom BDEABAAEACCDBEDEEEBB[0K
+1040   20191040       ^         31.25        bottom CBBDAEDDCBCEEBA[0K[65G[?25h[?25l1040   20191040       ^         31.25        bottom CBBDAEDDCBCEEBABAADB[0K
+1041   20191041                75.00          mean ACCDEEDEADCDEEDAECDD[0K
+1042   20191042       O         37.50          rear EAEDEEDEBCCDCBBBACDD[0K
+1043   20191043                55.00          rear ACC*E*DC**CDAEDADCDB[0K
+1044   20191044       as         43.75          rear BCCDBECCCACDCBEADCDB[0K
+1045   20191045       \         75.00          mean BDCECEAEABCDEEDAACDB[0K
+1046   20191046       gL         68.75[0K[42G[?25h[?25l1046   20191046       gL         68.75          mean BCADAEDEABCEEEDBACCB[0K
+1047   20191047       Laa         31.25        bottom BCCEDAEDABCDACBCABCB[0K
+1048   20191048       m~        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1049   20191049       l         37.50          rear ACBDBCBEDBCEBEDACCCB[0K
+1050   20191050       sL         31.25        bottom AEDDACDEADECEEEEAEDB[0K
+1051   20191051       dB         68.75          mean DCCDEEDBADCDEEDDACBB[0K
+1052   20191052       L         62.50          mean CCCDEEDAABCCEADAACBE[0K
+1053   20191053       ^L         68.75          mean BCCDAEDECDCDEEDBACEB[0K
+1054   20191054       qP         87.50[0K[38G[?25h[?25l1054   20191054       qP         87.50         front BCCBEEDEABCDEEDAECDB[0K
+1055   20191055                31.25        bottom EBDDEEDEADEACECDAEDC[0K
+1056   20191056       M         62.50          mean BCCDEEDBABADBEDBDCDE[0K
+1057   20191057       x         87.50         front BCCDEEDEAACDEEDACCDB[0K
+1058   20191058       x          0.00        bottom ********************[0K
+1059   20191059       vL         50.00          rear BECBEDBCABBCEEDEACDB[0K
+1060   20191060       L         25.00        bottom DCCCE*CEA****EBAEACE[0K
+1061   20191061       M         93.75           top BCCDEEDEABCDEEDAACAB[0K
+1062   20191062       ]         68.75          mean ABCDBEDEABCBEEDBACDB[0K
+1063   20191063       ~u         87.50         front BCCDECDEABCDEEDAACDD[0K
+1064   20191064                43.75          rear ECBDBEDEEDCECEDAACBA[0K
+1065   20191065                25.00        b[0K[44G[?25h[?25l1065   20191065                25.00        bottom BACEDEDBCECEEADEDADC[0K
+1066   20191066       L         45.00          rear BACEEEDEBBDBC*CAECDB[0K
+1067   20191067       }a         37.50          rear BEDBEADEBEBAEBDAABDB[0K
+1068   20191068       v\         82.50         front BACDEEDBA*CDEEDAACDB[0K
+1069   20191069       xB         68.75          mean DDCDCEDEABAEEEDAACDB[0K
+1070   20191070       pB         56.25          rear BCCDEEDDBBEBEDDAABDE[0K
+1071   20191071[0K[25G[?25h[?25l1071   20191071                62.50          mean BCCAEEAECBCDEEEACCDC[0K
+1072   20191072                37.50          rear EECDCEDADACCECDACADB[0K
+1073   20191073       ^         25.00        bottom BDCCCBDCDECDEDDCADEE[0K
+1074   20191074       M         31.25        bottom BBBDEBBBDCCBAAAAACDB[0K
+1075   20191075       TA         25.00        bottom EDADAEEEEBCEEBDCBCAE[0K
+1076   20191076       mXP         18.75        bottom CCAEAADDBDDDEEDEEB[0K[71G[?25h[?25l1076   20191076       mXP         18.75        bottom CCAEAADDBDDDEEDEEBDC[0K
+1077   20191077       |        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1078   20191078       L         31.25        bottom CCACEADDAEDEDDDAECDB[0K
+1079   20191079                81.25         front BCCDEEDEAECDEEEDACDB[0K
+1080   20191080                31.25        bottom BBCBEEEBABAEEACABAAB[0K
+1081   20191081       d         45.00          rear B*CDEED*AAC**ACA**BB[0K
+1082   20191082       a          0.00        bottom ********************[0K
+1083   20191083       }}H        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1084   20191084       v         20.00        bottom D*CD*EEB***D*CEACEEB[0K
+1085   2[0K[7G[?25h[?25l1085   20191085       f         81.25         front BCCDEEDBDACDEEDAACDB[0K
+1086   20191086                50.00          rear DCBDCABEAECDCEDEACDB[0K
+1087   20191087       A         50.00          rear BCBAEAADAECDEEDAABDD[0K
+1088   20191088       l         81.25         front BACDEEDEABCDEEDAAEDC[0K
+1089   20191089       s         31.25        bottom BCAAEECBCBCDBEEABEBE[0K
+1090   20191090       t         93.75           top BCCDEEDEABCDEED[0K[66G[?25h[?25l1090   20191090       t         93.75           top BCCDEEDEABCDEEDAACAB[0K
+1091   20191091       Fv         75.00          mean DCCDEEDEABCDEEBAACAA[0K
+1092   20191092                43.75          rear ACCCCEDABBCCEEAAEDDB[0K
+1093   20191093       t         81.25         front ABCDEEDEBBCDEEDAACDB[0K
+1094   20191094                43.75          rear BCEDABDBCBCDEEBCDADB[0K
+1095   20191095       |        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1096   20191096       s         81.25         front ECCDDCDEABCDEEDAACDB[0K
+1097   20191097                87.50         front BCCDEEDDABCDEEDAACDE[0K
+1098   20191098       ]f         31.25        bottom EDECEEBBEBAAEEEAAADB[0K
+1099   20191099               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1100[0K[3G[?25h[?25l1100   20191100                25.00        bottom BCAEEBDCDDCBECECDCDA[0K
+1101   20191101       L         62.50          mean BACDBEDDABCABEDAACDA[0K
+1102   20191102       l         37.50          rear DCCDBEBAADDEEEACACDA[0K
+1103   20191103                18.75        bottom BCBEAADDBBECEDCDCCDA[0K
+1104   20191104       L         56.25          rear BDCAAECCEBCDEEEAACDB[0K
+1105   20191105                25.00        bottom BCCACADBEACEAEBAABBA[0K
+1106   20191106[0K[17G[?25h[?25l1106   20191106                75.00          mean BCCCEEBEABCDEEDAADDC[0K
+1107   20191107                75.00          mean BCCDEEDEEBCDEEDAABEC[0K
+1108   20191108                68.75          mean BCCDEACEEBCDACDAACDB[0K
+1109   20191109       \        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1110   20191110                63.75          mean BC*DEADEABC**E***CDB[0K
+1111   20191111       G         75.00          mean BCCDEDDEBBCDEEDCAADB[0K
+111[0K[2G[?25h[?25l1112   20191112       s\G         68.75          mean BACDEBDEAECDEDDAACBB[0K
+1113   20191113       L         81.25         front BCCDEEDEBBCDEEAAACDA[0K
+1114   20191114       d         27.50        bottom CCE*E***ECC**B*EACDB[0K
+1115   20191115       F        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1116   20191116       u         81.25         front BCCDEEDEAABDEECAACDB[0K
+1117   20191117       x[         56.25[0K[40G[?25h[?25l1117   20191117       x[         56.25          rear BCCCEDDCABBBEEDDACDE[0K
+1118   20191118                93.75           top BCCDEEDEABCDEEDAAADB[0K
+1119   20191119               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1120   20191120       B         87.50         front BCBDEADEABCDEEDAACDB[0K
+1121   20191121       F         81.25         front BDCDEEDEABBDEEDACCDB[0K
+1122   20191122                10.00        bottom CADE*AD*AEDBDED*BCCD[0K
+1123   20191123                43.75          rear BBCBEEDBAACDBEBBAADA[0K
+1124   20191124       l         43.75          rear BCADECDBABEDEAAABCEA[0K
+1125   20191125       p         68.75          mean BCDEEEDEABDDEADAACDD[0K
+1126   20191126       HF        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1127   20191127                68.75          mean DCCDDEDBEB[0K[58G[?25h[?25l1127   20191127                68.75          mean DCCDDEDBEBCEEEDAACDB[0K
+1128   20191128       H         25.00        bottom EACAEBDCBBCEAEBACCBD[0K
+1129   20191129       Lv         81.25         front BCEDEEDEABCDEEDAADCB[0K
+1130   20191130       }         43.75          rear CCCDEEDCBACDAEBCBCDC[0K
+1131   20191131       M@         62.50          mean BCCDCCDBCBCDECDAACDC[0K
+1132   20191132       AU         81.25         front CCCDEEDEAECDCEDAACDB[0K
+1133   20191133       y         37.50          rear DCCBECDEDBDBEEEAECBA[0K
+1134   20191134       B^         93.75[0K[44G[?25h[?25l1134   20191134       B^         93.75           top BCCDEEDEABCDEADAACDB[0K
+1135   20191135       ^P         62.50          mean ECEDEEDEAECBEEDCACCB[0K
+1136   20191136       @         75.00          mean BACDEEDAABCDCEDADCDB[0K
+1137   20191137       f         43.75          rear CCBDEEDEDBCAEBDBBBBB[0K
+1138   20191138                93.75           top BCCDEEDEABCDEEDAACAB[0K
+1139   20191139       L         75.00          mean BDCDEBDEABCDEDAAACDB[0K
+1140[0K[3G[?25h[?25l1140   20191140       ^         75.00          mean BCCDEEAEABCDEEECECDB[0K
+1141   20191141                56.25          rear BCCEECCAACCDEADAAEDB[0K
+1142   20191142       \        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1143   20191143       ax         37.50          rear BCDCEEECDBCDCDBCABDB[0K
+1144   20191144       L         81.25         front BCCDBEDEABCDEEDCDCDB[0K
+1145   20191145[0K[26G[?25h[?25l1145   20191145                58.75          rear BBCCEEDAA*CDEED*ACEA[0K
+1146   20191146       xp         75.00          mean CCCDEEDEABCDECDDACCB[0K
+1147   20191147                62.50          mean BCDDEEDEBBCCEACBACDB[0K
+1148   20191148       M         75.00          mean BACEEEDEABEDEEBAACDB[0K
+1149   20191149       H         73.75          mean BCCD*EBE**CDEED*ACDB[0K
+1150   20191150[0K[24G[?25h[?25l1150   20191150                50.00          rear BCEDEEBDABCDCDCCACBB[0K
+1151   20191151       f         18.75        bottom BACEAEBAABCDCDEEEBEA[0K
+1152   20191152       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1153   20191153               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1154   20191154       ux         68.75          mean BECDCEDDABCDEEDAAACB[0K
+1155   20191155       ]I         43.75          rear BDCEEEAECBEBBADCACDB[0K
+1156   2[0K[7G[?25h[?25l1156   20191156       ^         50.00          rear BCCDCBDCAABDBECAAEDB[0K
+1157   20191157       tO         62.50          mean BACEEEDBABCDEEDABADA[0K
+1158   20191158       \         75.00          mean BCCCEEDEDBCDBEDEACDB[0K
+1159   20191159       l         87.50         front BCCDEEDEABCDEEDAABEB[0K
+1160   20191160       t]        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1161   20191161                43.75          rear DBCDBEACABDBEEAAACBB[0K
+1162   20191162       dm        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1163[0K[?25h   20191163                87.50         front BCCDEEDCACCDEEDAACDB[0K[?25l
+1164   20191164       ]        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1165   20191165       x         27.50        bottom DBEAA*AEAECB*EDBACDE[0K
+1166   20191166       [tL         62.50          mean BDCDEACAABCDEEBADCDB[0K
+1167   20191167       d         81.25         front BCCDEEDEACCEEEDEACDB[0K
+1168   20191168       a        100.00           to[0K[48G[?25h[?25l1168   20191168       a        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1169   20191169       |         68.75          mean CDCDEEDEBBCDEBDAACDA[0K
+1170   20191170       fm        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1171   20191171       \        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1172   20191172                25.00        bottom DCCDADBBDCCBEBDBCADB[0K
+1173   20191173       Q         65.00          mean B*C*EED*AB*DEE*A**DB[0K
+1174[0K[3G[?25h[?25l1174   20191174                62.50          mean BCABEEEEBBCAEEDCACDB[0K
+1175   20191175       TL         31.25        bottom BBCBDBCDAECECCDAAADB[0K
+1176   20191176                93.75           top DCCDEEDEABCDEEDAACDB[0K
+1177   20191177       y         31.25        bottom BCCDADBDEBCDCADCAAAE[0K
+1178   20191178                31.25        bottom CCCBEAADDCCDBEDADAAB[0K
+1179   20191179       i        100.00           top BCCDE[0K[55G[?25h[?25l1179   20191179       i        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1180   20191180                43.75          rear ACBDBEAEACCEDADAABDB[0K
+1181   20191181       sf         56.25          rear CCEAEEDEAACDEEDADAEB[0K
+1182   20191182                65.00          mean *C*DE*DEABC**ED*A*DB[0K
+1183   20191183       w         75.00          mean BACDAEDEDBCDEEDAACCB[0K
+1184   20191184       w         37.50          rear CCACEEBEADCBABDAAAEB[0K
+1185   20191185                68.75          mean BEEAEEDEABCDDEDAAADB[0K
+1186   20191186       hs          0.00        bottom ********************[0K
+1187   20191187                37.50          rear BECACEDEADEEE[0K[63G[?25h[?25l1187   20191187                37.50          rear BECACEDEADEEEEBDDADB[0K
+1188   20191188       R        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1189   20191189       a         56.25          rear BDCDCEAEBBCDEEBACCBB[0K
+1190   20191190       R         50.00          rear DCCAEDDEABCDEDCCAADE[0K
+1191   20191191       I         31.25        bottom CCABEEDECCBAECCAEBDB[0K
+1192   20191192                12.50        bottom BCCBAAAADBAAECAABBAA[0K
+1193   20191193       I@         37.50[0K[40G[?25h[?25l1193   20191193       I@         37.50          rear BAEDCEDDABEDCECDCCAB[0K
+1194   20191194       xs         85.00         front BCCD*EDEAB*DEE*AACDB[0K
+1195   20191195       u         50.00          rear BDADCEDEABEDDDDCACDC[0K
+1196   20191196               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1197   20191197       uT         81.25         front BDCDEEDEABCDEECAACBB[0K
+1198   20191198       x         43.75          rear CEAACEECBBCDEEDABCDB[0K
+1199   2019[0K[10G[?25h[?25l1199   20191199       tA         37.50          rear DACDEDCEABBBBCBACCDB[0K
+1200   20191200       sP         56.25          rear BCCDEBDBCCCDCEDAEDDB[0K
+1201   20191201       d         31.25        bottom BCCDBADCBBEDEBACBEBB[0K
+1202   20191202                62.50          mean DACDEEDBABCBDEDDACDB[0K
+1203   20191203                56.25          rear BDCDEADAABABBEEAACDB[0K
+1204   20191204                50.00          rear BCDAEEAEADCBEEBAABDE[0K
+1205   20191205       E         81.25         front BCCDEEDEDDCBEEDAACDB[0K
+1206   20191206       H          0.00        bottom ********************[0K
+1207   20191207[0K[14G[?25h[?25l1207   20191207       L         75.00          mean BCCDEEDCABCDAEDEDCDB[0K
+1208   20191208       ml         25.00        bottom EEEDEACCCBCECECAABAB[0K
+1209   20191209                62.50          mean BCADEEDEACCDEEDBEDEB[0K
+1210   20191210       UM         18.75        bottom EEAEBBACEBCACEAAABDB[0K
+1211   20191211       lL          0.00        bottom ********************[0K
+1212   20191212       dtL         75.00          mean ECCDEEDAAAC[0K[63G[?25h[?25l1212   20191212       dtL         75.00          mean ECCDEEDAAACDBEDAACDB[0K
+1213   20191213       [         31.25        bottom BECDAEDDEACEEBDACEAA[0K
+1214   20191214       M         50.00          rear BECDCEABABCDEECDCCDA[0K
+1215   20191215       P          0.00        bottom ********************[0K
+1216   20191216       l         37.50          rear BADDECBCACCDEADBAEEB[0K
+1217   20191217       M         25.00        bottom ECCBCACDADBDEEEACAAB[0K
+1218   20191218       xL         38.75[0K[42G[?25h[?25l1218   20191218       xL         38.75          rear BCADADACAB*DDDDAACBA[0K
+1219   20191219       U         68.75          mean ACBAECDEABDDEEDAACDB[0K
+1220   20191220                87.50         front BCCDEEDAABCDEEDABCDB[0K
+1221   20191221       ulL         56.25          rear BCEDAEEEABCDEEBEEEDB[0K
+1222   20191222       AaH         43.75          rear CCCDEADEABADCECEBEDE[0K
+1223   20191223       mL         62.50          mean BDDDEEDAADCDCEDDACDB[0K
+1224[0K[2G[?25h[?25l1224   20191224       tF@         93.75           top BCCCEEDEABCDEEDAACDB[0K
+1225   20191225       y         56.25          rear BDCEEECBADCDEADAAADB[0K
+1226   20191226       R         31.25        bottom BABCEEEECBCCECDCEEAB[0K
+1227   20191227                 0.00        bottom ********************[0K
+1228   20191228       LL\         62.50          mean BCCDBEDDAEEDAEDABCDB[0K
+1229   20191229       x          0.00        bottom ********************[0K
+1230   20191230       xm         93.75           top BCCDEEDBABCDEEDAACDB[0K
+123[0K[2G[?25h[?25l1231   20191231       \O         81.25         front ACCDEEAEAECDEEDAACDB[0K
+1232   20191232       t          6.25        bottom DBBCCEDDDECDCBBBBDDC[0K
+1233   20191233       aE         68.75          mean DDCDEADEABCDEEDAAADD[0K
+1234   20191234       dT         68.75          mean BCCAEEAEBBCDEEDDECDB[0K
+1235   20191235       d         37.50          rear BCEEBEAEDBCECCDADCDE[0K
+1236   20191236       l|         75.00          mean BCCDBEDEAECDEEDACCEB[0K
+1237   20191237       MG         31.25        bottom DACCECAEBBCECEDDCCDE[0K
+1238   20191238[0K[15G[?25h[?25l1238   20191238                81.25         front BCCDEEDAAECDDEDAACDB[0K
+1239   20191239       Fl         81.25         front BCCDEEEAABCDEEDBACDB[0K
+1240   20191240       qa         41.25          rear **CDEC***B*DEC**AEDB[0K
+1241   20191241       [[x         75.00          mean BCDDEEDEABCDEDDACCCB[0K
+1242   20191242       L         75.00          mean ECBDEEDEEBCDAEDAAC[0K[68G[?25h[?25l1242   20191242       L         75.00          mean ECBDEEDEEBCDAEDAACDB[0K
+1243   20191243       L         31.25        bottom ACDBCEAAADCBEBDAECDD[0K
+1244   20191244       d        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1245   20191245       L         87.50         front BCCDEEDECBDDEEDAACDB[0K
+1246   20191246       P         31.25        bottom BCEBECDEBBCCAEADCECB[0K
+1247   20191247       \]         28.75        bottom BC*BEADDBC*DE*BDEADB[0K
+1248   20191248       t         43.75          rear BBEDCEDEA[0K[60G[?25h[?25l1248   20191248       t         43.75          rear BBEDCEDEAACAEAABAADB[0K
+1249   20191249       L         25.00        bottom BCCECBDEDDECCECCACBA[0K
+1250   20191250       Q         81.25         front BCCDEEDEABCBCEDAACDC[0K
+1251   20191251                56.25          rear BCCBEEBBADCAEEDCACDC[0K
+1252   20191252                81.25         front BCCDEEDEAACDDEDBACDB[0K
+1253   20191253       x         62.50          mean DCCBEDDCABCDEEDADADB[0K
+1254   20191254[0K[22G[?25h[?25l1254   20191254       dX         87.50         front BCCDEEDEABCDEEAAACEB[0K
+1255   20191255       p         68.75          mean BCCBEEDEABCDEBCAADEB[0K
+1256   20191256       xa         87.50         front BCCDEEDDABEDEEDAACDB[0K
+1257   20191257       m         93.75           top ECCDEEDEABCDEEDAACDB[0K
+1258   20191258       H         93.75           top BCCDEEDEABCDEEDAACCB[0K
+1259   20191259       a_         43.75          rear CDCCEEEAABEDAEDADDDB[0K
+1260   20191260                50.00          rear CCCDCCDEBBBDEEDADBDE[0K
+1261   20191261       x         87.50         front BCCDEEEEADCDEEDAACDB[0K
+1262   20191262       tO         56.25          rear BCDDBEEECAEDEEDEACDB[0K
+1263   20191263       Of\         68.75          mean BEEDEEDCDBEDEEDAACDB[0K
+126[0K[2G[?25h[?25l1264   20191264       l         25.00        bottom ADAADEDBADCBEADADEDA[0K
+1265   20191265                75.00          mean BACCEEDEABADEEDDACDB[0K
+1266   20191266       x        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1267   20191267                87.50         front BCCEEEDEDBCDEEDAACDB[0K
+1268   20191268       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1269   20191269       s         68.75          mean DCCDEEDDABCDEBDBADDB[0K
+1270   20191270                62.50          mean ACCDDEDEABAAEDDADCDB[0K
+1271   20191271       A         25.00        bottom EEDBDEEADEBDEEDEBCDB[0K
+1272   20191272       \IP         87.50         front BCCDEEDEABCDAADAACDB[0K[74G[?25h[?25l
+1273   20191273       t        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1274   20191274                81.25         front BCEDEDDEABCDEEDDACDB[0K
+1275   20191275       w        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1276   20191276                50.00          rear DDCDAEDBACBDAEDACCDB[0K
+1277   20191277                81.25         front BCCCEEDDABCAEEDAACDB[0K
+1278   20191278       Ag         65.00          mean BCBDEE*EEBCDEEDE*CEB[0K
+1279   20191279               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1280   20191280       L         87.50         front BCCDEEDEBBCDEEDDACDB[0K
+1281   20191281       L[0K[23G[?25h[?25l1281   20191281       L         56.25          rear AAEDAEDEAECDBECAACDB[0K
+1282   20191282                31.25        bottom DCDBCEEBCECDBADAACDE[0K
+1283   20191283       a         43.75          rear BCDDCEDCEBCDEBDBEADC[0K
+1284   20191284       A        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1285   20191285       [        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1286   20191286       s         25.00        bottom[0K[50G[?25h[?25l1286   20191286       s         25.00        bottom BDCDBBAEABBCCADBADEC[0K
+1287   20191287       {T         68.75          mean ECCCEEAEABCDEEAAACEB[0K
+1288   20191288                68.75          mean BECEEEDEBBDDEEDADCDB[0K
+1289   20191289       ls         81.25         front BCCDECDDABBDEEDAACDB[0K
+1290   20191290                36.25        bottom CCCEE*DBCBC*EEBAC*E*[0K
+1291   20191291       lf         62.50          mean BACCEEADABC[0K[62G[?25h[?25l1291   20191291       lf         62.50          mean BACCEEADABCDEEDADCDE[0K
+1292   20191292       Y         37.50          rear CCCDEEAEEECECDDAAEBC[0K
+1293   20191293       x         32.50        bottom BDDCDD*E*BC**EDA*BD*[0K
+1294   20191294       QHx         56.25          rear BCCDBAEEBBCAEEDAADAB[0K
+1295   20191295       x         62.50          mean DCCBEEBBABCDEEDDDCDB[0K
+1296   20191296       }         43.75          rear DBCEEEEEABBEEEDABCEA[0K
+1297   20191297       Pf          0.00        bottom ********************[0K
+1298   20191298       h         43.75          rear CDEDDEDCEBCCAEDEACDB[0K
+1299   20191299       M         37.50          rear BCACECCAABCDEBBCEDDB[0K
+1300   20191300       y         81.25         front BCCDEEEEABCCEEDCACDB[0K
+1301   20191301       EP         70.00[0K[36G[?25h[?25l1301   20191301       EP         70.00          mean BC*DE**EA**DEEDAACD*[0K
+1302   20191302       _         81.25         front CCCDEEDBABCDEEDBACDB[0K
+1303   20191303       @         50.00          rear ABDDEDAEABBDEEDACCBB[0K
+1304   20191304       YT         81.25         front BCEDECDEABCDECDAACDB[0K
+1305   20191305       Pt         50.00          rear CCCDEADEABADDEDBADBC[0K
+1306   20191306       xH         75.00          mean CDCDEEDEABCDEEDAECDC[0K
+1307   20191307       a         87.50         front BCCDEEDEABCDDEDAACAB[0K
+1308   20191308       d[0K[25G[?25h[?25l1308   20191308       d          0.00        bottom ********************[0K
+1309   20191309       }         12.50        bottom DBDCECACEDCEECDACACB[0K
+1310   20191310                87.50         front BACDEEDEABCDEEDAACDC[0K
+1311   20191311       \_         62.50          mean BCADEEDBAECDEEDDBBDB[0K
+1312   20191312               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1313   20191313       \         56.25          rear BEEDCDAEABCDEEDADCAB[0K
+1314   20191314       Fa         62.50          mean ECCAEEDBABCBEEAADCDB[0K
+1315   20191315       ~[0K[23G[?25h[?25l1315   20191315       ~s         18.75        bottom ECCCDEBDCEDDCBCAACAC[0K
+1316   20191316       L         56.25          rear BBEAEEDAABCDBEAAACDD[0K
+1317   20191317                56.25          rear DCBDAEDEABCDAEEDAADB[0K
+1318   20191318       x}         75.00          mean BCCDEEDAEBCDEEDAECDE[0K
+1319   20191319       G        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1320   20191320       h         56.25          rear BDCAEEDACBCDBEDAECDA[0K[70G[?25h[?25l
+1321   20191321       }d         81.25         front BCCDBEEEADCDEEDAACDB[0K
+1322   20191322       IM         25.00        bottom BEDDDBDEBEDDEDDDEDBB[0K
+1323   20191323       G         43.75          rear DCADECDEACCDECDDABCE[0K
+1324   20191324       A         31.25        bottom ECCDCBDEBBEBEEAABBCE[0K
+1325   20191325                 0.00        bottom ********************[0K
+1326   20191326       x         37.50[0K[?25h          rear BECDCADCBBCEEBACABDB[0K[?25l
+1327   20191327       A\         18.75        bottom BECBCDAEEAEDEEBBABAE[0K
+1328   20191328       ^         43.75          rear ACCACAEEBBEDAEDAACBB[0K
+1329   20191329                87.50         front BCCDEEDEBCCDEEDAACDB[0K
+1330   20191330       w         37.50          rear BBDADEEEABCEEDEAACBE[0K
+1331   20191331       xt        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1332   20191332       ^         43.75          rear BAECEDDBABCDECDECCBB[0K
+1333   20191333       }          0.00        bottom ********************[0K
+1334   20191334       a[0K[?25hL        100.00           top BCCDEEDEABCDEEDAACDB[0K[?25l
+1335   20191335               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1336   20191336                50.00          rear BCCAEEDBAECAECDCCCCB[0K
+1337   20191337       G         87.50         front BACDEEDEABCDBEDAACDB[0K
+1338   20191338       u         75.00          mean BCCDAEDDBBCDECDAACDB[0K
+1339   20191339               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1340   20191340       st          8.75        bottom CD*C***C*BCAEAC**BDE[0K
+1341   20191341       H[L         37.50          rear BBCCABDEABABBEBACCCB[0K
+1342   20191342       F         46.25          rear D*[0K[52G[?25h[?25l1342   20191342       F         46.25          rear D*CD**D*ABCB*EBAA**B[0K
+1343   20191343       \L         33.75        bottom BACDEDCDABCADDB*AD*B[0K
+1344   20191344       a         25.00        bottom EDCDDAAAABCEABDEECDC[0K
+1345   20191345       [X         62.50          mean ECCDDECEABCBEEDAAEBB[0K
+1346   20191346       s@          0.00        bottom ********************[0K
+1347   20191347       uq         42.50          rear BCC*E*AAABCD*BBDECD*[0K
+1348   20191348[0K[17G[?25h[?25l1348   20191348       Bl          0.00        bottom ********************[0K
+1349   20191349       i         87.50         front ACCDEEDEABCDEEDAACDD[0K
+1350   20191350       }Ma         45.00          rear BCDDAECECBCDB*ABBCDB[0K
+1351   20191351       Qa        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1352   20191352       ]          0.00        bottom ********************[0K
+1353   20191353       Lt         50.00          rear EBCDEBCEA[0K[60G[?25h[?25l1353   20191353       Lt         50.00          rear EBCDEBCEABCDCBDAAADE[0K
+1354   20191354       G         75.00          mean ECCDCEBEABCDEEDAECDB[0K
+1355   20191355       a         75.00          mean BCCDEADEAACDEEDADCBB[0K
+1356   20191356                 0.00        bottom ********************[0K
+1357   20191357       x         18.75        bottom BEBCCADEBBBDAECDCADD[0K
+1358   20191358       LHy         70.00          mean BCC*EEDE*BCD****ACDB[0K
+1359   20191359       t[0K[25G[?25h[?25l1359   20191359       t         43.75          rear B**D**DE*BCDBECAECCC[0K
+1360   20191360       a         45.00          rear BCCC**DAA*ADEEDC***B[0K
+1361   20191361       a        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1362   20191362       }         31.25        bottom CCABEEAEBECBAECEACDC[0K
+1363   20191363       x         87.50         front BCCDEEDAABCDEEDAACEB[0K
+1364   20191364       |        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1365   20191365       l         68.75          mean BCCAEEDEABCDEDCADCCB[0K
+1366   20191366       l         68.75          mean BCCDEEDEABDBBEBAACEB[0K
+1367   20191367[0K[21G[?25h[?25l1367   20191367       H        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1368   20191368       _o         87.50         front BCCCEEDEABCDEEBAACDB[0K
+1369   20191369       TL         87.50         front BCCDEECBABCDEEDAACDB[0K
+1370   20191370       GA        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1371   20191371                81.25         front BCCAEEDEABCDEBAAACDB[0K
+1372   20191372       L         93.75           top BCCDEEDEABCDEEDCACDB[0K
+1373   20191373       L         93.75           top BCCDEADEABCDEEDAACDB[0K
+1374   20191374       R         25.00        bottom BEBDABDADDEAEDDAEEDB[0K
+1375   20191375       H         67.50[0K[?25h          mean BCCAEE**ABB*EED*ACDB[0K[?25l
+1376   20191376       E         68.75          mean BDCDEEDECBCDEBBAACDA[0K
+1377   20191377                25.00        bottom ACCEEABCAEBCCEDBADAB[0K
+1378   20191378       [x        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1379   20191379       Fw         56.25          rear BCCBEEDCCBCBEDDEACDA[0K
+1380   20191380       p         75.00          mean BCCAAEDECBCDEEDAABDB[0K
+1381   20191381                81.25         front BCCDBEDEEACDEEDAACDB[0K
+1382   20191382                45.00          rear BDCD**D*AB*DDEB*ACC*[0K
+1383   20191383[0K[19G[?25h[?25l1383   20191383       o         87.50         front BCCDBEDEABCDEEBAACDB[0K
+1384   20191384       ]         43.75          rear ABEBEEDEADDDECDBECDB[0K
+1385   20191385                43.75          rear DCCDEEBBBCCDEEAAAABA[0K
+1386   20191386       x         87.50         front BCCDEEDEADCDEEDAABDB[0K
+1387   20191387       R         56.25[0K[?25h          rear CCDDEDDECBCEEEEAABDB[0K[?25l
+1388   20191388       fU         25.00        bottom *CBEC*DBABCC**DD*BDE[0K
+1389   20191389                25.00        bottom CDDEEEAEACCECECABABB[0K
+1390   20191390       E         93.75           top BCCDEEDECBCDEEDAACDB[0K
+1391   20191391       pG         50.00          rear BABDDEDEEBCCEEBAADDD[0K
+1392   20191[0K[10G[?25h[?25l1392   20191392       L         37.50          rear BACACEDBEECBBCDBACDB[0K
+1393   20191393       f         75.00          mean BDCDEBEEACCDEEDAACDB[0K
+1394   20191394       aQ         37.50          rear BEDEDEDAEBCEEEBCACAB[0K
+1395   20191395       m         43.75          rear BCBDBEDEDBABEAAAAEDD[0K
+1396   20191396       l         87.50         front BDCBEEDEABCDEEDAACDB[0K
+1397   20191397[0K[20G[?25h[?25l1397   20191397       d         25.00        bottom BAEAAEDACECEEEEBEEDB[0K
+1398   20191398                75.00          mean BECDEEDEABCDEEDCDCEB[0K
+1399   20191399       L          0.00        bottom ********************[0K
+1400   20191400       }         25.00        bottom BCBCDDCBACEEEBEABCDB[0K
+1401   20191401                75.00          mean BCDEEEDEABCDEECEACDB[0K
+1402   20191402       L_         75.00[0K[38G[?25h[?25l1402   20191402       L_         75.00          mean ACCDEEDAABCBEEDAACCB[0K
+1403   20191403       _         87.50         front BCCDEEDEABCCCEDAACDB[0K
+1404   20191404       ap         43.75          rear DDCDBEDEADCDDCDCAAEB[0K
+1405   20191405                62.50          mean BCCEDEDBABCDECDCDCDB[0K
+1406   20191406       ]         87.50         front BCCDEEDEADCDEEDAACAB[0K
+1407   20191407       a[         81.25         front BCBDEEAEABCDEECAACDB[0K
+1408   20191408       }m         31.25        bottom ACCDACDCDACDEADECDEB[0K
+1409   20191409       [         72.50          mean[0K[50G[?25h[?25l1409   20191409       [         72.50          mean BCCDAE**ABCDE*DADCDB[0K
+1410   20191410       F         50.00          rear BCCCCBECADCEEEDAACEB[0K
+1411   20191411       Q         87.50         front ECCDEEDEABDDEEDAACDB[0K
+1412   20191412       m         75.00          mean BCBCEEDEAECEEEDAACDB[0K
+1413   20191413       h         55.00          rear BCD*AEDEA*D*EEDAAC*A[0K
+1414   20191414       s         55.00          rear **CDEDB*ABCDBEDA*CCB[0K[?25h[?25l
+1415   20191415       lL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1416   20191416       T         62.50          mean BCEDEEEEDBCDEEEAADBB[0K
+1417   20191417       T         25.00        bottom DCCDECCBBBCBEDAADECE[0K
+1418   20191418       LL         68.75          mean BBCDEEDEDBCDEEDACADC[0K
+1419   20191419                81.25         front BDCDEEDAABCDEEDAAADB[0K
+1420   20191420       h}         68.75          mean ECBDEEDEAECDBEDAACDD[0K[72G[?25h[?25l
+1421   20191421       Lf         37.50          rear ECAABEBCACCAEADEACDB[0K
+1422   20191422       XL         37.50          rear BECEEECAAAEADEDAABCB[0K
+1423   20191423       Lv         31.25        bottom BDCBEBAEBDEDDEBDABDB[0K
+1424   20191424       FL         62.50          mean BCCDCECECBCEEEEBACDB[0K
+1425   20191425                 0.00        bottom ********************[0K
+1426   20191426                87.50[0K[39G[?25h[?25l1426   20191426                87.50         front BCCDEEDEABCDEEDCBCDB[0K
+1427   20191427                25.00        bottom ACCEEDECACADEEACDEDE[0K
+1428   20191428       B         78.75          mean B*CDEEDEABCDECDA**DB[0K
+1429   20191429               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1430   20191430       U         68.75          mean BADDEBDEABCDBEDAABDB[0K
+1431   20191431       @         37.50          rear ACCDAEDCAECCDEDCDCEA[0K
+1432   201914[0K[11G[?25h[?25l1432   20191432       LH          0.00        bottom ********************[0K
+1433   20191433       Tw         81.25         front BCCDEEDBCBCDEBDAACDB[0K
+1434   20191434       u         37.50          rear BCBDDADDDBCCECDACEDE[0K
+1435   20191435       dQ         26.25        bottom *A*DEE*AC**EBEDB*CBB[0K
+1436   20191436       L         18.75        bottom EEECBCAEAECAECCAACEE[0K
+1437   20191437       _|          0.00        bottom ********************[0K
+1438   20191438       \l         71.25          mean ECBDEEEEABCDE*DAA*DB[0K
+1439   20191439[0K[25G[?25h[?25l1439   20191439               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1440   20191440       P         31.25        bottom BCACEEEEAEBDEDDDBBAA[0K
+1441   20191441       P         75.00          mean BCCDEEDEAAEDEEDACBDB[0K
+1442   20191442       T         37.50          rear BAEAEBDCDCCBECCAACDB[0K
+1443   20191443       m]a          0.00        bottom ********************[0K
+1444   20191444       X         43.75          rear ECCECEBAABCDEADAEBAB[0K
+1445   20191445       F         18.75        bottom DCCDDADCDCBDEDACBCCE[0K
+1446   20191446       l        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1447[0K[?25h   20191447       p         81.25         front BBCDEEDEEBCDEEAAACDB[0K[?25l
+1448   20191448       }a         87.50         front BCADEEDEABCDEEDEACDB[0K
+1449   20191449       aR         81.25         front BCCDBEDEADCDEEDAACDA[0K
+1450   20191450       dF         75.00          mean BCCDBEDEABCDEEBBDCDB[0K
+1451   20191451                87.50         front BCCDEEDEDBCDDEDAACDB[0K
+1452   20191452       M         43.75          rear AABBEEDECECDDECDACDB[0K
+1453   20191453       _s         31.25        bottom BECDCEBAAECDDEDBCBAE[0K
+145[0K[2G[?25h[?25l1454   20191454                75.00          mean BCCDEEDEA*C***DAA*DB[0K
+1455   20191455       LL         25.00        bottom EDABEEDEDCCAADEBADDB[0K
+1456   20191456       H\          0.00        bottom ********************[0K
+1457   20191457       MP        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1458   20191458       p         62.50          mean BCEEEECAABCDBEDAACEB[0K
+1459   20191459                25.00[0K[40G[?25h[?25l1459   20191459                25.00        bottom BCDDCABAACBDEADCECBA[0K
+1460   20191460       F          0.00        bottom ********************[0K
+1461   20191461       }        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1462   20191462       L         37.50          rear ECAEEEDAABACCDAAACBB[0K
+1463   20191463                 0.00        bottom ********************[0K
+1464   20191464       au        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1465   2[0K[7G[?25h[?25l1465   20191465                87.50         front ECCDEEDCABCDEEDAACDB[0K
+1466   20191466       x{\         93.75           top BCCDEEDEABCDEEDAAEDB[0K
+1467   20191467                87.50         front BCCDEEDEABCDEEDEACEB[0K
+1468   20191468       {         68.75          mean ECCDEEDEABCDAADADCCB[0K
+1469   20191469       x         48.75          rear BC**EBD***CDEE***CD*[0K
+1470   20191[0K[11G[?25h[?25l1470   20191470       xL         56.25          rear BCBDEEDBADCCEEDCCCDA[0K
+1471   20191471       F         87.50         front BCCDEEDECBCDEEDAACBB[0K
+1472   20191472                56.25          rear ACCBEEDEADCDCEDECCDA[0K
+1473   20191473                87.50         front DCCDEEDEABCDEADAACDB[0K
+1474   20191474       ]LL         87.50         front BCCDEEDEABCDBEDADCDB[0K
+1475   20191475       a         81.25         front ECCDEEDEABCDEDDABCDB[0K
+1476[0K[2G[?25h[?25l1476   20191476       sL         12.50        bottom ***BEABAAC*CEADBDC*A[0K
+1477   20191477                50.00          rear BDBCCEDEDBCDEADBADDB[0K
+1478   20191478       RF         62.50          mean EACDEBDECDCDEDDAACDB[0K
+1479   20191479       g         62.50          mean BCEDEEECCBCAAEDAACDB[0K
+1480   20191480       Lu         62.50          mean BCADEECEABCAEEEAACCC[0K
+1481   20191481       t         62.50          mean BCCDEEDEABCDDDBDEBDB[0K
+1482   20191482       LB         87.50         front DCCDCEDEABCDEEDAACDB[0K
+1483   20191483       v         75.00          mean BCEDEEDEABCDAEDBCCDB[0K
+148[0K[1G[?25h1484   20191484       aG         62.50          mean BCEDEBDDADCDAEDAAADB[0K[?25l
+1485   20191485       \         25.00        bottom BCCDCDDDECCBAEDDBAEC[0K
+1486   20191486       L         55.00          rear BCDDDEEEA*CAE*DAAC**[0K
+1487   20191487       [l         55.00          rear ACAD*ECEABCD**DA*CAB[0K
+1488   20191488       \F         81.25         front BCADEADEBBCDEEDAACDB[0K
+1489   20191489       Xa         87.50         front BCEDEEDEABCDAEDAA[0K[69G[?25h[?25l1489   20191489       Xa         87.50         front BCEDEEDEABCDAEDAACDB[0K
+1490   20191490       La         20.00        bottom AAA**E*CABC**AD*BAEB[0K
+1491   20191491       xxs        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1492   20191492       a         37.50          rear ACADEEDEABDABECADBBC[0K
+1493   20191493                31.25        bottom BCDDEDBEABCECABEBBDD[0K
+1494   20191494       T[         25.00        bottom DCADDEDBCBEADEABAEDA[0K
+1495   20191495[0K[23G[?25h[?25l1495   20191495                75.00          mean EDCDEEDEEBCDEEDAAEDB[0K
+1496   20191496       y         18.75        bottom ADCEAABEBDCCEDDBADDD[0K
+1497   20191497       tL         62.50          mean BBCDEEDCDACDEEDEAEDB[0K
+1498   20191498                56.25          rear ECCDDECCBBCDDCDAACDB[0K
+1499   20191499       Ax         90.00         front B*CDEEDEABC*EEDAACDB[0K
+1500   20191500                72.50          mean B*CDEADE*BCDCEDA*CD[0K[69G[?25h[?25l1500   20191500                72.50          mean B*CDEADE*BCDCEDA*CDB[0K
+1501   20191501       qF         50.00          rear BCCDEEDEBBBCBDDCBCAB[0K
+1502   20191502       \[         62.50          mean BECAEBDEABBDEEDAAEEB[0K
+1503   20191503                68.75          mean BACDEEDEAACBEEDABCEB[0K
+1504   20191504       T         43.75          rear ACCDBCDEBBDADADAACBB[0K
+1505   20191505       tL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1506   20191506       yB^         75.00          mean BCCDEEDEABADEEBEACDC[0K
+1507   2019[0K[8G[?25h[?25l1507   20191507       B         75.00          mean BCCDBEDEAECDEEBAACBB[0K
+1508   20191508       \         68.75          mean ECCDACDECDCDEEDAACDB[0K
+1509   20191509       L          0.00        bottom ********************[0K
+1510   20191510       q         18.75        bottom CEEEEEBDABBDCEBEBBAB[0K
+1511   20191511       U         31.25        bottom ECCADEADBBCDABEABCDE[0K
+1512   20191512       LFL         62.50[0K[44G[?25h[?25l1512   20191512       LFL         62.50          mean CECDAEDBABCDEEBAADDB[0K
+1513   20191513       Py         68.75          mean BCECEBDEABBDEDDAACDB[0K
+1514   20191514       fx         81.25         front BCCBCEDEABADEEDAACDB[0K
+1515   20191515       wF         31.25        bottom ECCCACBCBACDEECDACEB[0K
+1516   20191516                81.25         front ECADEEDEABCEEEDAACDB[0K
+1517   20191517                68.75          mean BACDEDAEABBDEEDBACDB[0K
+1518   20191518       F\[0K[30G[?25h[?25l1518   20191518       F\         75.00          mean BCCDEEDDACDDEBDAACDB[0K
+1519   20191519                18.75        bottom CBAACECEAACABEBAABEA[0K
+1520   20191520       l         37.50          rear BEDEEEEADDCDBBDACCDB[0K
+1521   20191521       X         43.75          rear BCEDECEEABACCDBCACDB[0K
+1522   20191522                75.00          mean BCCADEDEABCDEBDAACCB[0K
+1523   20191523       \a         75.00          mean BCEDEECECBCD[0K[63G[?25h[?25l1523   20191523       \a         75.00          mean BCEDEECECBCDEEDAACDC[0K
+1524   20191524               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1525   20191525                93.75           top BCCDEEDEABCDEEDAAEDB[0K
+1526   20191526       x        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1527   20191527       a         87.50         front BCCDEEDEABCCEEDAAEDB[0K
+1528   20191528       L         75.00          mean BCCDBEDEABCAEEDDACDD[0K
+1529   20191529[0K[20G[?25h[?25l1529   20191529       s^         62.50          mean EECAEEDECBCBCEDAACDB[0K
+1530   20191530       P         62.50          mean CCADDEDBABCDEEBAACDA[0K
+1531   20191531                50.00          rear ACCDCACEACCDBEDACCDE[0K
+1532   20191532                31.25        bottom BBCAAEDEABAAEBEDDDAB[0K
+1533   20191533                43.75          rear BCBDECBDABCDCADCDCEB[0K
+1534   20191534       dm         81.25         front BCCDEEDDABCBEEDAADDB[0K
+1535   20191535       aBL         62.50          mean DCADEDDEABCDAEABACDB[0K
+1536   20191536                93.75           top BCCDEEDEABCDEECAACDB[0K
+1537   20191537                93.75           top BCCDEEDEA[0K[58G[?25h[?25l1537   20191537                93.75           top BCCDEEDEABCDEEDAECDB[0K
+1538   20191538       yT         81.25         front BCCCEBDEABCDEEDAADDB[0K
+1539   20191539       R         62.50          mean CDDDEEDECBCDEEDAACBC[0K
+1540   20191540               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1541   20191541       f         32.50        bottom A*C*EE*EAACEB*DB*E*B[0K
+1542   20191542       |f         68.75          mean BCBAEEAEABABEEDAACDB[0K
+1543   20191543       PL         75.00          mean BCCDEEDEAACDECAAAADB[0K
+1544   20191544       F        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1545[0K[2G[?25h[?25l1545   20191545       _d         68.75          mean BCCDCEDEDBBDEBDAABDB[0K
+1546   20191546       P         25.00        bottom BDCBBEBEDBEDDAEDAABB[0K
+1547   20191547       y         62.50          mean CCCDBBEEABCAEEAAACDB[0K
+1548   20191548       BLu         68.75          mean BCBDEEEEABCBAEDCACDB[0K
+1549   20191549       hLx         75.00          mean BCCDEEDDABADEEEAABDB[0K
+1550   20191550       L         26.25[0K[?25h        bottom CC*EAABEABCA*ED**B**[0K[?25l
+1551   20191551                81.25         front BCCDECDEEBCDEEDABCDB[0K
+1552   20191552       d         42.50          rear **CDEE**AB*E***EA*DB[0K
+1553   20191553                31.25        bottom BCADBADADACDEBDADAED[0K
+1554   20191554       a         46.25          rear BACDEEDEDE**EAEBACBB[0K
+1555   20191555       fx         43.75          rear EDCBEEBEAECEEEDABAAB[0K
+1556   20191556       ^Ft[0K[28G[?25h[?25l1556   20191556       ^Ft         93.75           top BCCDEEDEABCDEEDDACDB[0K
+1557   20191557       Hx         68.75          mean BACAEEDEABCDAEDEAADB[0K
+1558   20191558       q         58.75          rear BCCCCEDEE**DEBAAACDB[0K
+1559   20191559       d^         81.25         front BCCDEEAECBCDEEDBACDB[0K
+1560   20191560       U         12.50        bottom EACDAEDCCBDABAAECADA[0K
+1561   20191561       T         75.00          mean BCCBEEDEABCAEEDEAADB[0K
+156[0K[2G[?25h[?25l1562   20191562       L          5.00        bottom *AC*BBDBC**EDCBDECBB[0K
+1563   20191563                68.75          mean BCDDEEDEBBBDCEDADCDB[0K
+1564   20191564       p         75.00          mean CCCDBEDEABCDEEDCACDD[0K
+1565   20191565       f_         75.00          mean BCEDEEDEABCDADDAACBB[0K
+1566   20191566       y         31.25        bottom EDACAEBEEBBAEEBADCDB[0K
+1567   20191567       G[0K[30G[?25h[?25l1567   20191567       G         37.50          rear BECDEBDEEBDBABDEABCB[0K
+1568   20191568       I         75.00          mean ECCDEBEEABEDEEDAACDB[0K
+1569   20191569       M         50.00          rear BCCEBEDCAEEDEEDEACCD[0K
+1570   20191570       u        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1571   20191571                40.00          rear B*CC*ABE*B*DE*D**CDD[0K
+1572   20191572       _        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1573   20191573[0K[19G[?25h[?25l1573   20191573                81.25         front BCCDEEDCDBCDEEAAACDB[0K
+1574   20191574       @l         62.50          mean BCCDDADEAACDEEAAADDD[0K
+1575   20191575                38.75          rear DC*D*EAEABCCE**D*CC*[0K
+1576   20191576       T         25.00        bottom CABAEEDBBAEAEEDADEDE[0K
+1577   20191577       LG         62.50          mean BECECEDEAADDEEDAADDB[0K
+1578   20191578       I         95.00           top BCCDEEDE*BCDEEDAACDB[0K
+1579   20191579                87.50         front BCCDEEDEABCDEEBEACDB[0K
+1580   20191580                37.50          rear ECEDDAAAEBCDEEEEACDD[0K
+1581[0K[6G[?25h[?25l1581   20191581                75.00          mean BCCDEEDEEBCEEEDCACAB[0K
+1582   20191582       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1583   20191583       TLa         22.50        bottom *****A*BABDDE*DC*CAA[0K
+1584   20191584       v{         43.75          rear ACCCEECEDEEDECDBACDD[0K
+1585   20191585       @         93.75           top BCCDEEDEABCDBEDAACDB[0K
+1586   20191586[0K[15G[?25h[?25l1586   20191586       ]g         31.25        bottom BCCBEACEBEEBDEECACDC[0K
+1587   20191587                87.50         front DCCDEEDEABCDEEDAACDA[0K
+1588   20191588       vF         87.50         front BCCDEECEABCCEEDAACDB[0K
+1589   20191589       tf        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1590   20191590       w        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1591   20191591       sFa         81.25         front BCCDEECEABCDEBAAACDB[0K
+1592   20191592[0K[?25h       ]         68.75          mean BBCDCEDEAECDEEAAADDB[0K[?25l
+1593   20191593       _\         18.75        bottom BEDEBADDEBADAEDEDDCB[0K
+1594   20191594       O         31.25        bottom BCACEEABADABEECACDDC[0K
+1595   20191595                 0.00        bottom ********************[0K
+1596   20191596       O         75.00          mean DCDDEEDEACCDECDAACDB[0K
+1597   20191597       h         12.50        bottom DCCBCCDAEDBACBABABDB[0K[?25h[?25l
+1598   20191598       \~         43.75          rear BCCDEEADABAACEEEBCDD[0K
+1599   20191599       a         25.00        bottom CACDBEAAAEEEBAEAAEDB[0K
+1600   20191600       xLI         68.75          mean EACDEEDEABCAEDDADCDB[0K
+1601   20191601       p         43.75          rear ACADEEAEABCCECBADADC[0K
+1602   20191602       ]x         87.50         front BCCDEDDEABCDEECAACDB[0K
+1603   20191603       LG         25.00        bottom AACAEADADCCABEDCECDC[0K
+1604   20191604                87.50         front ECCDEEDEABCDEEDABCDB[0K
+1605   20191605       d         43.75          rear BCBDCEBEEDCCEDDABCCB[0K
+1606   20191606       sL         75[0K[33G[?25h[?25l1606   20191606       sL         75.00          mean BCCDEEDDBBCDDDDAACDB[0K
+1607   20191607                68.75          mean BCDDCECEABCDDEDBACDB[0K
+1608   20191608       as         23.75        bottom E*DDEBAEBB**DED*DCBE[0K
+1609   20191609       M        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1610   20191610       L         25.00        bottom ECBABEACEBCBEEAEABBB[0K
+1611   20191611                81.25         front BCCDEBDEABCDEEBADCDB[0K
+1612   20191612       T         81.25         front BCCDEEDEABCDDEDCDCDB[0K
+1613   20191613       xL         68.75          mean BCDDEEBEAACDEBDAADDB[0K
+1614   20191614       P         75.00          mean BCCDEDDEDBCDECDAADDB[0K
+1615   20191615       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1616   20191616                81.25         front BACDEEDAAECDEEDAACDB[0K
+1617   20191617       u[0K[?25h^         75.00          mean EBADEEDEABCDEEDEACDB[0K[?25l
+1618   20191618                81.25         front BCCDEECEABCDEEDABCDC[0K
+1619   20191619       y         62.50          mean CCCDEDDBABCDEEDBABDD[0K
+1620   20191620       |l         31.25        bottom CBCDEEEEAACBDADBAABD[0K
+1621   20191621       u         56.25          rear BCCDBEACEBADDEDAACCB[0K
+1622   20191622       }X        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1623   2[0K[6G[?25h[?25l1623   20191623       F         62.50          mean ECCDDEDEABCAEEDEADEB[0K
+1624   20191624       a         68.75          mean BCDDEEDBABCDEEDABCAE[0K
+1625   20191625       H         87.50         front BCCDEEDACBCDEEDAACDB[0K
+1626   20191626                75.00          mean BCCDEBDEABADEEDADCEB[0K
+1627   20191627       qH\        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1628   20191628                37.50[0K[42G[?25h[?25l1628   20191628                37.50          rear ACCBBEBEAEADEEBBACAC[0K
+1629   20191629       xs        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1630   20191630       LM        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1631   20191631       Yw         56.25          rear BBCDEECEABCCEBAEACAB[0K
+1632   20191632       l         31.25        bottom BCEEBEABBDADEBECACDB[0K
+1633   20191633       L         31.25        bottom EDDDEEDCEBEDEECDAEBE[0K
+1634   20191634[0K[?25h                62.50          mean ACADEEDEABBDEBCACCDB[0K[?25l
+1635   20191635       ]\         62.50          mean BEDDEEAEABCDBADAADDB[0K
+1636   20191636       x        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1637   20191637                62.50          mean BCBEEEDEAECDEEDBBEDB[0K
+1638   20191638       M         68.75          mean BCECEEDBACCDEDDAACDB[0K
+1639   20191639       v         87.50         front BCCAEEDEABCCEEDAACDB[0K
+1640   20191640                47.50          rear BECD*E*EDBCBEDDC*EDB[0K
+1641   20191641               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1642   20191642                 0.00[0K[35G[?25h[?25l1642   20191642                 0.00        bottom ********************[0K
+1643   20191643       Lv         81.25         front BCCDEEDEACCDEEAACCDB[0K
+1644   20191644                 0.00        bottom ********************[0K
+1645   20191645       as        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1646   20191646       aH         68.75          mean BCCDAADDABCEEEDCACDB[0K
+1647   20191647                37.50          rear BCEDEEAAABCB[0K[61G[?25h[?25l1647   20191647                37.50          rear BCEDEEAAABCBCABBAECB[0K
+1648   20191648       yLM         87.50         front BCCDEEAEABCDAEDAACDB[0K
+1649   20191649       t         31.25        bottom AEEDEEDBDEACBDDDACDB[0K
+1650   20191650       L         37.50          rear BBCDECDECBDDCCBDCEDB[0K
+1651   20191651                31.25        bottom DCEDECBEDDBDAEEEACAB[0K
+1652   20191652       u         43.75          rear BDBBEEEDEBCDEECCACDD[0K
+1653   20191653       L         50.00          rear CCCDEEDEDBCCBDDADAAB[0K
+1654   20191654       a         50.00          rear ECCDDDDEDBCAEEDAEDDC[0K
+1655   20191655                25.00        bottom DEAAEADDDBCCEDCAACCC[0K
+1656   20191656       B          0.00        bottom ********************[0K
+1657   20191657       l         81.25         fro[0K[47G[?25h[?25l1657   20191657       l         81.25         front BACDEEDEABCDEEDDACCB[0K
+1658   20191658       L         75.00          mean BCCCEEBEEBCBEEDAACDB[0K
+1659   20191659       ws         43.75          rear CCCCDEEEACCDEADAEBDE[0K
+1660   20191660                75.00          mean ACCDEEDECDCDEEDAACCB[0K
+1661   20191661       f|         62.50          mean BCCDEABEADEDEEAEACDB[0K
+1662   20191662[0K[19G[?25h[?25l1662   20191662                87.50         front BCCDEEDBABCDEEDBACDB[0K
+1663   20191663       y          0.00        bottom ********************[0K
+1664   20191664       g         37.50          rear BCBCCEBBDECCEEDCACEB[0K
+1665   20191665                87.50         front BCCDEADEABCDEEDABCDB[0K
+1666   20191666       M         43.75          rear CCCCBEDEABCADDDEECDE[0K
+1667   20191667       q         41.25          rear *DCDB*DC*BCEEEEBBCDB[0K
+1668   201[0K[9G[?25h[?25l1668   20191668       l         37.50          rear DBAAEEDBABBEEEDBACAD[0K
+1669   20191669                18.75        bottom BBABBADEDBCCEBEDCDEB[0K
+1670   20191670       y         75.00          mean BDCDEEDCABCDEEDAECCB[0K
+1671   20191671       s         62.50          mean BCADDEBBABCBEEDAACDD[0K
+1672   20191672       l         62.50          mean BCCDEE*EACCDE****BDB[0K
+1673   20191673       a         87.50         front BCCDEECEABCDEEEAACDB[0K
+1674[0K[2G[?25h[?25l1674   20191674       h         12.50        bottom DECDEDABAEAEBEACCBBB[0K
+1675   20191675       }         62.50          mean BCEDEDDEBBCDDCDAAEDB[0K
+1676   20191676       _f         75.00          mean BCCDEEDEABCDECACACDC[0K
+1677   20191677               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1678   20191678       LX          0.00        bottom ********************[0K
+1679   20191679[0K[19G[?25h[?25l1679   20191679       ]          0.00        bottom ********************[0K
+1680   20191680       y\        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1681   20191681                87.50         front CCCDEEDEADCDEEDAACDB[0K
+1682   20191682       |         28.75        bottom BC*DBC*A*CCBEBAADBDB[0K
+1683   20191683       o         75.00          mean BCDDEADEDBCDEEDADCDB[0K
+1684   201916[0K[12G[?25h[?25l1684   20191684       FM         70.00          mean CCADCEDEABCD*EEAACDB[0K
+1685   20191685       @|         37.50          rear ADCDEADEEECDEAEABEDA[0K
+1686   20191686                37.50          rear EDEAEDDECBCDEEACAEAB[0K
+1687   20191687       QHL        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1688   20191688                75.00          mean BCCDCEAEABCEEEDAACDA[0K
+1689   20191689       L|         43.75          rear DCCDDEDCDBEDEBBAACEA[0K
+1690   20191690       vd         37.50          rear BCDAECDEDEADCEDADADE[0K[72G[?25h[?25l
+1691   20191691       }         75.00          mean BCCDEADEABADBEDAAEDB[0K
+1692   20191692       t         87.50         front BCEDEEDEABCDDEDAACDB[0K
+1693   20191693       |d        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1694   20191694       w         18.75        bottom ECDEEDDEDEAEEABBBCCB[0K
+1695   20191695                37.50          rear BCDDEECEACAACDACACDC[0K
+1696   20191696       lH        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1697   20191697       \La         87.50         front BCCDEADEA[0K[62G[?25h[?25l1697   20191697       \La         87.50         front BCCDEADEABEDEEDAACDB[0K
+1698   20191698       s         75.00          mean ACCBEEDEABCCEECAACDB[0K
+1699   20191699       _         62.50          mean BCCBDEEEABCDEBCAAEDB[0K
+1700   20191700       @al         75.00          mean BCCCEEDECBCDBEDAABDB[0K
+1701   20191701       @Q         72.50          mean BECDEEEEABCDE*D*AC*B[0K
+1702   20191702                43.75          rear BCCCEEEECBEC[0K[61G[?25h[?25l1702   20191702                43.75          rear BCCCEEEECBECEDDACCEC[0K
+1703   20191703       xL         68.75          mean BCDDBEDEABCDBEEAACDA[0K
+1704   20191704       y         68.75          mean BCADEEDAABCDDEDAACBA[0K
+1705   20191705       [         75.00          mean CCCDEEBEADCBEEDAACDB[0K
+1706   20191706       o        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1707   20191707       EL         68.75          mean BCCDEEDEEBCDEEDAEBCC[0K
+1708   20191708[0K[23G[?25h[?25l1708   20191708                81.25         front BDCDEEDBABCDEBDAACDB[0K
+1709   20191709                 0.00        bottom ********************[0K
+1710   20191710       d@         37.50          rear EBADEEAEADDBAEEEACDB[0K
+1711   20191711               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1712   20191712       H         46.25          rear ACC**ED*BB*DE*DA*A*B[0K
+1713   20191713       ft         68.75          mean BBCBEEDEABADEEAACCDB[0K
+1714   20191714       o         50.00          rear BACDEECECBCECECAAAEB[0K
+1715   20191715       Py        100.00[0K[47G[?25h[?25l1715   20191715       Py        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1716   20191716       s         31.25        bottom ECCEBDBDABCABCDACBDB[0K
+1717   20191717       L         31.25        bottom BDEBCBDEDBCDDEEBECDD[0K
+1718   20191718                25.00        bottom BCCDBACDECEDEDDDBEDA[0K
+1719   20191719       Fl         81.25         front BCCDEEDEABADCEDACCDB[0K
+1720   20191720       FL[0K[23G[?25h[?25l1720   20191720       FLa         93.75           top BCCDAEDEABCDEEDAACDB[0K
+1721   20191721       l         77.50          mean BCE*EEDEABCDEEDAA*EB[0K
+1722   20191722                87.50         front BCCDCCDEABCDEEDAACDB[0K
+1723   20191723       AlB        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1724   20191724       x         75.00          mean BECDEDDEABCDEBBAACDB[0K
+1725   20191725       B         75.00[0K[39G[?25h[?25l1725   20191725       B         75.00          mean BBCEEECEABCDEEDAACAB[0K
+1726   20191726       PL          0.00        bottom ********************[0K
+1727   20191727                50.00          rear ACEDAADAEBCDDCDAACDB[0K
+1728   20191728       B         75.00          mean BCDDEEDEABCBEEDAECAB[0K
+1729   20191729       ]@m         68.75          mean BCBCECDEABCDEADCACDB[0K
+1730   20191730       @          0.00        bottom ********************[0K
+1731[0K[4G[?25h[?25l1731   20191731       \        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1732   20191732       Q         87.50         front BCADEEDEABCDEEDAACDE[0K
+1733   20191733       a         25.00        bottom EC*ECA**A*C*AEDAAAAA[0K
+1734   20191734       L         75.00          mean BDCDEEDEAACDEEDAAADE[0K
+1735   20191735       i         31.25        bottom DC[0K[53G[?25h[?25l1735   20191735       i         31.25        bottom DCDCEDBDBCBDEEDAACCC[0K
+1736   20191736                75.00          mean BCCDEEAEACCEEEBAACDB[0K
+1737   20191737       \         62.50          mean ACCEBEDEABCCEDDEACDB[0K
+1738   20191738       v         68.75          mean BCCDEADEABBDEADAECBB[0K
+1739   20191739       ^F         75.00          mean BC*DEE**AB*DEE*AACDB[0K
+1740   20191740       tL          0.00        bottom ********************[0K
+1741   20191741       T[[0K[24G[?25h[?25l1741   20191741       T[          0.00        bottom ********************[0K
+1742   20191742       B         87.50         front BCBDEEDEABCEEEDAACDB[0K
+1743   20191743       \         37.50          rear ACCDDDDADBBDECEEECDB[0K
+1744   20191744                93.75           top BCCEEEDEABCDEEDAACDB[0K
+1745   20191745       Ft         37.50          rear BCCDCAABBDBDEDBAACEB[0K
+[0K[?25h1746   20191746       aY         87.50         front BBCDEEDAABCDEEDAACDB[0K[?25l
+1747   20191747       sL         62.50          mean BCCAEEAEABCCCEDDACCB[0K
+1748   20191748                43.75          rear AEDEEECEABCDEBDABDDA[0K
+1749   20191749       l         32.50        bottom *B*B*EDEB*CDEC*BAC*D[0K
+1750   20191750       a         68.75          mean BCCDDEDEA[0K[60G[?25h[?25l1750   20191750       a         68.75          mean BCCDDEDEABCBEEBAAAEB[0K
+1751   20191751       fy         57.50          rear BCEBECDEEBCDEEDAB*DD[0K
+1752   20191752       \         93.75           top BCCDEEDEABCDEEAAACDB[0K
+1753   20191753       a         75.00          mean DCCDEEDDABCDEEBAACBB[0K
+1754   20191754       \a         77.50          mean B*CAEEDEDB*DEEDAACDB[0K
+1755   20191755       [s         37.50          rear CCADEEBBCEDEEEEAACDD[0K
+1756   20191756       AG         18.7[0K[35G[?25h[?25l1756   20191756       AG         18.75        bottom BDDDEAEBACDCABDCECCB[0K
+1757   20191757       LM\         62.50          mean BCADEDDEADCDEEBEDCDB[0K
+1758   20191758       |         31.25        bottom CBCEBABEABCCCADAECDA[0K
+1759   20191759       p         56.25          rear BDDDCEDEABBDEEDACBDA[0K
+1760   20191760       LgL         50.00          rear BCDDEDBEAADAEEBAACBB[0K
+1761   20191761       H          0.00        bottom ********************[0K
+1762   20191762[0K[23G[?25h[?25l1762   20191762                31.25        bottom EBCDDDBEBBEDDEEAECDD[0K
+1763   20191763                87.50         front BCCDEECEABCDEEDBACDB[0K
+1764   20191764       Ha         68.75          mean BCEDEEDDABADEEDCACEB[0K
+1765   20191765       I         43.75          rear CCCDEEDBABAEAECADCBC[0K
+1766   20191766                62.50          mean BEBDCEDAABCDBEEAACDB[0K
+1767   20191[0K[11G[?25h[?25l1767   20191767       G        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1768   20191768                75.00          mean BCAEEEDEABCAEEDAACDE[0K
+1769   20191769       |         75.00          mean BCCDEDEEABCEAEDAACDB[0K
+1770   20191770                68.75          mean BBBDEEDEABCDEAABACDB[0K
+1771   20191771[0K[23G[?25h[?25l1771   20191771       x         87.50         front BCCDEEBEABCDAEDAACDB[0K
+1772   20191772       xdf         43.75          rear BCDDABDEACBCEAEAAADB[0K
+1773   20191773       wFM         68.75          mean BCCDEEDCABCBEDCABCDB[0K
+1774   20191774       a        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1775   20191775       |         68.75          mean BCCBAEBEBDCDEEDAACDB[0K
+1776   20191776       LGa        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1777   20191777                93.75           top BCCDEEBEABCDEEDAACDB[0K
+1778   20191778       w}         81.25         front BCCDEBDEABCEEEDAACEB[0K
+1779   20191779[0K[21G[?25h[?25l1779   20191779       m         25.00        bottom DABDCADAEBDDBAADACDB[0K
+1780   20191780       {x         31.25        bottom ACEDEACEDCCEEAECCCDB[0K
+1781   20191781       iv         68.75          mean BCCEEEDEBACDBEBAACDB[0K
+1782   20191782       \|         80.00          mean BCCDE*DEABCDEEDA***B[0K
+1783   20191783       F         68.75          mean BCCDEEBAACCDCECAACDB[0K
+1784   20191784       x|         62.50          mean **CDEED**ECDEE*AAC[0K[69G[?25h[?25l1784   20191784       x|         62.50          mean **CDEED**ECDEE*AACCB[0K
+1785   20191785       YL         25.00        bottom ABCEAEACCDCEEEDEADEB[0K
+1786   20191786       sP         81.25         front BDCAEEDEAACDEEDAACDB[0K
+1787   20191787               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1788   20191788       ]         87.50         front BCCDDEDEABCDEADAACDB[0K
+1789   20191789       mq         37.50          rear EACDEEADADCEEEECEDDB[0K
+1790   20191790       t         56.25          rear BCEAEEDECDCAEEDCBCDB[0K
+1791   20191791       F         93.[0K[?25h75           top BCCDEEDEABCAEEDAACDB[0K[?25l
+1792   20191792       lT         81.25         front BCCDEEDEAECBEEDAADDB[0K
+1793   20191793       aPL         75.00          mean BACDEADECBCDEEDDACDB[0K
+1794   20191794       m|         37.50          rear DBCDBADEABCDEBBEBABB[0K
+1795   20191795               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1796[0K[4G[?25h[?25l1796   20191796       }F         43.75          rear BECDEEBBABEDCCCADCCB[0K
+1797   20191797       |          0.00        bottom ********************[0K
+1798   20191798       l         81.25         front BECAEEDEABCDEEDACCDB[0K
+1799   20191799                37.50          rear BCACEDDDAECEAEDDBCDE[0K
+1800   20191800       aL         81.25         front BCDDEECEAACDEEDAACDB[0K
+1801   20191801       m         46.25          rear BDCDEABEA*CDEAD*DDDE[0K
+1802   20191802[0K[19G[?25h[?25l1802   20191802       }\         62.50          mean BECBEEDEBCADEEDBACDB[0K
+1803   20191803       |         75.00          mean BCCAEEDECBEDCEDAACDB[0K
+1804   20191804       B         81.25         front ECCDEEDEABBDEECAACDB[0K
+1805   20191805       Qx         31.25        bottom BABDABAEBBCDEDCACBDE[0K
+1806   20191806       y        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1807   20191807       RM[0K[23G[?25h[?25l1807   20191807       RM         62.50          mean BCCEEEDEAEDBEEDAABAB[0K
+1808   20191808       dx         75.00          mean BEADEEDEABCDABDAACDB[0K
+1809   20191809       L         37.50          rear CDCDADCAABCCEBCCACDB[0K
+1810   20191810       LL         31.25        bottom BCCDECBCDBBACBEEACEB[0K
+1811   20191811       fy         12.50        bottom EBABEDBCAEADEADBBDEB[0K
+1812   20191812       L         68.75          mea[0K[49G[?25h[?25l1812   20191812       L         68.75          mean BCCDDDAEDBCDEEDAECDB[0K
+1813   20191813                18.75        bottom EDBDBDBAAACADEAAAECB[0K
+1814   20191814                75.00          mean BCCDCEDEABCDBDDAACBB[0K
+1815   20191815               100.00           top BCCDEEDEABCDEEDAACDB[0K
+1816   20191816       _[         87.50         front ECCDEEDEABCDEEDEACDB[0K
+1817   20191817                 0.00        bottom ********************[0K
+1818   20191818       Px[0K[23G[?25h[?25l1818   20191818       Px         87.50         front BCCDAEDEABCDEEDDACDB[0K
+1819   20191819       BG         75.00          mean BCCDBBCEABDDEEDAACDB[0K
+1820   20191820       LP         93.75           top BCCDEEDEABCDEEDAACDC[0K
+1821   20191821       wl         31.25        bottom EACDEBBEBACAAEBAACBA[0K
+1822   20191822                87.50         front BCCDEEDEABCDEEAACCDB[0K
+1823   20191823       a          0.00        bottom ********************[0K
+1824   20191824       @         50.00          rear BCCDAEDCEACDBAAAACCB[0K
+1825   20191825                93.75           top BCCEEEDEABCDEEDAACDB[0K
+1826   20191826       R          0.00        bottom ********************[0K
+1827   20191827                68.75          mean CCCDEEDEABBECEDCACDB[0K[70G[?25h[?25l
+1828   20191828       AL         25.00        bottom DECEEBCEBEBEEEEBADDB[0K
+1829   20191829       \          0.00        bottom ********************[0K
+1830   20191830       dxM         75.00          mean BCCDECDEADCDEEDAAEAB[0K
+1831   20191831       a         81.25         front BCCDAEDEBCCDEEDAACDB[0K
+1832   20191832       d         68.75          mean DBCDEEECABCDEBDAACDB[0K
+1833   20191833       pL         50.00          rear BDCEEADEAADDAEBAAADB[0K
+1834   20191834                25.00        bottom CCCDEEDBEEDDBAEBCEEB[0K
+1835   20191835[0K[15G[?25h[?25l1835   20191835       L         87.50         front BCCDEEDEABCDEBDCACDB[0K
+1836   20191836       a         62.50          mean CCDDDEDAABCDCEDADCDB[0K
+1837   20191837       L        100.00           top BCCDEEDEABCDEEDAACDB[0K
+1838   20191838       hL         62.50          mean BCCBEDEEACEDEEDAABDB[0K
+1839   20191839       \         62.50          mean BCCDEADCABCBECDADCBB[0K
+1840   20191840       a         37.50          rea[0K[49G[?25h[?25l1840   20191840       a         37.50          rear CCDDBEBEECCDEDDAABBA[0K
+1841   20191841       L         75.00          mean BCCDEEDEAACDEEEDACDA[0K
+1842   20191842       s         37.50          rear BCBEDCCCACCEEBDAACAB[0K
+1843   20191843                68.75          mean DCDDEEDEBBEDEEDAACBB[0K
+1844   20191844       ts         56.25          rear DCCDEEBCCBDDEEDCBCDB[0K
+1845   20191845       sa         81.25         front BBCDEECEABCDEEDAACCB[0K
+1846   2[0K[6G[?25h[?25l1846   20191846       a         37.50          rear CACDBADCAECBEEDAADCD[0K
+1847   20191847       L         37.50          rear BACCEEDEAABCCDAACBDB[0K
+1848   20191848       v         75.00          mean BCBDEECEABADEECAACDB[0K
+1849   20191849                43.75          rear BDCCCEDEADDDDCDAEDDB[0K
+1850   20191850       \Q         93.75           top BCCDEEDEABCDEEDAACEB[0K
+1851   20191851                18.75        bottom AB**B*AEDDCEEE**DEDB[0K
+1852   20191852       T          0.00        bottom ********************[0K
+1853   20191853[0K[?25h       ]         93.75           top CCCDEEDEABCDEEDAACDB[0K[?25l
+1854   20191854       @\         25.00        bottom DECDCAADDBCCBEEAACCD[0K
+1855   20191855                50.00          rear BCAAEADEABCDEEEEDBBB[0K
+1856   20191856       }         81.25         front BCEDDEDBABCDEEDAACDB[0K
+1857   20191857       Q|         93.75           top BCCDEEDEAACDEEDAACDB[0K
+1858[0K[?25h]0;    20191858       s        100.00           top BCCDEEDEABCDEEDAACDB[0K[?25l
 [0K
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25h[?25l
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25hs[0Ke[0Kt[0K[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript tse[0K[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript ts[0K[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K]0;  - Rscript  test.R[?25l
+[0K[?25h# tmcn Version: 0.2-12[0K[?25l
+Read[0K[3G[?25h[?25lRead 1 item[0K
+Read 1858 items[0K
+[0K[?25h]0; [?25l
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25h[48G[47G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>R[0K[?25hs[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K[?25l
+[0K[?25h]0;  - Rscript  test.R# tmcn Version: 0.2-12[0K[?25l
+Read 1 item[0K
+[0K[?25hRead 1858 items[0K[?25l
+[0K[?25h]0; [?25l
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kst[0K[56G[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscrips[0K[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscrip[0K[?25ht[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25hes[0Kt[0K,[0KR[0K[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript test,[0K[?25h[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript test[0K[?25h.[0KR[0K]0;  - Rscript  test.R[?25l
+[0K[?25h# tmcn Version: 0.2-12[0K[?25l
+[0K[?25hRead 1 item[0K[?25l
+Read 1858 items[0K
+[0K[?25hError in is.data.frame(x) :[0K[29G]0; [?25lError in is.data.frame(x) :  'students'[0K
+Calls: main ... eval.parent -> eval -> eval -> write.table -> is.data.frame[0K
+[0K
+[0K
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K]0;  - Rscript  test.R[?25l
+[0K[?25h# tmcn Version: 0.2-12[0K[?25l
+[0K[?25hRead 1 item[0K[?25l
+Read 1858 items[0K
+[0K[?25hError in is.data.frame(x) :  'students'[0K[?25l
+Calls: main ... eval.parent -> eval -> eval -> wri[0K[48G[?25h]0; [?25lCalls: main ... eval.parent -> eval -> eval -> write.table -> is.data.frame[0K
+[0K
+[0K
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hs[0K[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K]0;  - Rscript  test.R[?25l
+[0K[?25h[?25l# tmcn[0K[5G[?25h[?25l# tmcn Version: 0.2-12[0K
+[0K[?25hRead 1 item[0K[?25l
+Read 1858 items[0K
 [0K[?25h]0; [?25l
 C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0Ks[0Kc[0Kr[0Ki[0Kp[0Kt[0K[55G[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>Rscript t[0K[?25he[0Ks[0Kt[0K.[0KR[0K]0;  - Rscript  test.R[?25l
-[0K[?25h]0; # tmcn Version: 0.2-12[0K[?25l
-Read 2 items[0K
-[1] "20190001_QBCCDEEDEABCD*EDAACDB" "20190002LDCCDEEDAABCDEDDA[0KA
-CDB"[0K
-[0K
+[0K[?25h# tmcn Version: 0.2-12[0K[?25l
+[0K[?25hRead 1 item[0K[?25l
+[0K[?25hRead 1858 items[0K[?25l
+[0K[?25h]0; [?25l
 C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25h
