@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3352056985",
+    "hash" : "675562968",
     "id" : "BC2536CA",
-    "lastKnownWriteTime" : 1551455040,
-    "last_content_update" : 1551455040417,
+    "lastKnownWriteTime" : 1551718020,
+    "last_content_update" : 1551718020146,
     "path" : "~/GitHub/R_project/hw3/sql.R",
     "project_path" : "sql.R",
     "properties" : {
-        "cursorPosition" : "8,11",
+        "cursorPosition" : "14,1",
         "scrollLine" : "0"
     },
     "relative_order" : 2,
