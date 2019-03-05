@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551776252360.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E812C5A",
+    "lastKnownWriteTime" : 1551781959,
+    "last_content_update" : 1551781959057,
+    "path" : "~/GitHub/R_project/hw3/sql.R",
+    "project_path" : "sql.R",
+    "properties" : {
+        "cursorPosition" : "14,19",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
