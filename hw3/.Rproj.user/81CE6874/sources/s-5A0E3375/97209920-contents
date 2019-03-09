@@ -1,0 +1,7 @@
+server <- function(input, output) {
+  output$number.selected <- renderText(
+    {
+      input$income.levels
+    }
+  )
+}

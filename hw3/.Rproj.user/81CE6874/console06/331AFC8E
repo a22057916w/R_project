@@ -62,4 +62,9 @@ Attempting to load the environment 'package:tmcn'[0K
 [0K
 The downloaded binary packages are in[0K
         C:\Users\Willy\AppData\Local\Temp\Rtmp4izQnP\downloaded_packages[0K
+>[0K[3G[?25h[?25l> R[0K[?25h[?25l
+~:  'R'[0K
+>[0K[3G[?25h[?25l
+[0K[?25h>[0K[3G[?25l> s[0K[?25hh[0Ki[0Kn[0Ky[0K([0K[?25l> shiny[0K[?25hA[0Kp[0Kp[0K([0Ku[0Ki[0K=[0Ku[0Ki[0K,[0K[19G[?25l> shinyApp(ui=ui, s[0K[?25he[0Kr[0Kv[0Ke[0Kr[0K=[0Ks[0Ke[0Kr[0Kv[0Ke[0Kr[0K)[0K[?25l
+Error in shinyApp(ui = ui, server = server) : So "shinyApp"[0K
 >[0K[3G[?25h
