@@ -4,10 +4,10 @@
 C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0K]0;  - R[?25l
 [0K[?25h]0;Rterm (64-bit)[?25l
 R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"[0K
-Copyright (C) 2018 The R Foundation for Statistical Computing[0K
+Copyr[0K[4G[?25h[?25lCopyright (C) 2018 The R Foundation for Statistical Computing[0K
 Platform: x86_64-w64-mingw32/x64 (64-bit)[0K
 [0K
-[0K[?25hR OKOnAOC[0K[?25l
+R OKOnAOC[0K
 bYUziHNC[0K
  'license()'  'licence()' oC[0K
 [0K
@@ -15,31 +15,51 @@ R OX@pA\hHXF^mC[0K
  'contributors()' pB[0K
  'citation()' |iDzpbX~Ta R  R MC[0K
 [0K
- 'demo()' @d{A 'help()' uWUA[0K
+ 'demo()' @d{A 'help()' uWU[0K[27G[?25h[?25l 'demo()' @d{A 'help()' uWUA[0K
  'help.start()' zL HTML sUC[0K
  'q()' } RC[0K
 [0K
-[0K[?25hAttempting to load the environment 'package:tmcn'[0K[?25l
+Attempting to load the environment 'package:tmcn'[0K
 [0K[?25h# tmcn Version: 0.2-12[0K[?25l
 [Previously saved workspace restored][0K
 [0K
-[0K[?25h>[0K[3G[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0KR[0K[?25l> install.packages([0K[?25h"[0KR[0KM[0Ky[0Ks[0KS[0K[?25l> install.packages("RMys[0K[?25h[?25l> install.packages("RMy[0K[?25hS[0KQ[0K[?25lL[0K[26G[?25h[27G[?25l> install.packages("RMySQL"[0K[?25h[?25l)[0K[28G[?25h[29G[?25l
-Installing package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K
+[0K[?25h>[0K[3G[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ke[0Ka[0K[?25l> install.packe[0K[?25h[?25l> install.pack[0K[?25ha[0Kg[0Ke[0Ks[0K([0K"[0Kd[0K[?25l> install.packages("[0K[?25hd[0K[?25l> install.packages("[0K[?25hs[0Kh[0Ki[0Kn[0Ky[0K"[0K([0K[?25l> install.packages("shiny"[0K[?25h[?25l)[0K[27G[?25h[28G[?25l
+[0K[?25hInstalling package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K[?25l
 (as 'lib' is unspecified)[0K
 --- Please select a CRAN mirror for use in this session ---[0K
-[0K[?25halso installing the dependency 'DBI'[0K[?25l
+[0K[?25halso installing the dependencies 'httpuv', 'xtable', 'sourcetools', 'later', 'promises'[0K[?25l
 [0K
-[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/DBI_1.0.0.zip'[0K[?25l
-[0K[?25hContent type 'application/zip' length 889184 bytes (868 KB)[0K[?25l
-[0K[?25hdownloaded 868 KB[0K[?25l
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/httpuv_1.4.5.1.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 1186488 bytes (1.1 MB)[0K[?25l
+[0K[?25hdownloaded 1.1 MB[0K[?25l
 [0K
-[0K[?25h[?25l URL 'https://mirror-hk.koddos.net/CRAN/bin/windo[0K[48G[?25h[?25l URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/RMySQL_0.10.16.zip'[0K
-[0K[?25h[?25lContent type 'application/zip' le[0K[32G[?25h[?25lContent type 'application/zip' length 3199669 bytes (3.1 MB)[0K
-[0K[?25hdownloaded 3.1 MB[0K[?25l
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/xtable_1.8-3.zip'[0K[?25l
+[0K[?25h[?25lConten[0K[5G[?25h[?25lContent type 'application/zip' length 755796 bytes (738 KB)[0K
+[0K[?25h[?25ldownloaded 738 KB[0K[16G[?25h[?25l
 [0K
-[0K[?25hpackage 'DBI' successfully unpacked and MD5 sums checked[0K[?25l
-[0K[?25hpackage 'RMySQL' successfully unpacked and MD5 sums checked[0K[?25l
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/sourcetools_0.1.7.zip'[0K
+[0K[?25hContent type 'application/zip' length 530452 bytes (518 KB)[0K[?25l
+[0K[?25hdownloaded 518 KB[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/later_0.8.0.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 610611 bytes (596 KB)[0K[?25l
+[0K[?25hdownloaded 596 KB[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/promises_1.0.1.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 695302 bytes (679 KB)[0K[?25l
+[0K[?25hdownloaded 679 KB[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/shiny_1.2.0.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 4567781 bytes (4.4 MB)[0K[?25l
+[0K[?25hdownloaded 4.4 MB[0K[?25l
+[0K
+[0K[?25hpackage 'httpuv' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'xtable' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25h[?25lpac[0K[2G[?25h[?25lpackage 'sourcetools' successfully unpacked and MD5 sums checked[0K
+[0K[?25hpackage 'later' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25h[?25lpackage 'promises'[0K[17G[?25h[?25lpackage 'promises' successfully unpacked and MD5 sums checked[0K
+[0K[?25h[?25lpackage 'shiny' successfully unpacked and MD5 sums che[0K[53G[?25h[?25lpackage 'shiny' successfully unpacked and MD5 sums checked[0K
 [0K
 The downloaded binary packages are in[0K
-        C:\Users\Willy\AppData\Local\Temp\RtmpotOKYu\downl[0K[56G[?25h[?25l        C:\Users\Willy\AppData\Local\Temp\RtmpotOKYu\downloaded_packages[0K
+        C:\Users\Willy\AppData\Local\Temp\Rtmp4izQnP\downloaded_packages[0K
 >[0K[3G[?25h
