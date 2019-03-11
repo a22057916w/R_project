@@ -1,13 +1,13 @@
 [0mMicrosoft Windows [Version 10.0.17134.590][0K[?25l
 (c) 2018 Microsoft Corporation. All rights reserved.[0K
 [0K
-C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0K]0;  - R[?25l
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hr[0K[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0K]0;  - R[?25l
 [0K[?25h]0;Rterm (64-bit)[?25l
-R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"[0K
-Copyright (C) 2018 The R Foundation for Statistical Computing[0K
-Platform: x86_64-w64-mingw32/x64 (64-bit)[0K
+R version 3.5.3 (2019-03-11) -- "Great Truth"[0K
+Copyright (C) 2019 The R Foundation for Statistical Computing[0K
+Platform: x86_64-w64-mingw32/x64 (64-bit[0K[39G[?25h[?25lPlatform: x86_64-w64-mingw32/x64 (64-bit)[0K
 [0K
-[0K[?25hR OKOnAOC[0K[?25l
+R OKOnAOC[0K
 bYUziHNC[0K
  'license()'  'licence()' oC[0K
 [0K
@@ -19,165 +19,25 @@ R OX@pA\hHXF^mC[0K
  'help.start()' zL HTML sUC[0K
  'q()' } RC[0K
 [0K
-[0K[?25hAttempting to load the environment 'package:tmcn'[0K[?25l
+Attempting to load the environment 'package:tmcn'[0K
 [0K[?25h# tmcn Version: 0.2-12[0K[?25l
 [Previously saved workspace restored][0K
 [0K
-[0K[?25h>[0K[3G[?25l> i[0K[?25hb[0Kn[0Ks[0Kt[0Ka[0K[?25l> ibnst[0K[?25h[?25l> ibns[0K[?25h[?25l> ibn[0K[?25h[?25l> ib[0K[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0K([0K"[0KD[0K[?25lL[0K[21G[?25h[22G[?25l> install.package("DL"[0K[?25h[?25l)[0K[23G[?25h[24G[?25l
-Error in install.package("DL") : So "install.package"[0K
->[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K"[0KD[0KL[0K"[0K)[0K[?25l
-Installing package into 'C:/Users/Willy/Documents/R/win-library/3[0K[64G[?25h[?25lInstalling package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K
-(as 'lib' is unspecified)[0K
---- Please select a CRAN mirror for use in this session ---[0K
-[0K[?25hWarning message:[0K[?25l
-package 'DL' is not available (for R version 3.5.2)[0K
->[0K[3G[?25h[?25l> c[0K[?25hh[0Ke[0Kc[0Kk[0K[?25l
-[0K[?25h~:  'check'[0K[?25l
->[0K[3G[?25h[?25l> h[0K[?25he[0Kk[0Kp[0K[?25l> hek[0K[?25h[?25l> he[0K[?25hl[0Kp[0K.[0Ks[0Kt[0Ka[0Kr[0Kt[0K[?25l([0K[13G[?25h[14G[?25l> help.start()[0K[?25h[?25l
-starting httpd help server ... done[0K
-If nothing happens, you should open[0K
-'http://127.0.0.1:17616/doc/html/index.html' yourself[0K
-[0K[?25h>[0K[3G[?25l> u[0K[?25ho[0Kd[0Ka[0Kt[0Ke[0K[?25l> uodat[0K[?25h[?25l> uoda[0K[?25h[?25l> uod[0K[?25h[?25l> uo[0K[?25h[?25l> u[0K[?25hp[0Kd[0Ka[0Kt[0Ke[0K[?25l
-function (object, ...)[0K
-UseMethod("update")[0K
-<bytecode: 0x000000001bfeb008>[0K
-<environment: namespace:stats>[0K
->[0K[3G[?25h[?25l
-[0K[?25h>[0K[3G[?25l> i[0K[?25hn[0Ks[0K[?25lt[0K[6G[?25h[7G[?25l> insta[0K[?25hl[0Kl[0K.[0Kp[0Ka[0Kc[0Ke[0K[?25l> install.pac[0K[15G[?25h[14G[?25l> install.pack[0K[?25ha[0Kg[0Ke[0Ks[0K*[0K[?25l> install.packages[0K[?25h([0K"[0Ki[0Kn[0Ks[0Kt[0Ka[0Kl[0Kl[0Ke[0K[?25l> install.packages("install[0K[?25hr[0K"[0K[?25l)[0K[30G[?25h[31G[?25l
+[0K[?25h>[0K[3G[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K[?25l"[0K[20G[?25h[21G[?25l> install.packages("D[0K[?25hL[0K"[0K)[0K[?25l
 Installing package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K
 (as 'lib' is unspecified)[0K
-[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/installr_0.21.0.zip'[0K[?25l
-[0K[?25hContent type 'application/zip' length 336210 bytes (328 KB)[0K[?25l
-[0K[?25hdownloaded 328 KB[0K[?25l
+[0K[?25h--- Please select a CRAN mirror for use in this session ---[0K[?25l
+[0K[?25hWarning message:[0K[?25l
+package 'DL' is not available (for R version 3.5.3)[0K
+>[0K[3G[?25h[?25l> R[0K[?25h[?25l>[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Ke[0K[?25l> install.packa[0K[?25hg[0Ke[0Ks[0K([0K"[0Kd[0Ka[0Kt[0Ka[0K.[0Kt[0Ka[0Kb[0Kl[0Ke[0K"[0K[?25l)[0K[32G[?25h[33G[?25l
+Installing package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K
+(as 'lib' is unspecified)[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/data.table_1.12.0.zip'[0K[?25l
+[0K[?25h[?25lContent[0K[7G[?25h[?25lContent type 'application/zip' length 1894989 bytes (1.8 MB)[0K
+[0K[?25hdownloaded 1.8 MB[0K[?25l
 [0K
-[0K[?25h[?25lpackage 'installr' su[0K[20G[?25h[?25lpackage 'installr' successfully unpacked and MD5 sums checked[0K
+[0K[?25hpackage 'data.table' successfully unpacked and MD5 sums checked[0K[?25l
 [0K
 The downloaded binary packages are in[0K
-        C:\Users\Willy\AppData\Local\Temp\Rtmp0cl8ae\downloaded_packages[0K
->[0K[3G[?25h[?25l> i[0K[?25h[?25l>[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0K[?25l> install.pa[0K[?25h[?25l> install.p[0K[?25h[?25l> install.[0K[?25h[?25l> install[0K[?25h[?25l> instal[0K[?25h[?25l> insta[0K[?25h[?25l> inst[0K[?25h[?25l> ins[0K[?25h[?25l> in[0K[?25h[?25l> i[0K[?25h[?25l>[0K[3G[?25h[?25l> u[0K[?25ho[0K[?25l> u[0K[?25hp[0Kd[0Ka[0Kt[0Ke[0KR[0K([0K)[0K[?25l
-Error in updateR() : So "updateR"[0K
->[0K[3G[?25h[?25l> r[0K[?25he[0Kq[0Ku[0Ki[0Kr[0Ke[0K([0Ki[0Kn[0Ks[0Kt[0Ka[0Kl[0Kl[0Kr[0K)[0K[?25l
-Loading required package: installr[0K
-Loading required package: stringr[0K
-[0K[?25h[?25l
-Welcome to installr version 0.21.0[0K
-[0K
-More information is available on the installr project website:[0K
-https://github.com/talgalili/installr/[0K
-[0K
-Contact: <tal.galili@gmail.com>[0K
-Suggestions and bug-reports can be sub[0K[37G[?25h[?25lSuggestions and bug-reports can be submitted at: https://github.com/talgalili/installr/[0Ki
-ssues[0K
-[0K
-                        To suppress this message use:[0K
-                        suppressPackageStartupMessages(library(installr))[0K
-[0K
->[0K[3G[?25h[?25l> u[0K[?25hp[0Kd[0Ka[0Kt[0Ke[0KR[0K([0K)[0K[?25l
-[0K[?25hInstalling the newest version of R,[0K[?25l
- please wait for the installer file to be download and executed.[0K
- Be sure to click 'next' as needed...[0K
-[0K[?25h[?25l URL 'https://cran.rstudio.com/bin/windows/base/R-3.[0K[51G[?25h[?25l URL 'https://cran.rstudio.com/bin/windows/base/R-3.5.3-win.exe'[0K
-[0K[?25h[?25lContent type 'application/x-msdownload' l[0K[40G[?25h[?25lContent type 'application/x-msdownload' length 82818984 bytes (79.0 MB)[0K
-[0K[?25hdownloaded 79.0 MB[0K[?25l
-[0K
-[0K[?25h[?25l
-The file was downloaded successfully into:[0K
- C:\Users\Willy\AppData\Local\Temp\Rtmp0cl8ae/R-3.[0K[48G[?25h[?25l C:\Users\Willy\AppData\Local\Temp\Rtmp0cl8ae/R-3.5.3-win.exe[0K
-[0K
-Running the installer now...[0K
-[0K[?25h[?25l
-Installation status:  TRUE . Removing the file:[0K
- C:\Users\Willy\AppData\Local\Temp\Rtmp0cl8ae/R-3.5.3-win.exe[0K
- (In the future, you may keep the file by setting keep_install_file=TRUE)[0K
-[0K[?25hNo packages to copy.  Goodbye :)[0K[?25l
-[0K[?25hWarning: package 'Matrix' in library 'C:/Program Files/R/R-3.5.3/library' will not be u[0Kp[?25l
-dated[0K
-[0K[?25h[?25l URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/caTools_1.17.1.2.z[0K[72G[?25h[?25l URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/caTools_1.17.1.2.zip'[0K
-Content type 'application/zip' length 329500 bytes (321 KB)[0K
-=================================================[0K[?25h=[0K[?25l
-downloaded 321 KB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/evaluate_0.13.zip'[0K
-[0K[?25hContent type 'application/zip' length 73988 bytes (72 KB)[0K[?25l
-==================================================[0K
-downloaded 72 KB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/formatR_1.6.zip'[0K
-[0K[?25hContent type 'application/zip' length 151386 bytes (147 KB)[0K[?25l
-==================================================[0K
-downloaded 147 K[0K[14G[?25h[?25ldownloaded 147 KB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/gmp_0.5-13.4.zip'[0K
-[0K[?25h[?25lContent type 'application/zip' length 1034067 by[0K[47G[?25h[?25lContent type 'application/zip' length 1034067 bytes (1009 KB)[0K
-=====[0K[?25h===================[0K[?25l==============[0K[38G[?25h[?25l==================================================[0K
-downloaded 1009 KB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows[0K[41G[?25h[?25l URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/Matrix_1.2-15.zip'[0K
-[0K[?25h[?25lContent type 'application/zip' length 4480207 bytes (4.[0K[54G[?25h[?25lContent type 'application/zip' length 4480207 bytes (4.3 MB)[0K
-=====[0K[?25h=====[0K====[0K====[0K=====[0K===[0K=====[0K===[0K=====[0K===[0K=====[0K===[0K[?25l
-downloaded 4.3 MB[0K
-[0K
-[0K[?25h URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/mgcv_1.8-27.zip'[0K[?25l
-[0K[?25h[?25lContent type 'application/zip' length 2922264 b[0K[46G[?25h[?25lContent type 'application/zip' length 2922264 bytes (2.8 MB)[0K
-==========[0K[10G[?25h[?25l===============[0K[?25h=======[0K=====[0K=======[0K======[0K=======[0K===[0K[?25l
-downloaded 2.8 MB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/Rm[0K[56G[?25h[?25l URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/Rmpfr_0.7-2.zip'[0K
-[0K[?25hContent type 'application/zip' length 1585183 bytes (1.5 MB)[0K[?25l
-====[0K[?25h=====[0K===========[0K=====[0K=========[0K=====[0K[?25l=========[0K[48G[?25h[?25l==================================================[0K
-downloaded 1.5 MB[0K
-[0K
-[0K[?25h URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/RMySQL_0.10.17.zip'[0K[?25l
-[0K[?25h[?25lContent type '[0K[13G[?25h[?25lContent type 'application/zip' length 3199103 bytes (3.1 MB)[0K
-====[0K[?25h====[0K====[0K=====[0K====[0K======[0K====[0K======[0K=====[0K======[0K==[0K[?25l
-downloaded 3.1 MB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/stringi_1.3.1.zip'[0K
-[0K[?25hContent type 'application/zip' length 15271388 bytes (14.6 MB)[0K[?25l
-=[0K[?25h=[0K=[0K=[0K=[0K==[0K=[0K=[0K=[0K==[0K==[0K=[0K=[0K=[0K==[0K=[0K=[0K=[0K=[0K=[0K==[0K=[0K=[0K=[0K==[0K=[0K=[0K=[0K=[0K=[0K=[0K=[0K=[0K=[0K=[0K=[0K=[0K=[0K[?25l==[0K[46G[?25h[?25l===============================================[0K[?25h=[0K=[0K=[0K[?25l
-downloaded 14.6 MB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/stringr_1.4.0.zip'[0K
-[0K[?25hContent type 'application/zip' length 214920 bytes (209 KB)[0K[?25l
-===============[0K[15G[?25h[?25l==================================================[0K
-downloaded 209 KB[0K
-[0K
- URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/xfun_0.5.zip'[0K
-[0K[?25hContent type 'application/zip' length 168178 bytes (164 KB)[0K[?25l
-==================================================[0K
-downloaded 164 KB[0K
-[0K
-[0K[?25hWarning: cannot remove prior installation of package 'stringi'[0K[?25l
-[0K[?25hinstalling the source package 'knitr'[0K[?25l
-[0K
- URL 'https://cran.rstudio.com/src/contrib/knitr_1.22.tar.gz'[0K
-Content type 'application/x-gzip' length 928365 bytes (906 KB)[0K
-======[0K[6G[?25h[?25l=======================[0K[?25h======================[0K=====[0K[?25l
-downloaded 906 KB[0K
-[0K
-[0K[?25hIn R CMD INSTALL[0K[?25l
-[0K[?25h* installing *source* package 'knitr' ...[0K[?25l
-[0K[?25h** package 'knitr' successfully unpacked and MD5 sums checked[0K[?25l
-[0K[?25h** R[0K[?25l
-[0K[?25h** demo[0K[?25l
-[0K[?25h** inst[0K[?25l
-[0K[?25h** byte-compile and prepare package for lazy loading[0K[?25l
-[0K[?25hError in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) :[0K[?25l
-  there is no package called 'stringi'[0K
-Error : unable to load R code in pac[0K[32G[?25h[?25lError : unable to load R code in package 'knitr'[0K
-ERROR: lazy loading failed for package 'knitr'[0K
-* removing 'C:/Users/Willy/Documents/R/win-library/3.5/knitr'[0K
-[0K[?25h* restoring previous 'C:/Users/Willy/Documents/R/win-library/3.5/knitr'[0K[?25l
-[0K[?25h[?25l
-The downloaded source packages are in[0K
-        'C:\Users\Willy\AppData\Local\Temp\RtmpEVOI3j\downloaded_packages'[0K
-Warning message:[0K
-In install.packages(update[instlib[0K[31G[?25h[?25lIn install.packages(update[instlib == l, "Package"], l, repos = repos,  :[0K
-  installation of package 'knitr' had non-zero exit status[0K
-[0K[?25h[1] TRUE[0K[?25l
->[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K[?25l([0K[19G[?25h[20G[?25l> install.packages("[0K[20G[?25h[21G[?25l> install.packages("D[0K[?25hL[0K"[0K)[0K[?25l
-Installing package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K
-(as 'lib' is unspecified)[0K
-[0K[?25hWarning message:[0K[?25l
-package 'DL' is not available (for R version 3.5.2)[0K
+        C:\Users\Willy\AppData\Local\Temp\RtmpEnQzFt\downloaded_packages[0K
 >[0K[3G[?25h

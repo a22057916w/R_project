@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "885179657",
+    "hash" : "0",
     "id" : "F2E5A254",
-    "lastKnownWriteTime" : 1552319507,
-    "last_content_update" : 1552319507789,
+    "lastKnownWriteTime" : 1552320632,
+    "last_content_update" : 1552320632397,
     "path" : "~/GitHub/R_project/hw3/app.R",
     "project_path" : "app.R",
     "properties" : {
-        "cursorPosition" : "21,43",
-        "scrollLine" : "16"
+        "cursorPosition" : "14,1",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,
