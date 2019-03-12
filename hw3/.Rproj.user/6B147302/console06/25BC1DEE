@@ -1,0 +1,139 @@
+[0m[0KMicrosoft Windows [版本 10.0.17134.472][0K[?25l
+(c) 2018 Microsoft Corporation. 著作權所有，並保留一切權利。[0K
+[0K
+C:\Users\FJUSER1115D\Documents\GitHub\R_project\hw3>[0K[?25hr[0K[?25lC:\Users\FJUSER1115D\Documents\GitHub\R_project\hw3>[0K[?25hR[0K[?25l
+[0K[?25h]0;  - R]0;Rterm (64-bit)[?25l
+R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"[0K
+Copyright (C) 2018 The R Foundation for Statistical Computing[0K
+Platform: x86_64-w64-mingw32/x64 (64-bit)[0K
+[0K
+R OKOnAOC[0K
+bYUziHNC[0K
+ 'license()'  'licence()' oC[0K
+[0K
+R OX@pA\hHXF^mC[0K
+ 'contributors()' pB[0K
+ 'citation()' |iDzpbX~Ta R  R MC[0K
+[0K
+ 'demo()' @d{A 'help()' uWUA[0K
+ 'help.start()' zL HTML sUC[0K
+ 'q()' } RC[0K
+[0K
+[0K[?25hAttempting to load the environment 'package:tmcn'[0K[?25l
+[0K[?25h# tmcn Version: 0.2-12[0K[?25l
+[Previously saved workspace restored][0K
+[0K
+[0K[?25h>[0K[3G[?25l> u[0K[?25hn[0Ks[0K[?25l> un[0K[?25h[?25l> u[0K[?25h[?25l>[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0K[?25lc[0K[13G[?25h[14G[?25l> install.pack[0K[?25ha[0Kg[0Ke[0Ks[0K([0K"[0Ks[0Kh[0Ki[0Kn[0Ky[0K"[0K)[0K[?25l
+[0K[?25hInstalling package into 'C:/Users/FJUSER1115D/Documents/R/win-library/3.5'[0K[?25l
+(as 'lib' is unspecified)[0K
+--- Please select a CRAN mirror for use in this session ---[0K
+[0K[?25halso installing the dependencies 'Rcpp', 'BH', 'magrittr', 'httpuv', 'mime', 'jsonlite', 'xtable',[0K[?25l
+'digest', 'htmltools', 'R6', 'sourcetools', 'later', 'promises', 'crayon', 'rlang'[0K
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/Rcpp_1.0.0.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 4479924 bytes (4.3 MB)[0K[?25l
+[0K[?25hdownloaded 4.3 MB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/BH_1.69.0-1.zip'[0K
+[0K[?25hContent type 'application/zip' length 19008161 bytes (18.1 MB)[0K[?25l
+[0K[?25hdownloaded 18.1 MB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/magrittr_1.5.zip'[0K
+[0K[?25hContent type 'application/zip' length 155529 bytes (151 KB)[0K[?25l
+[0K[?25hdownloaded 151 KB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/httpuv_1.4.5.1.zip'[0K
+[0K[?25hContent type 'application/zip' length 1186376 bytes (1.1 MB)[0K[?25l
+[0K[?25hdownloaded 1.1 MB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/mime_0.6.zip'[0K
+[0K[?25hContent type 'application/zip' length 47809 bytes (46 KB)[0K[?25l
+[0K[?25hdownloaded 46 KB[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/jsonlite_1.6.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 1160733 bytes (1.1 MB)[0K[?25l
+[0K[?25hdownloaded 1.1 MB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/xtable_1.8-3.zip'[0K
+[0K[?25hContent type 'application/zip' length 755842 bytes (738 KB)[0K[?25l
+[0K[?25hdownloaded 738 KB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/digest_0.6.18.zip'[0K
+[0K[?25hContent type 'application/zip' length 194574 bytes (190 KB)[0K[?25l
+[0K[?25hdownloaded 190 KB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/[0K[38G[?25h[?25l URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/htmltools_0.3.6.zip'[0K
+[0K[?25hContent type 'application/zip' length 660954 bytes (645 KB)[0K[?25l
+[0K[?25h[?25ldown[0K[3G[?25h[?25ldownloaded 645 KB[0K
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/R6_2.4.0.zip'[0K
+[0K[?25hContent type 'application/zip' length 58343 bytes (56 KB)[0K[?25l
+[0K[?25hdownloaded 56 KB[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/sourcetools_0.1.7.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 530450 bytes (518 KB)[0K[?25l
+[0K[?25hdownloaded 518 KB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/later_0.8.0.zip'[0K
+[0K[?25hContent type 'application/zip' length 610578 bytes (596 KB)[0K[?25l
+[0K[?25hdownloaded 596 KB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/promises_1.0.1.zip'[0K
+[0K[?25h[?25lContent type 'application/zip' length 695290 bytes (678 K[0K[55G[?25h[?25lContent type 'application/zip' length 695290 bytes (678 KB)[0K
+[0K[?25hdownloaded 678 KB[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/crayon_1.3.4.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 749307 bytes (731 KB)[0K[?25l
+[0K[?25hdownloaded 731 KB[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/rlang_0.3.1.zip'[0K[?25l
+Content type 'application/zip' length 1078958 bytes (1.0 MB)[0K
+[0K[?25hdownloaded 1.0 MB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/shiny_1.2.0.zip'[0K
+[0K[?25hContent type 'application/zip' length 4567511 bytes (4.4 MB)[0K[?25l
+[0K[?25hdownloaded 4.4 MB[0K[?25l
+[0K
+[0K[?25h[?25lpack[0K[3G[?25h[?25lpackage 'Rcpp' successfully unpacked and MD5 sums checked[0K
+[0K[?25hpackage 'BH' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'magrittr' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'httpuv' successfully unpacked and MD5 sums checked[0K[?25l
+packa[0K[2G[?25h[?25lpackage 'mime' successfully unpacked and MD5 sums checked[0K
+[0K[?25hpackage 'jsonlite' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'xtable' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'digest' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'htmltools' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'R6' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'sourcetools' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'later' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'promises' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'crayon' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25h[?25lpackage[0K[6G[?25h[?25lpackage 'rlang' successfully unpacked and MD5 sums checked[0K
+[0K[?25hpackage 'shiny' successfully unpacked and MD5 sums checked[0K[?25l
+[0K
+The downloaded binary packages are in[0K
+        C:\Users\FJUSER1115D\AppData\Local\Temp\RtmpqyPAzc\downloaded_packages[0K
+>[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K"[0Kd[0Ka[0Kt[0Ka[0K.[0Kt[0Ka[0Kb[0Kl[0Ke[0K"[0K)[0K[?25l
+Installing package into 'C:/Users/FJUSER1115D/Documents/R/win-library/3.5'[0K
+(as 'lib' is unspecified)[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/data.table_1.12.0.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 1894989 bytes (1.8 MB)[0K[?25l
+[0K[?25hdownloaded 1.8 MB[0K[?25l
+[0K
+[0K[?25hpackage 'data.table' successfully unpacked and MD5 sums checked[0K[?25l
+[0K
+The downloaded binary packa[0K[27G[?25h[?25lThe downloaded binary packages are in[0K
+        C:\Users\FJUSER1115D\AppData\Local\Temp\RtmpqyPAzc\downloaded_packages[0K
+>[0K[3G[?25h[?25l
+>[0K[3G[?25h[?25l> i[0K[?25hns[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K[?25l([0K[19G[?25h[20G[?25l> install.packages("[0K[?25hs[0Kh[0Ki[0Kn[0Ky[0Kd[0Ka[0Ks[0Kh[0Kb[0Ko[0Ka[0Kr[0Kd[0K"[0K)[0K[?25l
+[0K[?25hInstalling package into 'C:/Users/FJUSER1115D/Documents/R/win-library/3.5'[0K[?25l
+(as 'lib' is unspecified)[0K
+[0K[?25h[?25l URL[0K[3G[?25h[?25l URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/shinydashboard_0.7.1.zip'[0K
+[0K[?25h[?25lConten[0K[4G[?25h[?25lContent type 'application/zip' length 331379 bytes (323 KB)[0K
+[0K[?25hdownloaded 323 KB[0K[?25l
+[0K
+[0K[?25hpackage 'shinydashboard' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25h[?25l
+The downloaded binary packages are in[0K
+        C:\Users\FJUSER1115D\AppData\Local\Temp\RtmpqyPAzc\downloaded_packages[0K
+>[0K[3G[?25h
