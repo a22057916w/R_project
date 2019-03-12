@@ -18,24 +18,26 @@ read <- function() {
     st.name[i] <- substr(data[i], 9, 11)
     st.ans[i] <- substr(data[i], 12, 31)
   }
-
+  
   return(list(answer, st.no, st.name, st.ans))      # using list to store different data type
 }
 
 parse <- function(parm) {
-
+  
   # assignning the parameter to varaibles
   ans <- as.vector(unlist(parm[1]))
   st.no <- as.vector(unlist(parm[2]))
   st.name <- as.vector(unlist(parm[3]))
   st.ans <- as.vector(unlist(parm[4]))
   
-  st.score <- vector("integer", length(st.no))    # recording the scores
-
+  st.score <- vector("numeric", length(st.no))    # recording the scores
+  
   # calculate the score of each student
   for(i in 1:length(st.no)) {
     diff <- 0     # recording wrong answer
     space <- 0      # recording empty answer
+    
+    # comparing through each student's answer
     for(j in 1:nchar(st.ans[i])) {
       if(substr(st.ans[i], j, j) != substr(ans, j, j)) {
         if(substr(st.ans[i], j, j) == "*")
@@ -46,20 +48,48 @@ parse <- function(parm) {
     
     st.score[i] <- 100 - (diff * 5) - (diff - space) * 1.25     # calculate the score
     if(st.score[i] < 0)
-      st.score <- 0
+      st.score[i] <- 0
   }
-  print(st.score)
+  #print(st.score)
+  
+  seq <- sort(st.score)     # increasing ordered sequence
+  
+  range <- list(top = 0, front = 0, mean = 0, rear = 0, bottom = 0)     # for five standrads
+  ratio <- c(88, 75, 50, 25, 12) / 100      # the ratio for five standrads
+  
+  # calculate the five standards
+  for(i in 1:5) 
+    range[[i]] <- floor(seq[ceiling(length(st.no) * ratio[i])])
+  
+  st.range <- vector("character", length(st.no))      # to compute the standard of each student
+  
+  # acquire each student's standard
+  for(i in 1:length(st.range)) 
+    for(j in 1:length(range)) {
+      if(st.score[i] >= range[[j]]) {
+        st.range[i] <- names(range)[j]
+        break
+      }
+      st.range[i] <- names(range)[5]
+      
+    }
+  
+  # create a data frame to be stored as a csv file
+  students <- data.frame(student_id = st.no, student_name = st.name, student_score = st.score, student_range = st.range, student_answer = st.ans)
+  return(students)
   
 }
 
 # ******************************* main script *****************************
 main <- function() {
-
+  
   library(tmcn)
   options(max.print = 999999)     # increasing the ouptut row number
-
+  
   parm <- read()     # read Test2019.txt, return a list of student No., name and answers
-  parse(parm)     # pareing the data from test2019.txt
+  students <- parse(parm)     # parsing the data from test2019.txt
+  write.csv(students, file = "students_utf8.csv", row.names = FALSE, fileEncoding = "UTF-8")    # writing data to a csv file
+  write.csv(students, file = "students_big5.csv", row.names = FALSE)  
 }
 
 if(interactive()) {
