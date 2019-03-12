@@ -136,4 +136,22 @@ The downloaded binary packa[0K[27G[?25h[?25lThe downloaded binary packages 
 [0K[?25h[?25l
 The downloaded binary packages are in[0K
         C:\Users\FJUSER1115D\AppData\Local\Temp\RtmpqyPAzc\downloaded_packages[0K
+>[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K"[0KR[0KM[0Ky[0KS[0KQ[0KL[0K"[0K)[0K[?25l
+Installing package into 'C:/Users/FJUSER1115D/Documents/R/win-library/3.5'[0K
+(as 'lib' is unspecified)[0K
+[0K[?25halso installing the dependency 'DBI'[0K[?25l
+[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/DBI_1.0.0.zip'[0K[?25l
+[0K[?25hContent type 'application/zip' length 889000 bytes (868 KB)[0K[?25l
+[0K[?25hdownloaded 868 KB[0K[?25l
+[0K
+ URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/RMySQL_0.10.17.zip'[0K
+[0K[?25hContent type 'application/zip' length 3199103 bytes (3.1 MB)[0K[?25l
+[0K[?25hdownloaded 3.1 MB[0K[?25l
+[0K
+[0K[?25hpackage 'DBI' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'RMySQL' successfully unpacked and MD5 sums checked[0K[?25l
+[0K
+The downloaded binary packages are in[0K
+        C:\Users\FJUSER1115D\AppData\Local\Temp\RtmpqyPAzc\downloaded_packages[0K
 >[0K[3G[?25h
