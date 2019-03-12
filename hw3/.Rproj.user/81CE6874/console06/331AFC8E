@@ -1,13 +1,13 @@
 [0mMicrosoft Windows [Version 10.0.17134.590][0K[?25l
 (c) 2018 Microsoft Corporation. All rights reserved.[0K
 [0K
-C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hr[0K[?25lC:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0K]0;  - R[?25l
+C:\Users\Willy\Documents\GitHub\R_project\hw3>[0K[?25hR[0K]0;  - R[?25l
 [0K[?25h]0;Rterm (64-bit)[?25l
 R version 3.5.3 (2019-03-11) -- "Great Truth"[0K
 Copyright (C) 2019 The R Foundation for Statistical Computing[0K
-Platform: x86_64-w64-mingw32/x64 (64-bit[0K[39G[?25h[?25lPlatform: x86_64-w64-mingw32/x64 (64-bit)[0K
+Platform: x86_64-w64-mingw32/x64 (64-bit)[0K
 [0K
-R OKOnAOC[0K
+[0K[?25hR OKOnAOC[0K[?25l
 bYUziHNC[0K
  'license()'  'licence()' oC[0K
 [0K
@@ -19,25 +19,21 @@ R OX@pA\hHXF^mC[0K
  'help.start()' zL HTML sUC[0K
  'q()' } RC[0K
 [0K
-Attempting to load the environment 'package:tmcn'[0K
+[0K[?25hAttempting to load the environment 'package:tmcn'[0K[?25l
 [0K[?25h# tmcn Version: 0.2-12[0K[?25l
-[Previously saved workspace restored][0K
+[Previously sa[0K[13G[?25h[?25l[Previously saved workspace restored][0K
 [0K
-[0K[?25h>[0K[3G[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K[?25l"[0K[20G[?25h[21G[?25l> install.packages("D[0K[?25hL[0K"[0K)[0K[?25l
+[0K[?25h>[0K[3G[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Kg[0Ke[0Ks[0K([0K"[0Ks[0Kh[0Ki[0Kn[0Ky[0Kd[0Ka[0Ks[0Kh[0Kb[0Ko[0Ka[0Kr[0Kd[0K"[0K)[0K[?25l
 Installing package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K
-(as 'lib' is unspecified)[0K
-[0K[?25h--- Please select a CRAN mirror for use in this session ---[0K[?25l
-[0K[?25hWarning message:[0K[?25l
-package 'DL' is not available (for R version 3.5.3)[0K
->[0K[3G[?25h[?25l> R[0K[?25h[?25l>[0K[3G[?25h[?25l> i[0K[?25hn[0Ks[0Kt[0Ka[0Kl[0Kl[0K.[0Kp[0Ka[0Kc[0Kk[0Ka[0Ke[0K[?25l> install.packa[0K[?25hg[0Ke[0Ks[0K([0K"[0Kd[0Ka[0Kt[0Ka[0K.[0Kt[0Ka[0Kb[0Kl[0Ke[0K"[0K[?25l)[0K[32G[?25h[33G[?25l
-Installing package into 'C:/Users/Willy/Documents/R/win-library/3.5'[0K
-(as 'lib' is unspecified)[0K
-[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/data.table_1.12.0.zip'[0K[?25l
-[0K[?25h[?25lContent[0K[7G[?25h[?25lContent type 'application/zip' length 1894989 bytes (1.8 MB)[0K
-[0K[?25hdownloaded 1.8 MB[0K[?25l
+(a[0K[2G[?25h[?25l(as 'lib' is unspecified)[0K
+--- Please select a CRAN mirror for use in this session ---[0K
+[0K[?25h URL 'https://mirror-hk.koddos.net/CRAN/bin/windows/contrib/3.5/shinydashboard_0.7.1.zi[0Kp[?25l
+'[0K
+[0K[?25hContent type 'application/zip' length 331379 bytes (323 KB)[0K[?25l
+[0K[?25hdownloaded 323 KB[0K[?25l
 [0K
-[0K[?25hpackage 'data.table' successfully unpacked and MD5 sums checked[0K[?25l
+[0K[?25hpackage 'shinydashboard' successfully unpacked and MD5 sums checked[0K[?25l
 [0K
 The downloaded binary packages are in[0K
-        C:\Users\Willy\AppData\Local\Temp\RtmpEnQzFt\downloaded_packages[0K
+        C:\Users\Willy\AppData\Local\Temp\RtmpEHmIYH\downloaded_packages[0K
 >[0K[3G[?25h

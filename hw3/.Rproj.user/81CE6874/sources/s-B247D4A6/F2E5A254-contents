@@ -3,7 +3,8 @@ library(data.table)
 student <- fread("students_big5.csv")
 
 ui <- fluidPage(
-  tableOutput("students")  
+  mainPanel(tableOutput("students"))
+    
 )
 
 server <- function(input, output) {

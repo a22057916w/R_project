@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "398897418",
     "id" : "37D6A99F",
-    "lastKnownWriteTime" : 1552320251,
-    "last_content_update" : 1552320251576,
+    "lastKnownWriteTime" : 1552410152,
+    "last_content_update" : 1552410152418,
     "path" : "~/GitHub/R_project/hw3/test.R",
     "project_path" : "test.R",
     "properties" : {
-        "cursorPosition" : "95,8",
+        "cursorPosition" : "30,54",
         "docOutlineVisible" : "0",
-        "scrollLine" : "74"
+        "scrollLine" : "16"
     },
     "relative_order" : 3,
     "source_on_save" : false,
