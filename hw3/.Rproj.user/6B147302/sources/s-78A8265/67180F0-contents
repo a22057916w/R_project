@@ -1,7 +1,8 @@
+library(shiny)
 library(shinydashboard)
 library(RMySQL)
 library(data.table)
-
+con = dbConnect(MySQL(), user = "root", password = "", dbname = "willy", host = '140.136.150.100')
 student <- fread("students_big5.csv")
 
 ui <- dashboardPage(
@@ -24,7 +25,7 @@ ui <- dashboardPage(
                 tableOutput("students")
               )
       ),
-
+      
       # Second tab content
       tabItem(tabName = "widgets",
               h2("Widgets tab content")
@@ -34,16 +35,28 @@ ui <- dashboardPage(
 )
 
 server <- function(input, output) {
-
+  
+  observeEvent(input$searchButton, {
+    print(input$searchText)
+    sql <- paste("SELECT * FROM students WHERE student_id='", input$searchText,"';", sep = " ")
+    res <- dbGetQuery(con, sql)
+    print(res)
+    output$students <- renderTable({
+      return(student)
+    })
+  })
   output$students <- renderTable({
     return(student)
   })
 }
 
 main <- function() {
-  #shinyApp(ui, server)
-  con = dbConnect(MySQL(), user = "root", password = "", dbname = "willy", host = '140.136.150.100')
+  
+  
   students <- dbReadTable(con, name = "students")
+  
+  shinyApp(ui, server)
+  #dbDisconnect(con)
 }
 
 if(interactive()) {
