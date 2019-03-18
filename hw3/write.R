@@ -1,10 +1,11 @@
 read <- function() {
   
-  answer <- scan("Test2019.txt", what = "character", nlines = 1, encoding = "big5")     # read the answer on the first line
+  answer <- scan("Data2.txt", what = "character", nlines = 1, encoding = "big5")     # read the answer on the first line
   answer <- iconv(answer, to = "UTF-8")
-  answer <- substr(answer, 15, 34)      # parsing the answer
+  answer <- substr(answer, 11, 30)      # parsing the answer
+  print(answer)
   
-  data <- scan("Test2019.txt", what = "character", skip = 1, encoding = "big5")       # skip the first line which is the standard answer
+  data <- scan("Data2.txt", what = "character", skip = 1, encoding = "big5")       # skip the first line which is the standard answer
   data <- iconv(data, to = 'UTF-8')
   
   # initiating the variables for data which read the context from Test2019.txt
@@ -14,9 +15,9 @@ read <- function() {
   
   # assigning the values from Test2019.txt to variables
   for(i in 1:length(data)) {
-    st.no[i] <- substr(data[i], 1, 8)
-    st.name[i] <- substr(data[i], 9, 11)
-    st.ans[i] <- substr(data[i], 12, 31)
+    st.no[i] <- substr(data[i], 1, 6)
+    st.name[i] <- substr(data[i], 7, 9)
+    st.ans[i] <- substr(data[i], 10, 29)
   }
   
   return(list(answer, st.no, st.name, st.ans))      # using list to store different data type

@@ -10,6 +10,7 @@ main <- function() {
   con = dbConnect(MySQL(), user = "root", password = "", dbname = "willy", host = '140.136.150.100')
 
   dbWriteTable(con, value = students, name = "students", row.names = FALSE, overwrite = TRUE)
+  
 }
 
 if(interactive()) {
