@@ -65,17 +65,35 @@ server <- function(input, output, session) {
     if(!grepl("\\D", input$searchText)) {
       sql <- paste("SELECT * FROM students WHERE student_id='", input$searchText,"';", sep = " ")
       res <- dbGetQuery(con, sql)
-      res$standard_answer <- answer
-      output$students <- renderTable({
-        return(res)
-      })
+      
+      if(nrow(res) > 0) {
+        res$standard_answer <- answer
+        output$students <- renderTable({
+          return(res)
+        })
+      }
+      else {
+        showNotification("Can not find any result", type ="error")
+        output$students <- renderTable({
+          return(students)
+        })
+      }
     }
     else {
       res <- students[students$student_name == input$searchText,]
-      res$standard_answer <- answer
-      output$students <- renderTable({
-        return(res)
-      })
+      
+      if(nrow(res) > 0) {
+        res$standard_answer <- answer
+        output$students <- renderTable({
+          return(res)
+        })
+      }
+      else {
+        showNotification("Can not find any result", type ="error")
+        output$students <- renderTable({
+          return(students)
+        })
+      }
     }
   })
   

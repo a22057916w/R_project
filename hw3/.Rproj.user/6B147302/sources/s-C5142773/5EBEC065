@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "5EBEC065",
-    "lastKnownWriteTime" : 1552916043,
-    "last_content_update" : 1552916043650,
+    "lastKnownWriteTime" : 1552989539,
+    "last_content_update" : 1552989539873,
     "path" : "~/GitHub/R_project/hw3/app.R",
     "project_path" : "app.R",
     "properties" : {
-        "cursorPosition" : "87,2",
-        "scrollLine" : "74"
+        "cursorPosition" : "89,7",
+        "scrollLine" : "84"
     },
     "relative_order" : 3,
     "source_on_save" : false,
