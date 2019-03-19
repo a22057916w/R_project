@@ -5,8 +5,8 @@ library(data.table)
 
 con = dbConnect(MySQL(), user = "root", password = "", dbname = "willy", host = '140.136.150.100')
 dbSendQuery(con, "SET NAMES big5")
-students <- dbGetQuery(con, "select * from students limit 5000") 
-#students <- dbReadTable(con, name = "students")
+students_5000 <- dbGetQuery(con, "select * from students limit 5000") 
+students_all <- dbReadTable(con, name = "students")
 #print(students)
 
 
@@ -22,7 +22,7 @@ sidebar <- dashboardSidebar(
                     label = "Search..."),
   sidebarMenu(id = "tab",
               menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
-              menuItem("Widgets", tabName = "widgets", icon = icon("th"))
+              menuItem("Charts", tabName = "charts", icon = icon("chart-bar"))
   )
   
 )
@@ -39,8 +39,8 @@ body <- dashboardBody(
     ),
     
     # Second tab content
-    tabItem(tabName = "widgets",
-            h2("Widgets tab content")
+    tabItem(tabName = "charts",
+            plotOutput(outputId = "distPlot")
     )
   )
 )
@@ -54,7 +54,7 @@ server <- function(input, output, session) {
     print(input$tab)
     if(input$tab == "dashboard") {
       output$students <- renderTable({
-        return(students)
+        return(students_5000)
       })
     }
   })
@@ -75,12 +75,12 @@ server <- function(input, output, session) {
       else {
         showNotification("Can not find any result", type ="error")
         output$students <- renderTable({
-          return(students)
+          return(students_5000)
         })
       }
     }
     else {
-      res <- students[students$student_name == input$searchText,]
+      res <- students_all[students_all$student_name == input$searchText,]
       
       if(nrow(res) > 0) {
         res$standard_answer <- answer
@@ -91,14 +91,25 @@ server <- function(input, output, session) {
       else {
         showNotification("Can not find any result", type ="error")
         output$students <- renderTable({
-          return(students)
+          return(students_5000)
         })
       }
     }
   })
   
   output$students <- renderTable({
-    return(students)
+    return(students_5000)
+  })
+  
+  output$distPlot <- renderPlot({
+    x <- students_all$student_score
+    hist(x, 
+         main="Histogram of Score",         
+         xlab="Score",                      
+         ylab="Number of people",
+         breaks = 20,
+         col = "#75AADB", 
+         border = "white")
   })
 }
 
